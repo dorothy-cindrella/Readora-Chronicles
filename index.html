@@ -1,0 +1,324 @@
+<html>
+	<head>
+			<title>Home Page </title>
+			<meta charset="utf-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1"><!--responsive class--->
+			<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script><!--tailwind cdn-->
+	</head>
+	<body>
+	<!----navbar--->
+		<nav class="w-full bg-gradient-to-r from-yellow-600 to-blue-900 z-100 fixed ">
+		<div class=" mx-auto flex px-6 py-7 justify-between item-center h-25 md:mr-5 xl:mr-10">
+			<!----Logo---->
+			<a href="#"><img src="img/project logo.png" class="w-25 pl-5 md:w-45 md:pl-5 md:-ml-5 xl:pl-15 xl:w-50  rounded-xl -mt-5 md:mt-5 z-10"></a>
+			<!---desktop navigation--->
+			<div class="hidden md:flex md:space-x-10 xl:space-x-20 md:mr-10 text-white font-bold">
+			<ul class="hidden md:block">
+				<li>
+				<input type="checkbox" id="home" class="hidden peer">
+				<label for="home"><a href="index.html">Home</a></label>
+				</li>
+			</ul>
+			<ul class="hidden md:block ">
+				<li>
+				<input type="checkbox" id="Genres" class="hidden peer">
+				<label for="Genres">Genres</label>
+				<div class="hidden peer-checked:block text-black bg-stone-100">
+					<ul>
+						<li><a href="genres page.html">View All Genres</a></li>
+						<li><a href="thriller page.html">Thriller</a></li>
+						<li><a href="Fantasy.html">Fantasy</a></li>
+						<li><a href="romance page.html">Romance</a></li>
+						<li><a href="humor page.html">Humor</a></li>
+						<li><a href="anime page.html">Anime</a></li>
+					</ul>
+				</div>
+				</li>
+			</ul>
+			<ul class="hidden md:block">
+				<li>
+				<input type="checkbox" id="Popular" class="hidden peer">
+				<label for="Popular"><a href ="popular page.html">Popular</a></label>
+				</li>
+			</ul>
+			<ul class="hidden md:block">
+				<li>
+				<input type="checkbox" id="About" class="hidden peer">
+				<label for="About">Connect</label>
+				<div class="hidden peer-checked:block text-black bg-stone-100">
+				<ul>
+					<li><a href="about page.html">About Us</a></li>
+					<li><a href="Authors page.html">Authors</a></li>
+				</ul>
+				</li>
+			</ul>
+			
+			<!-- Desktop Button -->
+			<button class="xl:w-30 md:w-20 xl:ml-50 items-center bg-red-500 text-white"><a href="login page.html">Login</a></button>
+					
+			
+		</div>
+	
+	<!-- Mobile Menu Button -->
+		<label for="menuToggle" class="md:hidden flex flex-col space-y-1.5 cursor-pointer">
+			<span class="block w-6 h-0.5 bg-white"></span>
+			<span class="block w-6 h-0.5 bg-white"></span>
+			<span class="block w-6 h-0.5 bg-white"></span>
+		</label>
+	</div>
+	<!-- Hidden Checkbox -->
+		<input type="checkbox" id="menuToggle" class="hidden peer">
+
+		<!-- Mobile Menu -->
+		<div class="hidden peer-checked:block md:hidden bg-yellow-100 px-6 pb-4">
+		<ul>
+			<li>
+				<input type="checkbox" id="home" class="hidden peer">
+				<label for="home"><a href="project frontend Home .html">Home</a></label>
+				</li>
+		</ul>
+		<ul>
+			<li>
+				<input type="checkbox" id="Genre" class="hidden peer">
+				<label for="Genre">Genres</label>
+				<div class="hidden peer-checked:block text-black bg-stone-100">
+					<ul>
+						<li><a href="genres page.html">View All Genres</a></li>
+						<li><a href="thriller page.html">Thriller</a></li>
+						<li><a href="Fantasy.html">Fantasy</a></li>
+						<li><a href="romance page.html">Romance</a></li>
+						<li><a href="humor page.html">Humor</a></li>
+						<li><a href="anime page.html">Anime</a></li>
+					</ul>
+			</li>
+		</ul>
+		<ul>
+			<li>
+				<input type="checkbox" id="Popular" class="hidden peer bg-stone-100">
+				<label for="Popular"><a href ="popular page.html">Popular</a></label>
+			</li>
+		</ul>
+
+		<ul>
+			<li>
+				<input type="checkbox" id="About Us" class="hidden peer bg-stone-100">
+				<label for="About Us">Connect</label>
+				<div class="hidden peer-checked:block text-black bg-stone-100">
+				<ul>
+					<li><a href="about page.html">About Us</a></li>
+					<li><a href="Authors page.html">Authors</a></li>
+				</ul>
+			</li>
+		</ul>
+		<button class="xl:w-30 md:w-20 xl:ml-50 items-center bg-red-500 text-white"><a href="login page.html">Login</a></button>
+		
+		</div>
+	</div>
+	</nav>
+	<!---banner--->
+   <section>
+	<img src="img/banner.png" class="object-fit h-200 pt-10 w-full">
+	<h1 class="absolute -mt-150 md:-mt-100 text-3xl font-bold ml-10 md:-mt-100 md:text-5xl md:font-bold md:ml-20 md:text-yellow-600 text-white " style="font-family:Lucida Handwriting ,Cursive"> Escape Into</h1> <h1 class="absolute -mt-140 text-3xl md:-mt-87 md:text-5xl font-bold md:ml-30 ml-20 text-white" style="font-family:Lucida Handwriting ,Cursive">Endless Stories.♾️</h1>
+   </section>
+   
+  <!---Trending---->
+	  <section>
+	  <p class="font-bold text-4xl text-center text-blue-700 mt-10">TRENDING</p>
+	  <div class="relative w-full h-full overflow-hidden">
+		  <input type="checkbox" name="slide" id="s1" class="hidden peer/s1">
+		  <input type="checkbox" name="slide" id="s2" class="hidden peer/s2">
+		  <input type="checkbox" name="slide" id="s3" class="hidden peer/s3">
+	    <div class=" flex w-[300%] h-full  transition-transform duration-700 peer-checked/s1:translate-x-0 peer-checked/s2:-translate-x-1/3 peer-checked/s3:-translate-x-2/3">
+	     <div class="w-1/3 h-300 relative border border-2  bg-black p-5 md:pt-30 md:p-8">
+					<img src="img/anime/better than revenge.jpg" class="ml-10  md:w-70 md:h-180 md:ml-90 xl:w-100 xl:h-150 xl:ml-130 object-fit">
+					<div class="text-justify xl:ml-5 md:ml-3 text-2xl  mt-20 xl:-mt-100 md:-mt-100 text-white">
+						<h1 class="font-bold text-white text-center md:text-left xl:text-left">Anime</h1>
+						<p class="xl:ml-10 md:ml-10 ml-5">Better Than Revenge</p>
+						<p class="xl:ml-15 md:ml-15 ml-5">Author:Alexandria Michelle</p>
+						<p class="xl:ml-20 md:ml-20 ml-5">Rating:⭐⭐⭐⭐</p>
+					</div>
+			  </div>
+			  <div class="w-1/3 h-300 relative border border-2  bg-black p-15">
+					<img src="img/humor/young wild married.jpg" class=" md:w-70 md:h-180 md:ml-90 xl:w-100 xl:h-150 xl:ml-130 object-fit">
+					<div class="text-justify xl:ml-5 md:ml-3 text-2xl  mt-20 xl:-mt-100 md:-mt-100 text-white">
+						<h1 class="font-bold text-white text-center md:text-left xl:text-left">Humor</h1>
+						<p class="xl:ml-10 md:ml-10 ml-5">Young Wild Married</p>
+						<p class="xl:ml-15 md:ml-15 ml-5">Author:Zara Christen</p>
+						<p class="xl:ml-20 md:ml-20 ml-5">Rating:⭐⭐⭐⭐⭐</p>
+					</div>
+			  </div>
+			  <div class="w-1/3 h-300 relative border border-2  bg-black p-15">
+					<img src="img/romance/arcane academy.jpg" class="  md:w-70 md:h-180 md:ml-90 xl:w-100 xl:h-150 xl:ml-130 object-fit">
+					<div class="text-justify xl:ml-5 md:ml-3 text-2xl  mt-20 xl:-mt-100 md:-mt-100 text-white">
+						<h1 class="font-bold text-white text-center md:text-left xl:text-left"">Romance</h1>
+						<p class="xl:ml-10 md:ml-10 ml-5">Arcane Academy</p>
+						<p class="xl:ml-15 md:ml-15 ml-5">Author:Myriam Dallaire</p>
+						<p class="xl:ml-20 md:ml-20 ml-5">Rating:⭐⭐⭐⭐⭐</p>
+					</div>
+			  </div>
+			 </div>
+			<div class="absolute bottom-10 left-1/2 -translate-x-1/2  flex gap-2 peer-checked/s1:[&>label:nth-child(1)]:bg-amber-400 peer-checked/s2:[&>label:nth-child(2)]:bg-amber-400 peer-checked/s3:[&>label:nth-child(3)]:bg-amber-400 z-10">
+				<label for="s1" class="w-3 h-3 rounded-full bg-white/60 cursor-pointer"></label>
+				<label for="s2" class="w-3 h-3 rounded-full bg-white/60 cursor-pointer"></label>
+				<label for="s3" class="w-3 h-3 rounded-full bg-white/60 cursor-pointer"></label>
+			</div>
+		
+	  </div>
+	  </section>
+	  <!----Authors--->
+	  <section>
+		
+		<p class="font-bold text-4xl text-center text-yellow-700 mt-10"> FEATURED AUTHORS</p>
+		<p class="font-semibold text-xl text-center text-blue-900 mt-10">Meet the creative minds behind our most loved stories.</p>
+		<div class="flex-row xl:flex md:flex  mt-10 md:mr-10">
+			<div class=" ml-13 xl:ml-20 md:ml-10 bg-blue-100 w-70 text-center">
+				<img src="img/author1.jpg" class="rounded-full object-fit w-50 pl-15 xl:w-50 xl:pl-15 md:w-70 md:pl-2">
+				<p class="pt-10">👩 Alexandria Michelle<br>
+					  Fantasy & Anime<br>
+					  📚 18 Stories<br>
+					  ⭐ 4.9 Rating<br>
+					<b>Creating magical worlds <br>one chapter at a time.</b>
+				</p>
+			</div>
+			<div class="ml-13 md:ml-10 xl:ml-10 bg-blue-100 w-70 text-center ">
+				<img src="img/author3.jpg" class="rounded-full object-fit w-50 pl-15 xl:pl-15 md:pl-2 mt-5">
+				<p class="pt-10">👩 Zara Christen<br>
+					  Humor<br>
+					  📚 10 Stories<br>
+					  ⭐ 4.0 Rating<br>
+					<b>Making readers laugh,<br> one page at a time</b>
+				</p>
+			</div>
+			<div class="ml-13  md:ml-10 xl:ml-10 bg-blue-100 w-70 text-center">
+				<img src="img/author4.jpg" class="rounded-full object-fit w-50 pl-20 xl:pl-20 md:pl-2 mt-5">
+				<p class="pt-10">👩 Myriam Dallaire<br>
+					  Romance<br>
+					  📚 20 Stories<br>
+					  ⭐ 4.7 Rating<br>
+					<b>Love stories that stay <br>with readers forever.</b>
+				</p>
+			</div>
+			<div class="ml-13 md:ml-10 xl:ml-10 bg-blue-100 w-70 text-center">
+				<img src="img/author2.png" class="rounded-full object-fit w-150 xl:w-150 md:w-270 xl:pl-5 md:pl-2 mt-5">
+				<p class="pt-15">👩 Liam Brooks<br>
+					  Thriller & Adventures<br>
+					  📚 15 Stories<br>
+					  ⭐ 5.0 Rating<br>
+					<b>Every mystery deserves <br>an unforgettable ending</b>
+				</p>
+			</div>
+		</div>
+	</section>
+	
+	<!----Reader reviews--->
+	<section>
+		<p class="font-bold text-4xl text-center text-yellow-600 mt-10"> READERS REVIEW</p>
+			<p class="font-semibold text-xl text-center text-blue-900 mt-10">Thank you for your Reviews it make us Better and best.</p>
+			<div class="mt-10 md:mr-10 xl:ml-50">
+				<div class=" ml-10 xl:ml-30 md:ml-10 bg-pink-100 w-70 text-center p-5 mt-5 ">
+					<p class="pt-10">👩 Venkateshwari</p> <br> ⭐⭐⭐⭐⭐<br>
+					 <p class="text-justify"> I really loved reading stories here especially the Thriller one.it is so interesting and just drags the time and stop reading it.I really loved the story Thrones of Regret ,started with curiosity and End with satisfaction. Hoping to Read more stories like this </p>
+				</div>
+				<div class=" ml-10 xl:ml-110 md:ml-50 bg-yellow-100 w-70 text-center p-5 mt-5 xl:-mt-70">
+					<p class="pt-10">👩 Shanmugapriya</p> <br> ⭐⭐⭐⭐⭐<br>
+					 <p class="text-justify"> I really loved reading stories here especially the Thriller one.it is so interesting and just drags the time and stop reading it.I really loved the story Thrones of Regret ,started with curiosity and End with satisfaction. Hoping to Read more stories like this </p>
+				</div>
+				<div class=" ml-10 xl:ml-190 md:ml-100 bg-green-100 w-70 text-center p-5 mt-5 xl:-mt-70">
+					<p class="pt-10">👩 Rajalakshmi</p> <br> ⭐⭐⭐⭐⭐<br>
+					 <p class="text-justify"> I really loved reading stories here especially the Thriller one.it is so interesting and just drags the time and stop reading it.I really loved the story Thrones of Regret ,started with curiosity and End with satisfaction. Hoping to Read more stories like this </p>
+				</div>
+			</div>
+	</section>
+	<!----quotes of the Week---->
+	<section class="bg-stone-100 md:mb-20 md:h-120 xl: mb-20 h-120">
+		<p class="font-bold text-4xl text-center text-blue-600 mt-10"> QUOTES OF THE DAY</p>
+		<p class="font-semibold text-xl text-center text-yellow-600 mt-10">Timeless words from the world's greatest storytellers.</p>
+		<div class="flex md:ml-30 xl:ml-100 ">
+           		
+			<div class=" bg-white/60 text-center  border-y-2 border-x-2 border-gray-400 [border-style:solid_dashed_solid_dashed] shadow-inner shadow-lg rounded-4xl w-60 md:w-70 h-70 md:ml-0 mt-5 xl:w-1/4 xl:h-70 xl:ml-20  xl:mt-5 ">
+				<p style="font-family:georigia,serif"class=" p-5 mt-5 md:mt-15 xl:mt-15 items-center font-bold text-xl ">Every chapter holds the power to<br> change the way you see the world.<br><span class="pl-10 mt-5 text-red-500" > -Readora Chronicles </span></p>
+			</div>
+			<div class=" bg-white/60  border-y-2 border-x-2 border-gray-400 [border-style:solid_dashed_solid_dashed]shadow-inner shadow-lg rounded-4xl md:w-70 xl:w-1/4 h-70  mt-5">
+				<p style="font-family:georigia,serif" class=" p-5 mt-15 text-center font-bold text-xl">There is no <br>friend <br>as loyal as a book<br><br><span class="pl-10 text-red-500" > -Readora Chronicles </span> </p>
+			</div>
+		</div>
+	</section>
+	<!----reading statistics--->
+	<section>
+	     <div class="h-px bg-black w-1/2 ml-25 md:ml-50 xl:ml-100">
+			 <p class="font-bold text-4xl text-center text-yellow-600 mt-10"> READING STATISTICS</p>
+			 <p class="text-3xl text-bold text-center mt-10">❝</p>
+			 <div class="grid grid-cols-2 gap-y-5 text-center">
+				 <p class="bg-pink-100">250+ Stories</p>
+				 <p class="bg-blue-100">50+ Authors</p>
+				 <p class="bg-pink-100">15K+ Readers</p>
+				 <p class="bg-blue-100">5 Genres</p>
+				 <p class="bg-pink-100">25+ Story Read</p>
+				 <p class="bg-blue-100">4.9 Rating⭐</p>
+
+			 </div>
+			 
+			 <p class="text-3xl text-bold text-center mt-10">❞</p>
+		 </div>
+		  <div class="h-px bg-black w-1/2 mt-95 md:mt-80 xl:mt-80 ml-25 md:ml-50 xl:ml-100">
+		  </div>
+		</section>
+     <!-----Why choose RC----->
+	 <section>
+	 <div class="bg-purple-100 mb-20 md:h-250 xl:h-170">
+	     <p class="font-bold text-4xl text-center text-red-600 mt-10"> WHY CHOOSE READORA CHRONICLES!</p>
+		 <p class="font-semibold text-xl text-center text-yellow-600 mt-10">Your destination for immersive stories, talented authors, and unforgettable reading experiences.</p>
+		 <div class=" md:mt-10 xl:mt-30 bg-blue-200 w-80 md:w-1/2 xl:w-1/2 ml-10 md:ml-50 xl:ml-30 space-y-5 rounded-4xl overflow-y-scroll h-60">
+			  <p class="font-bold text-lg">📚 Diverse Collection</p>
+			  <p class="text-justify w-150 ml-35">Explore a wide range of genres, from magical fantasy and heartfelt romance to thrilling mysteries, horror, science fiction, and adventure.</p>
+			  <p class="font-bold text-lg">⭐ Quality Reading Experience</p>
+			  <p class="text-justify w-150 ml-35">Every story is thoughtfully presented with engaging plots, captivating storytelling, and a reader-friendly experience.</p>
+			  <p class="font-bold text-lg">✍️ Passionate Authors</p>
+			  <p class="text-justify w-150 ml-35">Discover stories crafted by creative writers who bring unique characters, unforgettable worlds, and exciting adventures to life.</p>
+	          <p class="font-bold text-lg">💬 Reader Community</p>
+			  <p class="text-justify w-150 ml-35">Connect with fellow book lovers, share your thoughts through reviews, and discover stories recommended by the community.</p>
+	    </div>
+		<img src="img/whychoose.png" class="w-80 md:w-100 xl:w-100 ml-10 md:ml-50 xl:ml-250 h-120 md:mt-10 xl:-mt-80">
+	</section>
+	<!---footer---->
+	<section class="-mt-10 bg-gradient-to-r from-blue-950 to-yellow-600">
+		<p class="text-center font-black text-2xl text-slate-200">READORA CHRONICLES</p>
+		<p class="text-slate-200 text-center pt-2 font-bold">Discover a story. Enter its world. Keep reading.</p>
+		<p class="text-slate-200 text-center pt-2 italic font-serif">A place where stories become worlds, characters become unforgettable, and every page leads to something new.</p>
+		<div  class="grid-cols-1 md:grid grid-cols-2 xl:grid grid-cols-2 mt-5 ml-5 md:ml-10 xl:ml-70">
+			<div class=" text-slate-200 font-bold ml-0 text-center md:ml-0 xl:ml-0">
+			<p>Follow the Stories</p>
+			<p>Instagram · Facebook · X / Twitter</p>
+			<p>Get in Touch:-</p>
+			<p><u>hello@readorachronicles.com</u></p>
+			</div>
+			<div class=" text-slate-200 font-bold mt-5 md:mt-0 xl:mt-0 [line-height:2] mr-0 md:mr-0 xl:mr-50">
+			<p class="text-center">📖 Stories worth discovering. Worlds worth entering.</p>
+			<p class="text-center ml-5">© 2026 Readora Chronicles · All rights reserved.</p>
+			<p class="text-center">Privacy Policy · Terms & Conditions</p>
+			</div>
+		 </div>
+	</section>
+	</body>
+</html>
+		 
+
+
+
+		 
+		 
+
+		 
+		 
+		 
+		 
+
+	
+	
+			
+		
+ 
+   
+		
+			
+	
