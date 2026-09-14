@@ -1,0 +1,313 @@
+<html>
+	<head>
+			<title>Genre Page </title>
+			<meta charset="utf-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1"><!--responsive class--->
+			<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script><!--tailwind cdn-->
+	</head>
+	<body>
+	<!----navbar--->
+		<nav class="w-full bg-gradient-to-r from-yellow-600 to-blue-900 z-100 fixed ">
+		<div class=" mx-auto flex px-6 py-7 justify-between item-center h-25 md:mr-5 xl:mr-10">
+			<!----Logo---->
+			<a href="#"><img src="img/project logo.png" class="w-25 pl-5 md:w-45 md:pl-5 md:-ml-5 xl:pl-15 xl:w-50  rounded-xl -mt-5 md:mt-5 z-10"></a>
+			<!---desktop navigation--->
+			<div class="hidden md:flex md:space-x-10 xl:space-x-20 md:mr-10 text-white font-bold">
+			<ul class="hidden md:block">
+				<li>
+				<input type="checkbox" id="home" class="hidden peer">
+				<label for="home"><a href="index.html">Home</a></label>
+				</li>
+			</ul>
+			<ul class="hidden md:block ">
+				<li>
+				<input type="checkbox" id="Genres" class="hidden peer">
+				<label for="Genres">Genres</label>
+				<div class="hidden peer-checked:block text-black bg-stone-100">
+					<ul>
+						<li><a href="genres page.html">View All Genres</a></li>
+						<li><a href="thriller page.html">Thriller</a></li>
+						<li><a href="Fantasy.html">Fantasy</a></li>
+						<li><a href="romance page.html">Romance</a></li>
+						<li><a href="humor page.html">Humor</a></li>
+						<li><a href="anime page.html">Anime</a></li>
+					</ul>
+				</div>
+				</li>
+			</ul>
+			<ul class="hidden md:block">
+				<li>
+				<input type="checkbox" id="Popular" class="hidden peer">
+				<label for="Popular"><a href ="popular page.html">Popular</a></label>
+				</li>
+			</ul>
+			<ul class="hidden md:block">
+				<li>
+				<input type="checkbox" id="About" class="hidden peer">
+				<label for="About">Connect</label>
+				<div class="hidden peer-checked:block text-black bg-stone-100">
+				<ul>
+					<li><a href="about page.html">About Us</a></li>
+					<li><a href="Authors page.html">Authors</a></li>
+				</ul>
+				</li>
+			</ul>
+			
+			<!-- Desktop Button -->
+			<button class="xl:w-30 md:w-20 xl:ml-50 items-center bg-red-500 text-white"><a href="login page.html">Login</a></button>
+					
+			
+		</div>
+	
+	<!-- Mobile Menu Button -->
+		<label for="menuToggle" class="md:hidden flex flex-col space-y-1.5 cursor-pointer">
+			<span class="block w-6 h-0.5 bg-white"></span>
+			<span class="block w-6 h-0.5 bg-white"></span>
+			<span class="block w-6 h-0.5 bg-white"></span>
+		</label>
+	</div>
+	<!-- Hidden Checkbox -->
+		<input type="checkbox" id="menuToggle" class="hidden peer">
+
+		<!-- Mobile Menu -->
+		<div class="hidden peer-checked:block md:hidden bg-yellow-100 px-6 pb-4">
+		<ul>
+			<li>
+				<input type="checkbox" id="home" class="hidden peer">
+				<label for="home"><a href="index.html">Home</a></label>
+				</li>
+		</ul>
+		<ul>
+			<li>
+				<input type="checkbox" id="Genre" class="hidden peer">
+				<label for="Genre">Genres</label>
+				<div class="hidden peer-checked:block text-black bg-stone-100">
+					<ul>
+						<li><a href="genres page.html">View All Genres</a></li>
+						<li><a href="thriller page.html">Thriller</a></li>
+						<li><a href="Fantasy.html">Fantasy</a></li>
+						<li><a href="romance page.html">Romance</a></li>
+						<li><a href="humor page.html">Humor</a></li>
+						<li><a href="anime page.html">Anime</a></li>
+					</ul>
+			</li>
+		</ul>
+		<ul>
+			<li>
+				<input type="checkbox" id="Popular" class="hidden peer bg-stone-100">
+				<label for="Popular"><a href ="popular page.html">Popular</a></label>
+			</li>
+		</ul>
+
+		<ul>
+			<li>
+				<input type="checkbox" id="About Us" class="hidden peer bg-stone-100">
+				<label for="About Us">Connect</label>
+				<div class="hidden peer-checked:block text-black bg-stone-100">
+				<ul>
+					<li><a href="about page.html">About Us</a></li>
+					<li><a href="Authors page.html">Authors</a></li>
+				</ul>
+			</li>
+		</ul>
+			<button class="xl:w-30 md:w-20 xl:ml-50 items-center bg-red-500 text-white"><a href="login page.html">Login</a></button>
+		
+		</div>
+	</div>
+	</nav>
+		<!-----Banner Genres----->
+		<section>
+				<img src="img/gernrebanner.jpg" class="pt-25 md:pt-25 xl:pt-20 h-100 w-600 md:h-150 md:w-600 xl:h-200 xl:w-600 ">
+				<!-- Dark gradient overlay -->
+               <div class="absolute inset-0 bg-gradient-to-r from-black/70 via-black/30 h-100 md:h-150 xl:h-200 to-transparent"></div>
+				<div class=" -mt-70  md:-mt-100  xl:-mt-150 relative z-20  px-10 py-10 text-white">
+					<p class="font-bold  text-base md:text-4xl xl:text-4xl text-yellow-400 ml-5 md:ml-7 xl:ml-20 " style="font-family:papyrus,fantasy">Find Stories You'll Love</p> 
+					<p class="font-bold  text-sm md:text-xl xl:text-xl text-white w-70 md:w-1/2 xl:w-1/3 text-center md:ml-5 xl:ml-10 mt-3"  style="font-family:papyrus,fantasy">Browse a diverse collection of genres, each filled with unforgettable characters, exciting adventures, and captivating storytelling.</p>
+					<button class="bg-yellow-400 text-xs xl:text-base md:text-base -mt-20 md:mt-7 md:ml-10 xl:mt-10 xl:ml-25 p-1 md:p-3 xl:p-3 rounded-xl"><a href="#">📖Explore Geners</a></button>
+					<button class=" border-2 border-yellow-400 text-xs xl:text-base md:text-base -mt-5 md:mt-7  md:ml-10 xl:ml-25 p-1 md:p-3 xl:p-3 text-yellow-400 rounded-xl"><a href="#">⭐Popular Stories</a></button>
+				</div>
+				<div class="relative z-20  px-10  text-white flex space-x-5 text-yellow-500 text-xs md:text-xs xl:text-lg md:text-lg text-center md:ml-20 xl:ml-30 -mt-5 md:-mt-5 xl:mt-10 font-bold pb-1">
+				 <p>📖 <br>250+<br>Stories</p>
+				 <p>🎭<br>5 <br>Genres</p>
+				 <p>🪶<br>50+<br>Authors</p>
+				 <p>⭐<br>4.9<br>Ratings</p>
+			   </div>
+		</section>
+		<!-----Geners----->
+		<section class="bg-pink-100 pb-10">
+			<p class="font-bold text-4xl text-center text-blue-900 xl:mt-40 xl:pt-5 md:pt-0 pt-0 md:mt-20 mt-15">GENRES</p>
+		    <p class="font-semibold text-xl text-center text-yellow-600 mt-5">"Where every shadow hides a secret, and every page keeps you guessing."</p>
+		
+			<div class=" w-20 ml-40 xl:w-50 md:w-1/5 mt-10 md:ml-80 xl:ml-165 hover:rotate-[5deg] ">
+				<img src="img/humor/humorlogo.jpg" class="rounded-4xl">
+				<p class="text-center font-bold">Humor</p>
+			</div>
+			<div class="w-20 ml-10 xl:w-50 md:w-1/5 -mt-10 xl:ml-90 md:ml-20 hover:rotate-[5deg]">
+				<img src="img/anime/anime.png" class="rounded-4xl">
+				<p class="text-center font-bold">Anime</p>
+			</div>
+			<h1 class="text-center font-bold text-2xl xl:-mt-10">GENRES</h1>
+			<div class="ml-20 mt-10 w-20 xl:w-50 md:w-1/5 xl:mt-10 md:mt-5 xl:ml-110 md:ml-20 hover:rotate-[5deg]">
+				<img src="img/romance/romance1.png" class="rounded-4xl">
+				<p class="text-center font-bold">Romance</p>
+			</div>
+			<div class="w-20 -mt-70 ml-70  xl:w-50 md:w-1/5 md:-mt-100 xl:-mt-130 xl:ml-240 md:ml-135 hover:rotate-[5deg]">
+				<img src="img/fantasy/fantasy.png" class="rounded-4xl">
+				<p class="text-center font-bold">Fantasy</p>
+			</div>
+			<div class="w-20 ml-60 mt-18 xl:w-50 md:w-1/5 xl:mt-17 md:mt-15 xl:ml-220 md:ml-135 hover:rotate-[5deg]">
+				<img src="img/thriller/thriller.png" class="rounded-4xl">
+				<p class="text-center font-bold">Thriller</p>
+			</div>
+		</section>
+		<!----About Genres--->
+		<section class="bg-[#F5F3FF] pb-5">
+		
+		   <p class="font-bold text-4xl text-center text-blue-900 xl:mt-10 xl:pt-5 md:pt-0 pt-0 md:mt-20 mt-10">📚 About Genres</p>
+		   <div class="grid-cols-1 md:grid grid-cols-2 xl:grid grid-cols-2 ">
+		   <p class=" text-justify pr-2 text-sm xl:text-base md:text-base xl:text-center  leading-[2] ml-10 md:ml-10 xl:ml-50 w-80 md:w-50 xl:w-50 md:w-80 xl:w-120 mt-5 text-[#1da1f2]">Every story begins with a unique genre, each offering its own
+			   style of adventure, emotion, and excitement. At Readora Chronicles, we've carefully curated a collection of genres to suit every 
+			   reader—from magical fantasy realms and heartfelt romances to gripping thrillers, laugh-out-loud humor, and vibrant anime-inspired tales. 
+			   Whether you're searching for mystery, adventure, or something completely new, there's always a story waiting to captivate your imagination.
+		   </p>
+		    <p class="font-semibold  text-sm xl:text-xl md:text-xl ml-10 md:ml-20 xl:ml-10 md:text-center text-yellow-600 ml-0 mt-10 md:mt-5 xl:mt-5">"Discover Stories That Match Your Imagination"</p>
+			<p class=" col-start-2 text-sm xl:text-base md:text-base ml-20 md:ml-35 xl:ml-30 mt-5 md:-mt-70 xl:-mt-50 leading-[2] text-orange-600">📖 Stories for Every Mood<br>
+				🌟 Carefully Curated Genres<br>
+				✍️ Written by Creative Authors<br>
+				❤️ Discover Your Next Favorite Story
+			</p>
+		   <div>
+		  </section>
+		  <!---Genre Spotlight--->
+		  <section>
+		     <p class="font-bold text-4xl text-center text-green-900 xl:mt-10 xl:pt-5 md:pt-0 pt-0 md:mt-20 mt-10">GENRE SPOTLIGHT ⭐</p>
+			 <p class="font-semibold text-xl text-center text-red-600 mt-5">"Choose one featured genre each week."</p>
+			 <p class="text-2xl font-bold text-center"><span class="text-4xl">→</span> Fantasy <span class="text-4xl">←</span></p>
+			 <p class="text-xl font-bold text-center pt-5 "><i>Where Imagination Knows No Limits</i></p>
+			 <p class=" w-80 md:w-150 xl:w-230 ml-10 md:ml-20 xl:ml-80 pt-5 bg-yellow-100 ">Step into a world of enchanted kingdoms, fearless heroes, mythical creatures, and unforgettable adventures. 
+			 Fantasy stories transport readers beyond reality, where magic shapes destinies and every journey is filled with wonder. 
+			 Whether you're exploring ancient castles, battling dragons, or uncovering hidden treasures, fantasy offers an escape into 
+			 extraordinary worlds waiting to be discovered.</p>
+			 <p class="text-2xl font-bold text-center pt-5"><i>Popular Themes</i></p>
+			 <ul class="list-disc list-inside flex space-x-5 md:ml-10 md:text-center xl:text-base md:text-sm xl:ml-85 pt-10">
+				<li>🏰 Magical Kingdoms</li>
+				<li>🐉 Dragons & Mythical Creatures</li>
+				<li>⚔️ Epic Quests</li>
+				<li>✨ Ancient Magic</li>
+			</ul>
+		</section>
+		<!----Find your Favorite Genre--->
+		<section class="bg-yellow-100 pb-5">
+		<p class="font-bold text-4xl text-center text-red-900 xl:mt-10 xl:pt-5 md:pt-0 pt-0 md:mt-20 mt-10">🎭 Find Your Perfect Genre</p>
+		<p class="font-semibold text-xl text-center text-yellow-600 mt-5">"Not sure where to begin? Let your interests guide your next great adventure."</p>
+		<p class=" w-70 md:w-150 xl:w-250 ml-15 md:ml-20 xl:ml-60 pt-5 md:mt-5 bg-blue-100 ">	Every reader is unique, and every story offers a different experience. Whether you're looking for laughter, love, mystery,
+			or magical worlds, there's a genre waiting just for you. Explore the suggestions below and discover the stories that match
+			your personality and mood.</p>
+		<table class=" mt-10 ml-5 md:ml-10 xl:ml-100 bg-black text-white">
+			<tr class="border border-double border-5">
+			<th>If You Enjoy...</th>
+			<th class="border border-double border-5 p-5">Recommended Genre</th>
+			</tr>
+			<tr>
+				<td class="border border-double border-5 p-3">😂 Lighthearted fun and laughter</td>
+				<td class="border border-double border-5 text-center">Humor</td>
+			</tr>
+			<tr>
+				<td class="border border-double border-5 p-3">🌸 Japanese art, action, and emotional stories</td>
+				<td class="border border-double border-5 text-center">Anime</td>
+			</tr>
+			<tr>
+				<td class="border border-double border-5 p-3">❤️ Heartwarming relationships and unforgettable love stories</td>
+				<td class="border border-double  border-5 text-center">Romance</td>
+			</tr>
+			<tr>
+				<td class="border border-double border-5 p-3">🔪 Suspense, mystery, and unexpected twists</td>
+				<td class="border border-double border-5 text-center">Thriller</td>
+			</tr>
+			<tr>
+				<td class="border border-double border-5 p-3">🏰 Magic, dragons, and epic adventures</td>
+				<td class="border border-double border-5 text-center">Fantasy</td>
+			</tr>
+		</table>
+		<p class=" text-lg md:text-2xl xl:text-2xl font-bold text-center pt-5"><i>💡 Still Can't Decide?</i></p>
+		<p class=" text-center pt-5">📚 Love to laugh? <span class="text-2xl">→</span>Start with Humor.<br>
+			❤️ Looking for heartfelt emotions? <span class="text-2xl">→</span> Choose Romance.<br>
+			🔪 Want to stay on the edge of your seat? <span class="text-2xl">→</span> Dive into Thriller.<br>
+			🌸 Enjoy vibrant worlds and exciting adventures? <span class="text-2xl">→</span> Explore Anime.<br>
+			🏰 Dream of magical kingdoms and legendary heroes? <span class="text-2xl">→</span> Begin your journey with Fantasy.
+	</section>
+	<!---📚 Genre Facts--->
+	<section >
+		<div class="border-2  border-y-2 border-x-2 [border-style:dashed_solid_dashed_solid]  mt-10 xl:w-200 mx-5 md:mx-10  xl:ml-90">
+		<p class="font-bold text-4xl text-center text-indigo-500 xl:mt-10 xl:pt-5 md:pt-0 pt-0 md:mt-20 mt-10">📚 Genre Facts</p>
+		<p class="font-semibold text-xl text-center text-red-600 mt-5 pb-5"><i>Discover something interesting about the worlds behind your favorite stories.</i></p>
+		<hr>
+		<div class="flex space-x-30">
+		<p class="pt-5 xl:pl-15 text-center"><span class="text-xl font-bold">01</span><span class="text-xl font-bold "> HUMOR</span><br><span class="text-lg font-semibold text-green-500">Stories designed to<br> make you laugh.</span></p>
+		<p class="pt-5 md:pl-60 xl:pl-60 text-center"><span class="text-xl font-bold">02</span><span class="text-xl font-bold "> ANIME </span><br><span class="text-lg font-semibold text-green-500 ">Expressive <br>characters...</p>
+		</div>
+		 <p class="text-lg font-bold text-center pt-5">✦ DID YOU KNOW? </p><br>                                                                           
+		 <p class="font-semibold text-center pt-3 text-pink-500" > <i>  A single story can combine multiple genres.  <br>      
+			Romance + Fantasy • Thriller + Mystery</i></p>
+		<div class="flex space-x-30">
+		<p class="pt-5 xl:pl-15 text-center"><span class="text-xl font-bold">03</span><span class="text-xl font-bold "> ROMANCE </span><br><span class="text-lg font-semibold text-green-500"> Stories about <br>love and emotion.</span></p>
+		<p class="pt-5 pl-0 md:pl-60 xl:pl-60 text-center"><span class="text-xl font-bold">04</span><span class="text-xl font-bold "> THRILLER</span><br><span class="text-lg font-semibold text-green-500">Suspense and <br>unexpected twists	</p>
+		</div> 
+		<p class="pt-5 pl-5 text-center"><span class="text-xl font-bold">05</span><span class="text-xl font-bold "> FANTASY  </span><br><span class="text-lg font-semibold text-green-500"> Magic, mythical creatures,<br>and extraordinary worlds</span></p>
+    </section>
+	<!----Reading Tips---->
+	<section class="bg-amber-50">
+	  <p class="font-bold text-2xl text-center text-red-700 l:mt-10 xl:pt-5 md:pt-0 pt-0 md:mt-20 mt-10">💡 READING TIPS</p>
+	  <div class="text-center pt-10 ">
+		<p>01 ●──────────────────────────── <br><br><span class=" text-lg text-yellow-700 font-semibold"> Start With Your Mood</span><br> Choose a genre that matches <br>how you're feeling today.</p><br>
+		  │<br>
+          <span class="text-4xl">↓</span><br>
+		<p>02 ●──────────────────────────── <br><br><span class=" text-lg text-yellow-700 font-semibold"> Explore Something New </span><br>Step outside your usual genre and discover something unexpected.</p><br>
+		  │<br>
+         <span class="text-4xl">↓</span><br>
+		<p>03 ●──────────────────────────── <br><br><span class=" text-lg text-yellow-700 font-semibold"> Read the Description </span><br>Get a glimpse of the story<br>before turning the first page.</p><br>
+		  │<br>
+          <span class="text-4xl">↓</span><br>
+		<p>04 ●──────────────────────────── <br><br><span class=" text-lg text-yellow-700 font-semibold"> Give It a Chance </span><br>Sometimes the best stories<br>are the ones you least expect.</p><br>
+		  │<br>
+          <span class="text-4xl">↓</span><br>
+		<p>05 ●──────────────────────────── <br><br><span class=" text-lg text-yellow-700 font-semibold">  Find Your Favorites </span><br> Keep exploring until you<br>discover your perfect genre.</p><br>
+	</div>
+	</section>
+	<!---footer---->
+	<section class="mt-5 pb-5 bg-gradient-to-r from-blue-950 to-yellow-600">
+		<p class="text-center font-black text-2xl text-slate-200">READORA CHRONICLES</p>
+		<p class="text-slate-200 text-center pt-2 font-bold">Discover a story. Enter its world. Keep reading.</p>
+		<p class="text-slate-200 text-center pt-2 italic font-serif">A place where stories become worlds, characters become unforgettable, and every page leads to something new.</p>
+		<div  class="grid-cols-1 md:grid grid-cols-2 xl:grid grid-cols-2 mt-5 ml-5 md:ml-10 xl:ml-70">
+			<div class=" text-slate-200 font-bold ml-0 text-center md:ml-0 xl:ml-0">
+			<p>Follow the Stories</p>
+			<p>Instagram · Facebook · X / Twitter</p>
+			<p>Get in Touch:-</p>
+			<p><u>hello@readorachronicles.com</u></p>
+			</div>
+			<div class=" text-slate-200 font-bold mt-5 md:mt-0 xl:mt-0 [line-height:2] mr-0 md:mr-0 xl:mr-50">
+			<p class="text-center">📖 Stories worth discovering. Worlds worth entering.</p>
+			<p class="text-center ml-5">© 2026 Readora Chronicles · All rights reserved.</p>
+			<p class="text-center">Privacy Policy · Terms & Conditions</p>
+			</div>
+		 </div>
+	</section>
+   </body>
+</html>
+	
+
+	 
+			
+		
+
+		
+
+
+		  
+
+
+	
+			
+
+		
