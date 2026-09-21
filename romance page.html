@@ -1,0 +1,307 @@
+<html>
+	<head>
+			<title>Romance Page </title>
+			<meta charset="utf-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1"><!--responsive class--->
+			<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script><!--tailwind cdn-->
+	</head>
+	<body>
+	<!----navbar--->
+		<nav class="w-full bg-gradient-to-r from-yellow-600 to-blue-900 z-100 fixed ">
+		<div class=" mx-auto flex px-6 py-7 justify-between item-center h-25 md:mr-5 xl:mr-10">
+			<!----Logo---->
+			<a href="#"><img src="img/project logo.png" class="w-25 pl-5 md:w-45 md:pl-5 md:-ml-5 xl:pl-15 xl:w-50  rounded-xl -mt-5 md:mt-5 z-10"></a>
+			<!---desktop navigation--->
+			<div class="hidden md:flex md:space-x-10 xl:space-x-20 md:mr-10 text-white font-bold">
+			<ul class="hidden md:block">
+				<li>
+				<input type="checkbox" id="home" class="hidden peer">
+				<label for="home"><a href="index.html">Home</a></label>
+				</li>
+			</ul>
+			<ul class="hidden md:block ">
+				<li>
+				<input type="checkbox" id="Genres" class="hidden peer">
+				<label for="Genres">Genres</label>
+				<div class="hidden peer-checked:block text-black bg-stone-100">
+					<ul>
+						<li><a href="genres page.html">View All Genres</a></li>
+						<li><a href="thriller page.html">Thriller</a></li>
+						<li><a href="Fantasy.html">Fantasy</a></li>
+						<li><a href="romance page.html">Romance</a></li>
+						<li><a href="humor page.html">Humor</a></li>
+						<li><a href="anime page.html">Anime</a></li>
+					</ul>
+				</div>
+				</li>
+			</ul>
+			<ul class="hidden md:block">
+				<li>
+				<input type="checkbox" id="Popular" class="hidden peer">
+				<label for="Popular"><a href ="popular page.html">Popular</a></label>
+				</li>
+			</ul>
+			<ul class="hidden md:block">
+				<li>
+				<input type="checkbox" id="About" class="hidden peer">
+				<label for="About">Connect</label>
+				<div class="hidden peer-checked:block text-black bg-stone-100">
+				<ul>
+					<li><a href="about page.html">About Us</a></li>
+					<li><a href="Authors page.html">Authors</a></li>
+				</ul>
+				</li>
+			</ul>
+			
+			<!-- Desktop Button -->
+			<button class="xl:w-30 md:w-20 xl:ml-50 items-center bg-red-500 text-white"><a href="login page.html">Login</a></button>
+					
+			
+		</div>
+	
+	<!-- Mobile Menu Button -->
+		<label for="menuToggle" class="md:hidden flex flex-col space-y-1.5 cursor-pointer">
+			<span class="block w-6 h-0.5 bg-white"></span>
+			<span class="block w-6 h-0.5 bg-white"></span>
+			<span class="block w-6 h-0.5 bg-white"></span>
+		</label>
+	</div>
+	<!-- Hidden Checkbox -->
+		<input type="checkbox" id="menuToggle" class="hidden peer">
+
+		<!-- Mobile Menu -->
+		<div class="hidden peer-checked:block md:hidden bg-yellow-100 px-6 pb-4">
+		<ul>
+			<li>
+				<input type="checkbox" id="home" class="hidden peer">
+				<label for="home"><a href="index.html">Home</a></label>
+				</li>
+		</ul>
+		<ul>
+			<li>
+				<input type="checkbox" id="Genre" class="hidden peer">
+				<label for="Genre">Genres</label>
+				<div class="hidden peer-checked:block text-black bg-stone-100">
+					<ul>
+						<li><a href="genres page.html">View All Genres</a></li>
+						<li><a href="thriller page.html">Thriller</a></li>
+						<li><a href="Fantasy.html">Fantasy</a></li>
+						<li><a href="romance page.html">Romance</a></li>
+						<li><a href="humor page.html">Humor</a></li>
+						<li><a href="anime page.html">Anime</a></li>
+					</ul>
+			</li>
+		</ul>
+		<ul>
+			<li>
+				<input type="checkbox" id="Popular" class="hidden peer bg-stone-100">
+				<label for="Popular"><a href ="popular page.html">Popular</a></label>
+			</li>
+		</ul>
+
+		<ul>
+			<li>
+				<input type="checkbox" id="About Us" class="hidden peer bg-stone-100">
+				<label for="About Us">Connect</label>
+				<div class="hidden peer-checked:block text-black bg-stone-100">
+				<ul>
+					<li><a href="about page.html">About Us</a></li>
+					<li><a href="Authors page.html">Authors</a></li>
+				</ul>
+			</li>
+		</ul>
+			<button class="xl:w-30 md:w-20 xl:ml-50 items-center bg-red-500 text-white"><a href="login page.html">Login</a></button>
+		
+		</div>
+	</div>
+	</nav>
+	
+	<!----hero---->
+	
+	<section>
+		<video controls class="w-full h-auto md:w-400 md:h-170 ">
+		<source src="video/romance.mp4">
+		</video>
+		<p class="absolute inset-0 -mt-130 xl:-mt-100 md:-mt-120 flex  items-center justify-center  text-white text-xl font-black pointer-events-none">ROMANCE </p>
+		<h2 class="absolute inset-0 -mt-80 flex items-center justify-center h-250 bg-black/60 text-white text-xl md:text-3xl xl:text-3xl font-bold pointer-events-none">Where Hearts Find Their Story💖 </h1>
+
+		
+		<p class="absolute inset-0 -mt-60 ml-5 md:ml-10 flex items-center justify-center h-250 text-white text-xl font-bold pointer-events-none"> Where Hearts Find Their Story Every unforgettable love begins with a single chapter. Discover heartfelt stories of love, hope, and destiny.</p>
+   </section>
+   
+   <!---about--->
+   
+   <section class="bg-black h-183">
+   		  <p class="font-black text-4xl text-center pt-20 text-red-500" style="font-family:papyrus,Fantasy">About Romance</p>
+		  <p class="font-black text-2xl text-pink-600 text-center pt-5" style="font-family:papyrus,Fantasy">Love Beyond the Pages</p>
+		<p class="text-2xl text-center">❤️</p>
+		<img src="img/romance/heart.jpg" class="xl:w-200 md:w-150 h-150 md:ml-20 md:ml-0 xl:ml-90 -mt-20 bg-black ">
+		<p class="w-70 md:w-100 xl:w-100 text-center -mt-90 md:-mt-100 xl:-mt-100 font-bold text-xs md:text-base xl:text-lg ml-17 md:ml-50 xl:ml-143 text-white">Romance celebrates the beauty of connection, unforgettable emotions, 
+		and journeys that change lives forever. From sweet first loves to timeless 
+		soulmates, every story reminds us that love has the power to transform hearts.</p>
+	</section>
+	
+	<!--Featured Romance Stories--->
+	
+	<section class="bg-pink-100 pb-10 border-7 rounded-xl border-blue-900 mt-10" id="Stories">
+		<p class="font-bold text-xl text-center pt-5 font-serif">📖 Featured Romantic Stories</p>
+		<p class="font-black text-lg text-yellow-600 text-center pt-5" style="font-family:papyrus,Fantasy">Stories That Make Hearts Bloom</p>
+		<div class="flex flex-col space-y-3 md:flex-row md:space-y-0 xl:flex-row  md:mx-10 xl:mx-20 mt-10">	
+			<div class=" border border-gray-100 rounded-xl bg-white md:w-100 xl:w-100 shadow-inner mx-5 text-center overflow-hidden">
+				<a href="#"><img src="img/romance/arcane academy.jpg" class=" px-10 py-5 w-70 mx-7 md:ml-1 xl:ml-15">
+				<p class="font-bold">💕 Arcana Academy <br>Romance • Fantasy • Magic<br>Three paths. One destiny. A love powerful <br>enough to defy the magic that binds them.<br>⭐ 4.9 📖 15.8K Reads</p></a>
+			</div>
+			<div class=" border border-gray-100 rounded-xl bg-white md:w-100 xl:w-100shadow-inner mx-5 text-center overflow-hidden">
+				<a href="love me.html"><img src="img/romance/love me.jpg" class=" px-10 py-5 w-70 mx-7 md:ml-1 xl:ml-15">
+				<p class="font-bold">💕 Love Me <br>Romance • Contemporary • Emotional<br>Two hearts. One complicated feeling.<br> A love neither of them can ignore.<br>⭐ 4.8 📖 12.4K Reads</p></a>
+			</div>
+			<div class=" border border-gray-100 rounded-xl bg-white md:w-100 xl:w-100 shadow-inner mx-5 text-center overflow-hidden">
+				<a href="#"><img src="img/romance/wedded by fate.jpg" class=" px-10 py-5 w-70 mx-7 md:ml-1 xl:ml-15">
+				<p class="font-bold">💍 Wedded by Fate<br>Romance • Marriage • Fate<br>They were brought together by fate. But will<br> fate be enough to make them fall in love?<br>⭐ 4.8/5📖 13.1K Reads</p></a>
+			</div>
+		</div>
+	</section>
+	
+	<!---love letters--->
+	
+	<section class="bg-black border-7 border-white mt-5 border-dotted">
+		<p class="font-bold text-4xl text-center pt-5 mt-10 text-red-500 font-serif">💌 LOVE LETTERS</p>
+		<p class="font-black text-xl text-yellow-600 text-center pt-5" style="font-family:papyrus,Fantasy">Words from the heart, stories between the lines.</p>
+		<p class="text-center pt-5 text-white">Some feelings are too beautiful to say aloud. Here are a few little reminders of the love, longing, and moments that make romance unforgettable.</p>
+		<div class=" grid-row-2 md:grid grid-cols-2 xl:grid grid-cols-2 ml-10 "> 
+			<div class=" md:ml-25 xl:ml-100 mt-5 bg-white text-center   border border-2 w-65 h-65 rounded-full">
+			  <p class=" pt-15 "> <span class="font-bold text-xl">💌 A First Confession</span> <br><span class="text-pink-500">“I don't know when it happened, but somewhere between our conversations and stolen glances, you became my favorite part of every day.”</span></p>
+			</div>
+			<div class="mt-5 text-center p-5 bg-white border border-2 w-65 h-65 rounded-full">
+			  <p class="pt-10 "><span class="font-bold text-xl">🌹 A Promise</span> <br><span class="text-pink-500">“No matter how many chapters life writes, I hope our story always finds its way back to each other.”</span></p>
+			</div>
+		</div>
+			<div class="mt-2 ml-9 md:ml-70 xl:ml-153 bg-white text-center p-5  border border-2 w-65 h-65 rounded-full">
+			  <p class="pt-10 "><span class="font-bold text-xl">🌙 A Secret Feeling</span> <br><span class="text-pink-500">“Some feelings are too deep for words, so I kept them quietly in my heart and hoped you would somehow know.”</span></p>
+			</div>
+	</section>
+	
+	<!---language of love--->
+	
+	<section class="bg-green-100 h-155">
+			<p class="font-bold   pt-5 mt-10 text-red-500  text-center" style="font-family:Lucida Handwriting", "Apple Chancery", cursive;><span class="text-rose-400 text-4xl " >🌹THE</span><span class="text-red-700 text-5xl" > <br>LANGUAGE</span><span class="text-rose-400 text-4xl"> OF LOVE</span></p>
+			<p class="font-black text-xl text-yellow-600 text-center pt-5" style="font-family:papyrus,Fantasy">Words from the heart, stories between the lines.</p>
+			<div class="  md:grid grid-cols-2 xl:grid grid-cols-2">
+				<div>
+				<p class=" text-xl font-bold md:ml-5 xl:ml-40 md:mt-15 xl:mt-25"><span class=" text-xl xl:text-4xl md:text-4xl">🌹</span>Rose — True Love </p>
+				<p class=" pt-3 text-center w-full xl:w-60 md:w-60 md:ml-5 xl:ml-45 font-semibold text-red-500">For a love that grows deeper with every chapter.</p>
+				</div>
+				<div>
+				<p class=" mt-10 text-xl font-bold text-center"><span class="text-lg xl:text-4xl md:text-4xl">🌸 </span>Cherry Blossom — New Beginnings </p>
+				<p class=" pt-1 xl:pt-3 md:pt-3 text-center w-full xl:w-60 md:w-60 md:ml-20 xl:ml-70 font-semibold text-pink-400">For the butterflies, first meetings, and feelings just beginning to bloom.</p>
+				</div>
+				<div>
+				<p class=" text-xl font-bold md:ml-3 xl:ml-40 mt-1 xl:mt-20 md:mt-20"><span class="text-4xl">🌻</span>Sunflower — Devotion </p>
+				<p class=" pt-1 xl:pt-3 md:pt-3 text-center w-full xl:w-65 md:w-65 md:ml-5 xl:ml-45 font-semibold text-yellow-600">For the person who stays, supports, and always brings a little light.</p>
+				</div>
+				<div class="-mt-14">
+				<p class=" text-xl font-bold md:ml-20 xl:ml-60 mt-15 xl:mt-20 md:mt-20"><span class="text-4xl">🌷</span>Tulip — Perfect Love </p>
+				<p class=" pt-3 text-center w-full xl:w-65 md:w-65 md:ml-20 xl:ml-65 font-semibold text-purple-500">For a connection that feels unexpectedly right.</p>
+				</div>
+				<img src="img/arrow2.jpg" class="md:w-60 md:h-40 xl:h-70 xl:w-110 md:rotate-[-30deg] xl:rotate-[-25deg] md:ml-60 xl:ml-128 -mt-15 md:-mt-65 xl:-mt-75 bg-green-100 ">
+			</div>
+	</section>
+	
+	<!----Treading--->
+	
+	<section class="bg-orange-100 border-7 rounded-xl border-blue-900 mt-10 h-280  md:h-155 xl:h-155">
+	<div class="grid-cols-1 md:grid grid-cols-2 xl:grid grid-cols-2 md:mr-20 xl:mr-40 mt-0">
+	<img src="img/romance/love me.jpg" class="md:w-70 xl:w-100 h-150 rounded-full md:ml-10 xl:ml-30 border-white border-5 border-wavy">
+	  <div>
+		  <p class="font-bold text-xl xl:text-3xl md:text-3xl text-center  mt-10 text-red-500 font-serif">🔥 Trending Now — Love Me </p>
+		  <p class="font-bold text-xl text-center pt-1 xl:pt-5 md:pt-5"><span class="text-red-900">Crafted By</span><br>Chaoticallymine<br>Romance • Contemporary • Emotional</p>
+		  <div class="overflow-y-scroll h-50 mt-2 xl:mt-5 md:mt-5 bg-lime-100">
+		  <p class="text-center text-yellow-600 font-bold mt-2 xl:mt-5 md:mt-5">Sometimes love doesn't arrive gently. It comes unexpectedly, complicates everything, and makes two people question everything they thought they knew.</p>
+		  <p class="mt-5 text-justify [text-indent:20]" >Two people find themselves caught in a connection neither of them planned for. What begins as a simple attraction slowly becomes something deeper—filled with chemistry, uncertainty, stolen moments, and feelings that are impossible to ignore.<br><br>
+				As their relationship grows, they discover that love isn't always simple. Misunderstandings, hidden emotions, and the fear of getting hurt begin to stand between them.<br><br>
+				Every moment brings them closer, yet every secret threatens to pull them apart. They must decide whether to protect their hearts or take a chance on something real.<br><br>
+				Because sometimes, the hardest part isn't falling in love...</p>
+		  </div>
+		  <p class="mt-2 xl:mt-5 md:mt-5 text-lg xl:text-xl md:text-xl font-bold text-center">It's admitting that you've already fallen. ❤️</p>
+		  <p class="grid-cols-3 text-center font-bold mt-2 xl:mt-5 md:mt-5">🔥 Trending Now ⭐ 4.8/5 · 12.4K Reads · 💬 386 Comments</p>
+	  </div>
+	 </div>
+	 </section>
+	 
+	 <!---readers review--->
+	
+	<section class="bg-gradient-to-r from-purple-300 to-white mt-10 rounded-4xl ">	
+				<div>
+					<p class="text-4xl text-center font-bold pt-10 text-purple-900">💌 “What Are Readers Saying?”</p>
+				</div>
+			
+				
+				<div class="md:grid grid-rows-3 md:mt-30 xl:grid grid-cols-3 mt-10 xl:mt-20 w-full md:ml-30 xl:ml-0">
+					<div class="grid grid-cols-2 border-2 border-solid  h-30 w-96 -ml-0 md:h-30 md:w-100 md:ml-15 xl:h-30 xl:w-100 xl:ml-15">
+						<div>
+							<p class="text-7xl pt-5">⭐</p>
+						</div>
+						<div class="grid grid-rows-2 ">
+							<p class="font-bold w-60 -ml-20 pt-5">“I wasn't ready for that chapter 😭”</p>
+							<p class="font-bold w-50 -ml-10">— @moonlit_reader ❤️ 2.4K 💬 386</p>
+						</div>
+					</div>
+				
+					<div class="grid grid-cols-2 border-2 border-solid h-30 w-96 md:h-30 md:w-100 md:-ml-48 xl:mt-0 md:mt-40 xl:h-30 xl:w-100 xl:ml-15">
+						<div>
+							<p class="text-7xl pt-5">✨</p>
+						</div>
+						<div class="grid grid-rows-2  ">
+							<p class="font-bold w-60 -ml-20 pt-5">“The chemistry between them”</p>
+							<p class="font-bold w-50 -ml-10">— @booklover21❤️  1.8K  💬 214</p>
+						</div>
+					</div>
+					
+					<div class="grid grid-cols-2 border-2 border-solid h-30 w-96 md:h-30 md:w-100 md:-ml-115 md:mt-80 xl:mt-0 xl:h-30 xl:w-100 xl:ml-15">
+						<div>
+							<p class="text-7xl pt-5">🌟</p>
+						</div>
+						<div class="grid grid-rows-2  ">
+							<p class="font-bold w-60 -ml-20 pt-5">“I NEED THE NEXT CHAPTER!”</p>
+							<p class="font-bold w-50 -ml-10">— @dreamy_pages❤️ 3.1K  💬 502</p>
+						</div>
+					</div>
+				</div>
+		</section>
+		<!---footer---->
+	<section class="mt-10 bg-gradient-to-r from-blue-950 to-yellow-600 pb-5">
+		<p class="text-center font-black text-2xl text-slate-200">READORA CHRONICLES</p>
+		<p class="text-slate-200 text-center pt-2 font-bold">Discover a story. Enter its world. Keep reading.</p>
+		<p class="text-slate-200 text-center pt-2 italic font-serif">A place where stories become worlds, characters become unforgettable, and every page leads to something new.</p>
+		<div  class="grid-cols-1 md:grid grid-cols-2 xl:grid grid-cols-2 mt-5 ml-5 md:ml-10 xl:ml-70">
+			<div class=" text-slate-200 font-bold ml-0 text-center md:ml-0 xl:ml-0">
+			<p>Follow the Stories</p>
+			<p>Instagram · Facebook · X / Twitter</p>
+			<p>Get in Touch:-</p>
+			<p><u>hello@readorachronicles.com</u></p>
+			</div>
+			<div class=" text-slate-200 font-bold mt-5 md:mt-0 xl:mt-0 [line-height:2] mr-0 md:mr-0 xl:mr-50">
+			<p class="text-center">📖 Stories worth discovering. Worlds worth entering.</p>
+			<p class="text-center ml-5">© 2026 Readora Chronicles · All rights reserved.</p>
+			<p class="text-center">Privacy Policy · Terms & Conditions</p>
+			</div>
+		 </div>
+	</section>
+	</body>
+</html>
+						
+
+
+
+
+
+	 
+	  
+	  
+
+			
+
+	
+	
+		
+		

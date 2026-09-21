@@ -1,0 +1,226 @@
+<html>
+	<head>
+			<title>Thriller Page </title>
+			<meta charset="utf-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1"><!--responsive class--->
+			<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script><!--tailwind cdn-->
+	</head>
+	<body>
+	<!----navbar--->
+		<nav class="w-full bg-gradient-to-r from-yellow-600 to-blue-900 z-100 fixed ">
+		<div class=" mx-auto flex px-6 py-7 justify-between item-center h-25 md:mr-5 xl:mr-10">
+			<!----Logo---->
+			<a href="#"><img src="img/project logo.png" class="w-25 pl-5 md:w-45 md:pl-5 md:-ml-5 xl:pl-15 xl:w-50  rounded-xl -mt-5 md:mt-5 z-10"></a>
+			<!---desktop navigation--->
+			<div class="hidden md:flex md:space-x-10 xl:space-x-20 md:mr-10 text-white font-bold">
+			<ul class="hidden md:block">
+				<li>
+				<input type="checkbox" id="home" class="hidden peer">
+				<label for="home"><a href="index.html">Home</a></label>
+				</li>
+			</ul>
+			<ul class="hidden md:block ">
+				<li>
+				<input type="checkbox" id="Genres" class="hidden peer">
+				<label for="Genres">Genres</label>
+				<div class="hidden peer-checked:block text-black bg-stone-100">
+					<ul>
+						<li><a href="genres page.html">View All Genres</a></li>
+						<li><a href="thriller page.html">Thriller</a></li>
+						<li><a href="Fantasy.html">Fantasy</a></li>
+						<li><a href="romance page.html">Romance</a></li>
+						<li><a href="humor page.html">Humor</a></li>
+						<li><a href="anime page.html">Anime</a></li>
+					</ul>
+				</div>
+				</li>
+			</ul>
+			<ul class="hidden md:block">
+				<li>
+				<input type="checkbox" id="Popular" class="hidden peer">
+				<label for="Popular"><a href ="popular page.html">Popular</a></label>
+				</li>
+			</ul>
+			<ul class="hidden md:block">
+				<li>
+				<input type="checkbox" id="About" class="hidden peer">
+				<label for="About">Connect</label>
+				<div class="hidden peer-checked:block text-black bg-stone-100">
+				<ul>
+					<li><a href="about page.html">About Us</a></li>
+					<li><a href="Authors page.html">Authors</a></li>
+				</ul>
+				</li>
+			</ul>
+			
+			<!-- Desktop Button -->
+			<button class="xl:w-30 md:w-20 xl:ml-50 items-center bg-red-500 text-white"><a href="login page.html">Login</a></button>
+					
+			
+		</div>
+	
+	<!-- Mobile Menu Button -->
+		<label for="menuToggle" class="md:hidden flex flex-col space-y-1.5 cursor-pointer">
+			<span class="block w-6 h-0.5 bg-white"></span>
+			<span class="block w-6 h-0.5 bg-white"></span>
+			<span class="block w-6 h-0.5 bg-white"></span>
+		</label>
+	</div>
+	<!-- Hidden Checkbox -->
+		<input type="checkbox" id="menuToggle" class="hidden peer">
+
+		<!-- Mobile Menu -->
+		<div class="hidden peer-checked:block md:hidden bg-yellow-100 px-6 pb-4">
+		<ul>
+			<li>
+				<input type="checkbox" id="home" class="hidden peer">
+				<label for="home"><a href="index.html">Home</a></label>
+				</li>
+		</ul>
+		<ul>
+			<li>
+				<input type="checkbox" id="Genre" class="hidden peer">
+				<label for="Genre">Genres</label>
+				<div class="hidden peer-checked:block text-black bg-stone-100">
+					<ul>
+						<li><a href="genres page.html">View All Genres</a></li>
+						<li><a href="thriller page.html">Thriller</a></li>
+						<li><a href="Fantasy.html">Fantasy</a></li>
+						<li><a href="romance page.html">Romance</a></li>
+						<li><a href="humor page.html">Humor</a></li>
+						<li><a href="anime page.html">Anime</a></li>
+					</ul>
+			</li>
+		</ul>
+		<ul>
+			<li>
+				<input type="checkbox" id="Popular" class="hidden peer bg-stone-100">
+				<label for="Popular"><a href ="popular page.html">Popular</a></label>
+			</li>
+		</ul>
+
+		<ul>
+			<li>
+				<input type="checkbox" id="About Us" class="hidden peer bg-stone-100">
+				<label for="About Us">Connect</label>
+				<div class="hidden peer-checked:block text-black bg-stone-100">
+				<ul>
+					<li><a href="about page.html">About Us</a></li>
+					<li><a href="Authors page.html">Authors</a></li>
+				</ul>
+			</li>
+		</ul>
+			<button class="xl:w-30 md:w-20 xl:ml-50 items-center bg-red-500 text-white"><a href="login page.html">Login</a></button>
+		
+		</div>
+	</div>
+	</nav>
+	<!---hero--->
+	<section>
+		<img src="img/thriller/thrillerhero.jpg" class="w-full h-180 pt-25">
+		<div class="-mt-120 md:-mt-120 ml-20 md:ml-80 xl:-mt-130 xl:ml-200">
+		<p class="text-white font-bold text-base md:text-4xl xl:text-5xl pl-30 " style="text-shadow:2px 2px 8px red">THRILLER</p>
+        <p class="text-xs md:text-lg xl:text-xl  text-white"style="text-shadow:2px 2px 8px red">─────────────── ✧ ───────────────></p>
+		<p class="text-white font-bold md:text-2xl xl:text-6xl md: ml-30 xl:ml-20" style="text-shadow:2px 2px 8px red">ENTER THE <br>UNKNOW</p>
+		<p class="text-white font-bold md:text-xl md:text-center ml-25 md:ml-15 xl:ml-30 xl:text-xl mt-3 w-40 xl:w-70 md:w-70">Every shadow hides a secret. Every clue leads somewhere.</p>
+		<button class="text-xl md:text-2xl xl:text-2xl text-white ml-25 md:ml-30 xl:ml-45 mt-10 border shadow-inner p-1 rounded-xl"style="text-shadow:2px 2px 8px red"><a href="#Stories">Explore Stories</a></Button>
+	</section>
+	<!---About thriller--->
+	<section class="bg-black xl:h-150">
+		<div class=" mt-60 xl:mt-60 md:mt-60 md:ml-0 xl:ml-90">
+		<img src="img/scroll.jpg" class="w-100 md:w-300 xl:object-fit xl:w-200 md:h-full h-150 md:h-150 xl:h-150">
+		<p class="text-xs xl:text-sm md:text-2xl xl:text-xl md:text-2xl font-extrabold text-yellow-500 ml-28 md:ml-62 xl:ml-67 -mt-118 md:-mt-190 xl:-mt-120">🕯️ About Thriller —<br> Where Suspense Begins</p>
+		<p class="text-xs xl:text-sm md:text-base font-extrabold text-white ml-30 md:ml-62 xl:ml-65 mt-5 md:w-70 w-50">Thriller stories keep you guessing, questioning, and turning the page.</p>
+		<p class="text-xs xl:text-sm md:text-base font-extrabold text-white ml-30 md:ml-62 xl:ml-65 mt-5 text-justify  md:w-70 w-40">Step into a world of mystery, danger, secrets, and unexpected twists. Every chapter brings a new clue, every character may have something to hide, and the truth is never quite what it seems.</p>
+		<p class="text-xs xl:text-sm md:text-base  font-extrabold text-white ml-27 md:ml-62 xl:ml-65 mt-5 md:w-70 w-50">The closer you get to the truth, the more dangerous the story becomes.”</p>
+		<p class="text-xs xl:text-sm md:text-base  font-extrabold text-white ml-27 md:ml-62 xl:ml-65 mt-5 md:w-70 w-50">Mystery • Suspense • Danger • Twists</p>
+	</section>
+	<!----Thriller Stories--->
+	<section class="bg-pink-100 pb-10 mt-50 md:mt-100 xl:mt-5" id="Stories">
+		<p class="font-bold text-xl text-center pt-5 font-serif">📖 Featured Thriller Stories</p>
+		<p class="font-black text-lg text-yellow-600 text-center pt-5" style="font-family:papyrus,Fantasy">Three mysteries. Three dangerous journeys. One question — can you uncover the truth?</p>
+		<div class="flex flex-col space-y-3 md:flex-row md:space-y-0 xl:flex-row  md:mx-10 xl:mx-20 mt-10">	
+			<div class=" border border-gray-100 rounded-xl bg-white md:w-100 xl:w-100 shadow-inner mx-5 text-center overflow-hidden">
+				<a href="#"><img src="img/thriller/mystery letters.jpg" class=" px-10 py-5 w-70 mx-7 md:ml-1 xl:ml-15">
+				<p class="font-bold">✉️ The Mystery Letters <br>Thriller • Mystery • Suspense<br>Strange letters. Hidden clues.<br> A secret waiting to be uncovered.<br>⭐ 4.8 📖12.4K Reads</p></a>
+			</div>
+			<div class=" border border-gray-100 rounded-xl bg-white md:w-100 xl:w-100shadow-inner mx-5 text-center overflow-hidden">
+				<a href="serial killer.html"><img src="img/thriller/serial killer in me.jpg" class=" px-10 py-5 w-70 mx-7 md:ml-1 xl:ml-15">
+				<p class="font-bold">🩸 The Serial Killer in Me <br>Thriller • Mystery • Psychological<br>Dark secrets. A fractured mind. A killer <br>hiding where no one expects.<br>⭐ 4.9 📖16.3K Reads</p></a>
+			</div>
+			<div class=" border border-gray-100 rounded-xl bg-white md:w-100 xl:w-100 shadow-inner mx-5 text-center overflow-hidden">
+				<a href="thrones of regret.html"><img src="img/thriller/thrones of regrets.jpg" class=" px-10 py-5 w-70 mx-7 md:ml-1 xl:ml-15">
+				<p class="font-bold">🖤 Thrones of Regrets<br>Thriller • Mystery • Psychological<br>Dark memories. Buried regrets. <br>A past that refuses to remain forgotten.<br>⭐4.7📖10.9K Reads</p></a>
+			</div>
+		</div>
+	</section>
+	<!---The Thriller Investigation--->
+	<section class="pt-10">
+		<p class="font-bold text-2xl text-center pt-5 font-serif">🕵️The Thriller Investigation</p>
+		<p class="font-black text-lg text-yellow-600 text-center pt-5" style="font-family:papyrus,Fantasy">Every mystery leaves a trail. Follow the clues and uncover what lies beneath the surface.</p>
+		<div class="text-justify w-80 ml-10 xl:ml-60 md:ml-60 space-y-5 mt-10">
+			<p><b>🔍 The First Clue</b><br>Something doesn't add up. A strange message, a missing object, or a forgotten detail starts the investigation.</p>
+			<p><b> 👤 The Suspect</b><br>Everyone has a story. But not everyone is telling the truth.</p>
+			<p><b>🗝️ The Hidden Secret</b><br>Behind every clue lies another question—and sometimes the truth is more dangerous than the mystery.</p>
+			<p><b>⚠️ The Final Twist</b><br>Just when everything begins to make sense, one unexpected revelation changes everything.</p>
+		</div>
+			<p class="text-center text-2xl text-red-500"> <b>Can you uncover the truth before the final clue disappears? 🔎</b></p>
+			
+		
+		<div class="pl-3 xl:pl-50 md:pl-50 md:mt-10 xl:-mt-120 ">
+			<p class="xl:text-center mt-10 pl-0 md:pl-1 xl:pl-50 font-bold "> <span class="text-orange-500">📸PHOTO</span> ──────── 🔴 ──────── <span class="text-orange-500">📄 NOTE</span></p>
+			<p class="ml-10 md:ml-10 xl:ml-153 text-5xl xl:text-7xl md:text-7xl">↓<span class="ml-25">↓</span><span class="ml-30">↓</span></p>
+			<p class="ml-10 md:ml-10 xl:ml-153 text-5xl xl:text-7xl md:text-7xl">↓<span class="ml-25">↓</span><span class="ml-30">↓</span></p>
+			<p class="md:ml-5 xl:ml-149 text-base font-bold text-orange-500">THE CLUE<span class="ml-15 text-orange-500">THE SUSPECT</span><span class="ml-17 text-orange-500">THE SECRET</span></p>
+			<p class="ml-41 md:ml-45 xl:ml-187 text-5xl xl:text-7xl md:text-7xl">↓</p> 
+			<p class=" xl:text-center ml-41 md:ml-47 xl:ml-53">🔴</p>
+			<p class="xl:text-center ml-30 md:ml-30 xl:ml-51 font-bold text-orange-500">❓ THE TWIST</p>
+		</div>	
+	</section>
+	<!----⚡ WHAT MAKES A THRILLER?---->
+	<section class="bg-gray-300  ">
+		<div class="mt-5 md:mt-10 xl:mt-40 border-4  [border-style:solid_dashed_solid_dashed] mx-10  pb-10 ">
+		    <p class="font-bold text-2xl text-center pt-5 font-serif">⚡ WHAT MAKES A THRILLER?</p>
+		    <p class="font-black text-lg  text-center pt-5" style="font-family:papyrus,Fantasy">A great thriller doesn't just tell a story — it keeps you guessing.</p><br>
+			<p class="text-center text-yellow-500 py-5 font-bold">MYSTERY    <span class="text-red-500 font-black">      ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰</span> <span class="text-white font-black">░░░░</span>   🔍</p>
+			<p class="text-center text-yellow-500 py-5 font-bold"> SUSPENSE   <span class="text-red-500 font-black">      ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰</span> <span class="text-white font-black">░░</span>   🌑</p>
+			<p class="text-center text-yellow-500 py-5 font-bold">DANGER       <span class="text-red-500 font-black">    ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰</span> <span class="text-white font-black">░░░░░</span>   ⚠️ </p>
+			<p class="text-center text-yellow-500 py-5 font-bold">PLOT TWISTS   <span class="text-red-500 font-black">   ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰</span>    🌀</p>
+			<p class="text-center text-yellow-500 py-5 font-bold">PSYCHOLOGY   <span class="text-red-500 font-black">    ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰</span> <span class="text-white font-black">░░░░░░</span>   🧠</p>
+			<p class="text-center text-2xl font-bold"style="text-shadow:2px 2px 8px red;"> “The next page might change everything.” </p>
+		</div>
+	</section>
+	<!--final warning--->
+	<section>
+		<div class="mt-10 bg-black pb-5">
+		
+			<p class="text-7xl  text-center">🕯️</p>	
+			<div class="opacity-0 transition-opacity duration-500 ease-in hover:opacity-100 w-full">
+				<p class="text-3xl text-center pt-2 text-red-500 font-bold">FINAL WARNING</p> 
+			</div>
+			<p class="text-2xl text-center font-bold pt-2 text-white"> SOME STORIES ARE BETTER <br>LEFT UNFINISHED.</p>
+			<p class="text-2xl text-center font-bold pt-2 text-red-700">  But if you've come this far...</p>
+			<button class="text-center p-2 text-white border border-red-500 rounded-xl mt-5 ml-30 md:ml-75 xl:ml-170"><a href="#Stories">DARE TO CONTINUE</a></button>
+		</div>
+	</section>
+	<!---footer---->
+	<section class="mt-10 bg-gradient-to-r from-blue-950 to-yellow-600">
+		<p class="text-center font-black text-2xl text-slate-200">READORA CHRONICLES</p>
+		<p class="text-slate-200 text-center pt-2 font-bold">Discover a story. Enter its world. Keep reading.</p>
+		<p class="text-slate-200 text-center pt-2 italic font-serif">A place where stories become worlds, characters become unforgettable, and every page leads to something new.</p>
+		<div  class="grid-cols-1 md:grid grid-cols-2 xl:grid grid-cols-2 mt-5 ml-5 md:ml-10 xl:ml-70">
+			<div class=" text-slate-200 font-bold ml-20 md:ml-0 xl:ml-0">
+			<p>Follow the Stories</p>
+			<p>Instagram · Facebook · X / Twitter</p>
+			<p>Get in Touch:-</p>
+			<p><u>hello@readorachronicles.com</u></p>
+			</div>
+			<div class=" text-slate-200 font-bold mt-5 md:mt-0 xl:mt-0 [line-height:2] mr-0 md:mr-0 xl:mr-50">
+			<p class="text-center">📖 Stories worth discovering. Worlds worth entering.</p>
+			<p class="text-center ml-5">© 2026 Readora Chronicles · All rights reserved.</p>
+			<p class="text-center">Privacy Policy · Terms & Conditions</p>
+			</div>
+		 </div>
+	</section>
+	</body>
+</html>
