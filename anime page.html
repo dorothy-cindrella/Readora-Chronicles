@@ -1,0 +1,258 @@
+<html>
+	<head>
+			<title>Anime Page </title>
+			<meta charset="utf-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1"><!--responsive class--->
+			<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script><!--tailwind cdn-->
+	</head>
+	<body>
+	<!----navbar--->
+		<nav class="w-full bg-gradient-to-r from-yellow-600 to-blue-900 z-100 fixed ">
+		<div class=" mx-auto flex px-6 py-7 justify-between item-center h-25 md:mr-5 xl:mr-10">
+			<!----Logo---->
+			<a href="#"><img src="img/project logo.png" class="w-25 pl-5 md:w-45 md:pl-5 md:-ml-5 xl:pl-15 xl:w-50  rounded-xl -mt-5 md:mt-5 z-10"></a>
+			<!---desktop navigation--->
+			<div class="hidden md:flex md:space-x-10 xl:space-x-20 md:mr-10 text-white font-bold">
+			<ul class="hidden md:block">
+				<li>
+				<input type="checkbox" id="home" class="hidden peer">
+				<label for="home"><a href="index.html">Home</a></label>
+				</li>
+			</ul>
+			<ul class="hidden md:block ">
+				<li>
+				<input type="checkbox" id="Genres" class="hidden peer">
+				<label for="Genres">Genres</label>
+				<div class="hidden peer-checked:block text-black bg-stone-100">
+					<ul>
+						<li><a href="genres page.html">View All Genres</a></li>
+						<li><a href="thriller page.html">Thriller</a></li>
+						<li><a href="Fantasy.html">Fantasy</a></li>
+						<li><a href="romance page.html">Romance</a></li>
+						<li><a href="humor page.html">Humor</a></li>
+						<li><a href="anime page.html">Anime</a></li>
+					</ul>
+				</div>
+				</li>
+			</ul>
+			<ul class="hidden md:block">
+				<li>
+				<input type="checkbox" id="Popular" class="hidden peer">
+				<label for="Popular"><a href ="popular page.html">Popular</a></label>
+				</li>
+			</ul>
+			<ul class="hidden md:block">
+				<li>
+				<input type="checkbox" id="About" class="hidden peer">
+				<label for="About">Connect</label>
+				<div class="hidden peer-checked:block text-black bg-stone-100">
+				<ul>
+					<li><a href="about page.html">About Us</a></li>
+					<li><a href="Authors page.html">Authors</a></li>
+				</ul>
+				</li>
+			</ul>
+			
+			<!-- Desktop Button -->
+			<button class="xl:w-30 md:w-20 xl:ml-50 items-center bg-red-500 text-white"><a href="login page.html">Login</a></button>
+					
+			
+		</div>
+	
+	<!-- Mobile Menu Button -->
+		<label for="menuToggle" class="md:hidden flex flex-col space-y-1.5 cursor-pointer">
+			<span class="block w-6 h-0.5 bg-white"></span>
+			<span class="block w-6 h-0.5 bg-white"></span>
+			<span class="block w-6 h-0.5 bg-white"></span>
+		</label>
+	</div>
+	<!-- Hidden Checkbox -->
+		<input type="checkbox" id="menuToggle" class="hidden peer">
+
+		<!-- Mobile Menu -->
+		<div class="hidden peer-checked:block md:hidden bg-yellow-100 px-6 pb-4">
+		<ul>
+			<li>
+				<input type="checkbox" id="home" class="hidden peer">
+				<label for="home"><a href="index.html">Home</a></label>
+				</li>
+		</ul>
+		<ul>
+			<li>
+				<input type="checkbox" id="Genre" class="hidden peer">
+				<label for="Genre">Genres</label>
+				<div class="hidden peer-checked:block text-black bg-stone-100">
+					<ul>
+						<li><a href="genres page.html">View All Genres</a></li>
+						<li><a href="thriller page.html">Thriller</a></li>
+						<li><a href="Fantasy.html">Fantasy</a></li>
+						<li><a href="romance page.html">Romance</a></li>
+						<li><a href="humor page.html">Humor</a></li>
+						<li><a href="anime page.html">Anime</a></li>
+					</ul>
+			</li>
+		</ul>
+		<ul>
+			<li>
+				<input type="checkbox" id="Popular" class="hidden peer bg-stone-100">
+				<label for="Popular"><a href ="popular page.html">Popular</a></label>
+			</li>
+		</ul>
+
+		<ul>
+			<li>
+				<input type="checkbox" id="About Us" class="hidden peer bg-stone-100">
+				<label for="About Us">Connect</label>
+				<div class="hidden peer-checked:block text-black bg-stone-100">
+				<ul>
+					<li><a href="about page.html">About Us</a></li>
+					<li><a href="Authors page.html">Authors</a></li>
+				</ul>
+			</li>
+		</ul>
+			<button class="xl:w-30 md:w-20 xl:ml-50 items-center bg-red-500 text-white"><a href="login page.html">Login</a></button>
+		
+		</div>
+	</div>
+	</nav>
+	<!---hero--->
+	<section>
+			<img src="img/anime/hero.jpg" class=" h-180 xl:h-173 md:h-173 w-full object-fit pt-25 xl:pt-27 md:pt-25">
+			<div class="xl:pt-30 md:pt-5 absolute inset-0 mt-20 hover:bg-black/70 h-153  w-full xl:pl-10 md: pl-5 text-6xl text-white font-bold  text-center ">
+			<p class="pt-5 xl:pt-10 md:pt-10">Anime<br><br>Enter a World Beyond Imagination</p>
+			<p class=" pt-50 absolute inset-0 mt-55    w-full pl-10 text-2xl text-white font-bold  text-center ">From powerful heroes and mysterious worlds to unforgettable friendships and adventures, your next story is waiting.</p>
+			<p class=" pt-50 absolute inset-0 mt-95 xl:mt-75 md:mt-75  w-full pl-10 text-xl xl:text-3xl md:text-3xl text-red-500 font-bold  text-center" >Start your Journey form here:--</p>
+			</div>
+	</section>
+	<!---ABOUT ANIME--->
+	<section class="bg-stone-100">
+		<p class="font-bold text-4xl text-center text-yellow-600 pt-10 font-serif">Stories That Come Alive</p>
+		 <div class="hover:bg-black hover:border-white border border-4 rounded-t-2xl max-w-xs xl:max-w-sm md:max-w-sm p-3 h-35 shadow-[8px_8px_0px_black] ml-7 mt-10 xl:ml-70 xl:mt-20  md:ml-50  md:mt-10" >
+			<p class="w-80 text-gray-700 hover:text-red-700  font-semibold text-center">Anime-inspired stories bring together imagination, emotion, adventure, and characters you'll want to follow from the first chapter to the last.</p>
+		</div>
+		<div class="hover:bg-black hover:border-white border-4 border-black rounded-t-2xl bg-white p-3 shadow-[8px_8px_0px_black] max-w-xs xl:max-w-sm md:max-w-sm ml-7 mt-5 xl:ml-210 xl:-mt-36 md:ml-50 md:mt-10">
+			<p class="w-70 xl:w-90 md:w-90 text-gray-700 hover:text-red-700 font-semibold text-center ">Whether you're looking for action-packed adventures, magical worlds, school-life stories, supernatural mysteries, or heartfelt romance, find a story that matches your mood and start reading.</p>
+		</div>
+		 <div class="hover:bg-black hover:border-white border border-4 rounded-t-2xl max-w-xs xl:max-w-sm md:max-w-sm p-2 h-58 xl:h-50 md:h-50 shadow-[8px_8px_0px_black] ml-7 mt-5 xl:ml-140 xl:mt-3 md:ml-50 md:mt-10" >
+			<p class="w-70 xl:w-90 md:w-90 text-gray-700 hover:text-red-700 font-semibold text-center">Discover stories filled with imagination and emotion, where every chapter brings a new challenge, friendship, or unexpected turn. Whether you’re here for a quick read or a story you can get lost in for hours, there’s always another adventure waiting on Readora Chronicles.</p>
+		</div>
+		<p class="font-bold  text-sm md:text-xl xl:text-xl text-pink-500 w-70 md:w-1/2 xl:w-1/3 text-center ml-10  md:ml-50 xl:ml-130 mt-10"  style="font-family:papyrus,fantasy">“Every chapter is a doorway. Where will your story take you?”</p>
+	</section>	
+	<!---featured stories--->
+	<section class="bg-gradient-to-b from-black to-white pb-10" id="Stories">
+		<p class="font-bold text-xl text-center pt-5 font-serif">📖 Featured Humor Stories</p>
+		<p class="font-black text-lg text-yellow-600 text-center pt-5" style="font-family:papyrus,Fantasy">Three stories to begin your next adventure.</p>
+		<div class="flex flex-col space-y-3 md:flex-col md:space-y-0 xl:flex-row  md:mx-10 xl:mx-40 mt-10">	
+		 <div class="bg-white hover:border-white border border-4 border-yellow-600 rounded-t-2xl w-75 md:w-50 xl:w-100 md:w-100 p-2 h-100 xl:h-120 md:h-130 shadow-[8px_8px_0px_black] ml-7 mt-5 xl:ml-5 xl:mt-3 md:ml-30 md:mt-10" >
+				<a href="Apricity.html"><img src="img/anime/apricity.jpg" class=" px-10 py-5 w-50 xl:w-65 md:w-65 mx-7 ml-10 md:ml-15 xl:ml-15">
+				<p class="font-bold text-center">🔥❄️ Apricity <br>Anime • Fantasy • Action<br>Ice in one hand. Fire in the other. <br>One destiny waiting to be discovered. 🔥❄️<br>⭐ 4.9/5 📖 15.2K Reads</p></a>
+			</div>
+			 <div class="bg-white hover:border-white border border-4 border-yellow-600 rounded-t-2xl w-75 md:w-50 xl:w-100 md:w-100 p-2 h-100 xl:h-120 md:h-130 shadow-[8px_8px_0px_black] ml-7 mt-5 xl:ml-5 xl:mt-3 md:ml-30 md:mt-10" >
+				<a href="#"><img src="img/anime/better than revenge.jpg" class=" px-10 py-5 w-50 xl:w-65 md:w-65 mx-7 ml-10 md:ml-15 xl:ml-15">
+				<p class="font-bold text-center">💕 Better Than Revenge <br>Anime • Romance • Comedy<br>She wanted revenge. Instead,<br> she found something better. 💕✨<br>⭐ 4.8/5 📖 12.6K Reads</p></a>
+			</div>
+			 <div class="bg-white hover:border-white border border-4 border-yellow-600 rounded-t-2xl w-75 md:w-50 xl:w-100 md:w-100 p-2 h-100 xl:h-120 md:h-130 shadow-[8px_8px_0px_black] ml-7 mt-5 xl:ml-5 xl:mt-3 md:ml-30 md:mt-10" >
+				<a href="#"><img src="img/anime/butterfly.jpg" class=" px-10 py-5 w-50 xl:w-65 md:w-65 mx-7 ml-10 md:ml-15 xl:ml-15">
+				<p class="font-bold text-center">🦋 Butterfly <br>Anime • Romance • Fantasy<br>She was never meant to stay in the cocoon.<br> Her story begins when she learns to spread her wings. 🦋✨<br>⭐ 4.7/5 📖 11.9K Reads</p></a>
+			</div>
+		</div>
+	</section>
+	<!----treading---->
+	<section class="bg-gradient-to-b from-purple-300 to-white pb-20">
+		<p class="font-bold text-4xl text-center pt-5 font-serif">📖 Treading Stories</p>
+		<p class="font-black text-lg text-yellow-600 text-center pt-5" style="font-family:papyrus,Fantasy">Stories readers are discovering right now.</p>
+		<div class="border-3 [border-style:solid_dashed_solid_dashed] rounded-t-2xl rounded-b-2xl shadow-[8px_8px_0px_black] mt-20 ml-20 xl:ml-70 md:ml-20 w-50 h-80 xl:h-100 xl:w-100 md:w-70 md:h-80">
+			<p class="text-center pt-10 font-bold text-2xl xl:text-4xl md:text-4xl text-green-700">STORY</p>
+			<p class="text-center pt-5 xl:pt-10 md:pt-10 font-bold text-xl xl:text-2xlmd:text-2xl text-blue-700">01 APRICITY <BR>⭐ 4.9  📖 15.2K </P>
+			<p class="text-center pt-5 xl:pt-10 md:pt-10 font-bold text-xl xl:text-2xl md:text-2xl text-blue-700">02  BUTTERFLY <BR>⭐ 4.7  📖 11.9K </P>
+		</div>
+		<div class="border-3 [border-style:solid_dashed_solid_dashed] rounded-t-2xl rounded-b-2xl mt-5 xl:-mt-100 md:-mt-80 ml-20 xl:ml-170 md:ml-90 w-54 h-80 xl:h-100 xl:w-100 md:w-70 md:h-80">
+			<p class=" text-base xl:text-xl md:text-xl font-bold xl:pt-30 md:pt-5 pl-5"> Reads      <span class="text-red-500"> ████████████████</span> 15.2K</p>
+			<p class=" text-base xl:text-xl md:text-xl font-bold pt-3 pl-5">	Likes     <span class="text-red-500 pl-3">  ███████████████ </span>11.4K</p>
+			<p class=" text-base xl:text-xl md:text-xl font-bold pt-3 pl-5">	Bookmarks <span class="text-red-500">  ███████████</span>8.7K</p>
+			<p class=" text-base xl:text-xl md:text-xl font-bold pt-3 pl-5">	Comments  <span class="text-red-500">  ███████</span>5.6K</p>
+		</div>
+	</section>
+	<!---Discover Your Next Anime Story--->
+		<section>
+			<p class="font-bold text-4xl text-center pt-5 font-serif mt-10">🔍Discover Your Next Anime Story</p>
+			<p class="font-black text-lg text-yellow-600 text-center pt-5" style="font-family:papyrus,Fantasy">Not sure what to read next?<br><br><span class="text-orange-500">Explore stories based on the kind of experience you're looking for.</span></p>
+			<div class="xl:ml-30 md:ml-10">
+				<div class="overflow-x-scroll w-20 xl:w-40 md:w-40 h-70 ml-25 xl:ml-40 md:ml-5 mt-10 pl-50 bg-blue-200">
+					<p class="w-50 text-center text-xl font-bold pt-15">⚔️ Action & Adventure</p>
+					<p class="w-50 text-center font-semibold pt-5">Heroes, battles, quests, and worlds waiting to be explored.</p>
+				</div>
+				<p class=" xl:text-4xl md:text-sm mt-5 xl:-mt-45 md:-mt-45 ml-23 xl:ml-100 md:ml-55">✦ ────────────── ➸ ✦</p>
+				
+				<div class="overflow-x-scroll w-40 h-70 mt-5 xl:-mt-35 md:-mt-30 ml-25 xl:ml-230 md:ml-103 pl-50 bg-blue-200">
+					<p class="w-50 text-center text-xl font-bold pt-15">✨ Fantasy & Magic</p>
+					<p class="w-50 text-center font-semibold pt-5">Powerful abilities, magical realms, and supernatural adventures.</p>
+				</div>
+			</div>
+			<p class="text-2xl xl:text-6xl md:text-4xl ml-48 xl:ml-183 md:ml-85 xl:-mt-5 md:-mt-5">🌸</p>
+			<div class="xl:ml-30 md:ml-10 -mt-10">
+				<div class="overflow-x-scroll w-20 xl:w-40 md:w-40 h-70 ml-25 xl:ml-40 md:ml-5 mt-10 pl-50 bg-blue-200">
+					<p class="w-50 text-center text-xl font-bold pt-15">🏫 School Life</p>
+					<p class="w-50 text-center font-semibold pt-5">Friendships, rivalries, everyday moments, and unexpected adventures.</p>
+				</div>
+				<p class=" xl:text-4xl md:text-sm mt-5 xl:-mt-45 md:-mt-45 ml-23 xl:ml-100 md:ml-55">✦ ────────────── ➸ ✦</p>
+				
+				<div class="overflow-x-scroll w-40 h-70 mt-5 xl:-mt-35 md:-mt-30 ml-25 xl:ml-230 md:ml-103 pl-50 bg-blue-200">
+					<p class="w-50 text-center text-xl font-bold pt-15">👻 Supernatural</p>
+					<p class="w-50 text-center font-semibold pt-5">Strange powers, mysterious beings, and secrets beyond the ordinary.</p>
+				</div>
+			</div>
+		</section>
+		<!----Readers corner---->
+		<section class="pb-20">
+			<p class="font-bold text-4xl text-[#800020]  text-center pt-5 font-serif mt-20">READER'S CORNER</p>
+			<div class="xl:ml-80 md:ml-12">
+				<div class="grid grid-rows-3 grid-cols-3 border-4 border-double gap-x-5 xl:w-200 md:w-170 text-center text-xl font-bold mt-10 pt-5">
+				<p>📚 MOST READ</p>
+				<p>❤️ MOST LOVED</p>
+				<p>🔖 MOST SAVED</p>
+				
+				<p><span class="font-semibold text-base">APRICITY <br><br>15.2K reads </span></p>
+				<p><span class="font-semibold text-base">❤BETTER THAN REVENGE<br><br>2.8K likes </span></p>
+				<p><span class="font-semibold text-base">BUTTERFLY <br><br> 1.9K saves</span></p>
+				<p class="col-start-2 pt-5">💬<u> MOST DISCUSSED</u></p>
+				<p class="col-start-2 font-bold text-rose-500 text-xl">APRICITY <br> 640 Comments</p>
+				
+				</div>
+			</div>
+		</section>
+		<!----🌙 Continue Reading--->
+		<section class="bg-gradient-to-t from-pink-300 to-blue-950">
+			<p class="font-bold text-4xl text-yellow-600  text-center pt-5 font-serif mt-10">🌙 Continue Reading</p>
+			<p class="font-black text-xl text-red-700 text-center pt-5" style="font-family:papyrus,Fantasy">Your story doesn't have to end here.<br><br><span class="text-orange-500">If you've enjoyed these anime-inspired worlds, there's always another chapter waiting.</span></p>
+			<img src="img/anime/anime.png" class="w-100 h-100 xl:ml-140 md:ml-50 mt-5">
+			<p class="font-black text-xl  oblique text-center pt-5">Still looking for your next adventure?</p>
+			<p class="font-black text-xl italic text-center pt-5">Explore more stories from the Readora Chronicles library and find a world worth getting lost in.</p>
+			<button class="text-center p-2 bg-[#800020] text-white rounded-xl ml-25 xl:ml-170 md:ml-70 mt-5"><a href="#Stories">Explore More Stories →</a>
+		</section>
+			<!---footer---->
+		<section class="mt-10 pb-5 bg-gradient-to-r from-blue-950 to-yellow-600">
+			<p class="text-center font-black text-2xl text-slate-200">READORA CHRONICLES</p>
+			<p class="text-slate-200 text-center pt-2 font-bold">Discover a story. Enter its world. Keep reading.</p>
+			<p class="text-slate-200 text-center pt-2 italic font-serif">A place where stories become worlds, characters become unforgettable, and every page leads to something new.</p>
+			<div  class="grid-cols-1 md:grid grid-cols-2 xl:grid grid-cols-2 mt-5 ml-5 md:ml-10 xl:ml-70">
+				<div class=" text-slate-200 font-bold ml-0 text-center md:ml-0 xl:ml-0">
+				<p>Follow the Stories</p>
+				<p>Instagram · Facebook · X / Twitter</p>
+				<p>Get in Touch:-</p>
+				<p><u>hello@readorachronicles.com</u></p>
+				</div>
+				<div class=" text-slate-200 font-bold mt-5 md:mt-0 xl:mt-0 [line-height:2] mr-0 md:mr-0 xl:mr-50">
+				<p class="text-center">📖 Stories worth discovering. Worlds worth entering.</p>
+				<p class="text-center ml-5">© 2026 Readora Chronicles · All rights reserved.</p>
+				<p class="text-center">Privacy Policy · Terms & Conditions</p>
+				</div>
+			 </div>
+		</section>
+	</body>
+</html>	
+				
+				
+				
+	
+		

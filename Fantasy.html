@@ -1,0 +1,224 @@
+<html>
+	<head>
+			<title>Fantasy Page </title>
+			<meta charset="utf-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1"><!--responsive class--->
+			<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script><!--tailwind cdn-->
+	</head>
+	<body>
+	<!----navbar--->
+		<nav class="w-full bg-gradient-to-r from-yellow-600 to-blue-900 z-100 fixed ">
+		<div class=" mx-auto flex px-6 py-7 justify-between item-center h-25 md:mr-5 xl:mr-10">
+			<!----Logo---->
+			<a href="#"><img src="img/project logo.png" class="w-25 pl-5 md:w-45 md:pl-5 md:-ml-5 xl:pl-15 xl:w-50  rounded-xl -mt-5 md:mt-5 z-10"></a>
+			<!---desktop navigation--->
+			<div class="hidden md:flex md:space-x-10 xl:space-x-20 md:mr-10 text-white font-bold">
+			<ul class="hidden md:block">
+				<li>
+				<input type="checkbox" id="home" class="hidden peer">
+				<label for="home"><a href="index.html">Home</a></label>
+				</li>
+			</ul>
+			<ul class="hidden md:block ">
+				<li>
+				<input type="checkbox" id="Genres" class="hidden peer">
+				<label for="Genres">Genres</label>
+				<div class="hidden peer-checked:block text-black bg-stone-100">
+					<ul>
+						<li><a href="genres page.html">View All Genres</a></li>
+						<li><a href="thriller page.html">Thriller</a></li>
+						<li><a href="Fantasy.html">Fantasy</a></li>
+						<li><a href="romance page.html">Romance</a></li>
+						<li><a href="humor page.html">Humor</a></li>
+						<li><a href="anime page.html">Anime</a></li>
+					</ul>
+				</div>
+				</li>
+			</ul>
+			<ul class="hidden md:block">
+				<li>
+				<input type="checkbox" id="Popular" class="hidden peer">
+				<label for="Popular"><a href ="popular page.html">Popular</a></label>
+				</li>
+			</ul>
+			<ul class="hidden md:block">
+				<li>
+				<input type="checkbox" id="About" class="hidden peer">
+				<label for="About">Connect</label>
+				<div class="hidden peer-checked:block text-black bg-stone-100">
+				<ul>
+					<li><a href="about page.html">About Us</a></li>
+					<li><a href="Authors page.html">Authors</a></li>
+				</ul>
+				</li>
+			</ul>
+			
+			<!-- Desktop Button -->
+			<button class="xl:w-30 md:w-20 xl:ml-50 items-center bg-red-500 text-white"><a href="login page.html">Login</a></button>
+					
+			
+		</div>
+	
+	<!-- Mobile Menu Button -->
+		<label for="menuToggle" class="md:hidden flex flex-col space-y-1.5 cursor-pointer">
+			<span class="block w-6 h-0.5 bg-white"></span>
+			<span class="block w-6 h-0.5 bg-white"></span>
+			<span class="block w-6 h-0.5 bg-white"></span>
+		</label>
+	</div>
+	<!-- Hidden Checkbox -->
+		<input type="checkbox" id="menuToggle" class="hidden peer">
+
+		<!-- Mobile Menu -->
+		<div class="hidden peer-checked:block md:hidden bg-yellow-100 px-6 pb-4">
+		<ul>
+			<li>
+				<input type="checkbox" id="home" class="hidden peer">
+				<label for="home"><a href="index.html">Home</a></label>
+				</li>
+		</ul>
+		<ul>
+			<li>
+				<input type="checkbox" id="Genre" class="hidden peer">
+				<label for="Genre">Genres</label>
+				<div class="hidden peer-checked:block text-black bg-stone-100">
+					<ul>
+						<li><a href="genres page.html">View All Genres</a></li>
+						<li><a href="thriller page.html">Thriller</a></li>
+						<li><a href="Fantasy.html">Fantasy</a></li>
+						<li><a href="romance page.html">Romance</a></li>
+						<li><a href="humor page.html">Humor</a></li>
+						<li><a href="anime page.html">Anime</a></li>
+					</ul>
+			</li>
+		</ul>
+		<ul>
+			<li>
+				<input type="checkbox" id="Popular" class="hidden peer bg-stone-100">
+				<label for="Popular"><a href ="popular page.html">Popular</a></label>
+			</li>
+		</ul>
+
+		<ul>
+			<li>
+				<input type="checkbox" id="About Us" class="hidden peer bg-stone-100">
+				<label for="About Us">Connect</label>
+				<div class="hidden peer-checked:block text-black bg-stone-100">
+				<ul>
+					<li><a href="about page.html">About Us</a></li>
+					<li><a href="Authors page.html">Authors</a></li>
+				</ul>
+			</li>
+		</ul>
+			<button class="xl:w-30 md:w-20 xl:ml-50 items-center bg-red-500 text-white"><a href="login page.html">Login</a></button>
+		
+		</div>
+	</div>
+	</nav>
+	<!---hero---->
+	<section class="bg-amber-100">
+		  <p class="font-black text-4xl text-center pt-30" style="font-family:papyrus,Fantasy">Fantasy</p>
+		  <p class="font-black text-2xl text-pink-600 text-center pt-10" style="font-family:papyrus,Fantasy">Enter a World Beyond Imagination</p>
+		  <p class="text-xl  text-center pt-10"><i>Discover magical kingdoms, legendary creatures, brave heroes,<br> and unforgettable adventures where anything is possible.</i></p>
+		  <button class="border-pink-600 border-4 font-bold text-xs xl:text-xl md:text-base md:mt-10 md:mt-7 ml-20 md:ml-50 xl:mt-10 xl:ml-120 p-2 md:p-3 xl:p-3 rounded-xl"><a href ="#Stories">📖 Explore Stories</a></Button>
+		  <button class="border-pink-600 border-4 font-bold text-xs xl:text-xl md:text-base  md:-mt-12 md:ml-100 xl:mt-10 xl:ml-60 p-2 md:p-3 xl:p-3 rounded-xl"><a href ="#Magic">✨ Discover Magic</a></Button>
+	 </section>
+   	 <!---About Fantasy--->
+	 <section class=" bg-[#F5F3FF]">
+	     <p class="font-black text-2xl text-center pt-20 font-serif">CHAPTER I</p>
+	     <p class="font-bold text-xl text-center pt-5 font-serif">THE WORLD OF FANTASY</p>
+		 <p class="font-bold  text-xs xl:text-xl md:text-xl text-yellow-700 text-center" >✦ ─────────────── ✧ ─────────────── ✦</p>
+		 <p class="font-bold text-lg text-center pt-5"> “Where imagination becomes reality.”</p>
+		 <p class=" text-center xl:w-200 xl:ml-110 md:w-150 md:ml-20 pt-5">Fantasy opens the door to worlds beyond our own.
+			It takes readers through enchanted kingdoms,
+			ancient forests, mysterious lands and legendary
+			adventures where the impossible becomes possible.
+		 </p>
+		 <p class=" font-semibold text-center pt-5"><i> ✦ MAGIC   ✦ ADVENTURE   ✦ WONDER</i></p>
+		 <p class="font-bold  text-xs xl:text-xl md:text-xl text-yellow-700   text-center pb-5 pt-5" >✦ ─────────────── ✧ ─────────────── ✦</p>
+	</section>
+	<!-----Featured Stories---->
+	<section class="bg-yellow-100" id="Stories">
+		<p class="font-bold text-xl text-center pt-5 font-serif">📖 Featured Fantasy Stories</p>
+		<p class="font-black text-lg text-yellow-600 text-center pt-5" style="font-family:papyrus,Fantasy">Step into magical worlds filled with adventure, mystery, and unforgettable legends.</p>
+		<div class="flex flex-col space-y-3 md:flex-row md:space-y-0 xl:flex-row  md:mx-10 xl:mx-20 mt-10">	
+			<div class=" border border-gray-100 rounded-xl bg-white md:w-100 xl:w-100 shadow-inner mx-5 text-center overflow-hidden">
+				<a href="#"><img src="img/fantasy/golden dragon.jpg" class=" px-10 py-5 w-70 mx-7 md:ml-1 xl:ml-15">
+				<p class="font-bold">Golden Dragon <br>Fantasy • Adventure<br>An unexpected bond with a legendary dragon sends a young boy <br>on a journey filled with magic, danger, and destiny.<br>⭐ 4.8📖12.4K Reads</p></a>
+			</div>
+			<div class=" border border-gray-100 rounded-xl bg-white md:w-100 xl:w-100shadow-inner mx-5 text-center overflow-hidden">
+				<a href="the hidden academy.html"><img src="img/fantasy/hidden academy.jpg" class=" px-10 py-5 w-70 mx-7 md:ml-1 xl:ml-15">
+				<p class="font-bold">The Hidden Academy <br>Fantasy • Magic<br>An enchanted school, mysterious secrets, and a young student <br> about to discover that magic is only the beginning..<br>⭐ 4.9 📖15.8K Reads</p></a>
+			</div>
+			<div class=" border border-gray-100 rounded-xl bg-white md:w-100 xl:w-100 shadow-inner mx-5 text-center overflow-hidden">
+				<a href="#"><img src="img/fantasy/whispers of etheral.jpg" class=" px-10 py-5 w-70 mx-7 md:ml-1 xl:ml-15">
+				<p class="font-bold">Whispers of the Ethereal Threads<br>Fantasy • Magic<br>Ancient magic, mysterious threads of fate,<br> and a destiny waiting to be uncovered.<br>⭐ 4.8 📖11.6K Reads</p></a>
+			</div>
+		</div>
+	</section>
+	<!----Fantasy Theme--->
+	<section>
+		<p class="font-bold text-2xl text-orange-500 text-center pt-5 font-serif">🪄Fantasy Themes </p>
+		<img src="img/fantasy/map.jpg" class="w-full object-fit md:h-150 xl:h-200 p-10 ">
+	</section>
+	<!---Meet the Magical Creatures--->
+	<section id="Magic" class="bg-amber-200 pb-25 group">
+		<p class="font-bold text-2xl text-center text-rose-500 pt-5 font-san-serif">✨Meet the Magical Creatures</p>
+		<p class="font-black text-lg text-yellow-600 text-center pt-5" style="font-family:papyrus,Fantasy">Every fantasy world is home to creatures beyond imagination.</p>
+		<img src="img/fantasy/creatures.jpg" class="md:w-80 md:mt-5 md:ml-10 xl:w-100 xl:ml-40">
+		<div class=" mt-5 md:-mt-90 md:ml-96 md:w-90 xl:-mt-100 xl:ml-170 text-xl space-y-5">
+			<p class="text-center"><span class="text-xl font-bold border-2 rounded-3xl p-1 group-hover:text-red-500">🐉 Dragon</span><br>Powerful guardians of ancient legends.</p>
+			<p class="text-center"><span class="text-xl font-bold border-2 rounded-3xl p-1 group-hover:text-pink-500">🦄 Unicorn</span><br>Mystical creatures of purity and magic.</p>
+			<p class="text-center"><span class="text-xl font-bold border-2 rounded-3xl p-1 group-hover:text-red-700">🦅 Griffin</span><br>Fearless protectors of enchanted realms.</p>
+			<p class="text-center"><span class="text-xl font-bold border-2 rounded-3xl p-1 group-hover:text-orange-500">🔥 Phoenix</span><br>A legendary bird that rises from the ashes.</p>
+        </div>
+	</section>
+
+		
+		<!----page from RC--->
+		<section class="bg-amber-100 border border-blue-900 mt-10 pb-5">
+			<div class="mt-10 md:mt-20 xl:mt-10">
+				<p class="font-bold text-xl text-center text-green-500 pt-5 font-serif">📖 A Page from the Chronicles</p>
+				<div class=" mt-10 border border-5 rounded-xl bg-pink-100 md:w-100 md:mx-50 xl:w-200 xl:mx-100 shadow-inner mx-5 text-center overflow-hidden p-5">
+				“Every legend begins with a dream,
+				 every journey with a single step,
+				 and every magical world with a
+				 story waiting to be told.” <br><span class="text-lg text-red-500"> — Readora Chronicles</span></div>
+				 <div class="text-center mt-5 font-bold">
+					<p>Ready to begin your adventure?</p>
+					<button class="border-5 border-yellow-600 text-lg p-2 mt-5 rounded-xl"><a href="#Stories"> Explore Stories </a></button>
+				 </div>
+			 </div>
+		</section>
+		<!---footer---->
+	<section class="mt-10 bg-gradient-to-r from-blue-950 to-yellow-600">
+		<p class="text-center font-black text-2xl text-slate-200">READORA CHRONICLES</p>
+		<p class="text-slate-200 text-center pt-2 font-bold">Discover a story. Enter its world. Keep reading.</p>
+		<p class="text-slate-200 text-center pt-2 italic font-serif">A place where stories become worlds, characters become unforgettable, and every page leads to something new.</p>
+		<div  class="grid-cols-1 md:grid grid-cols-2 xl:grid grid-cols-2 mt-5 ml-5 md:ml-10 xl:ml-70">
+			<div class=" text-slate-200 font-bold ml-0 text-center md:ml-0 xl:ml-0">
+			<p>Follow the Stories</p>
+			<p>Instagram · Facebook · X / Twitter</p>
+			<p>Get in Touch:-</p>
+			<p><u>hello@readorachronicles.com</u></p>
+			</div>
+			<div class=" text-slate-200 font-bold mt-5 md:mt-0 xl:mt-0 [line-height:2] mr-0 md:mr-0 xl:mr-50">
+			<p class="text-center">📖 Stories worth discovering. Worlds worth entering.</p>
+			<p class="text-center ml-5">© 2026 Readora Chronicles · All rights reserved.</p>
+			<p class="text-center">Privacy Policy · Terms & Conditions</p>
+			</div>
+		 </div>
+	</section>
+	</body>
+</html>
+
+
+
+
+	
+
+
+	
+
+
+

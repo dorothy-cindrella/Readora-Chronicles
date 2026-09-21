@@ -1,0 +1,303 @@
+<html>
+	<head>
+			<title>Humor Page </title>
+			<meta charset="utf-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1"><!--responsive class--->
+			<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script><!--tailwind cdn-->
+	</head>
+	<body>
+	<!----navbar--->
+		<nav class="w-full bg-gradient-to-r from-yellow-600 to-blue-900 z-100 fixed ">
+		<div class=" mx-auto flex px-6 py-7 justify-between item-center h-25 md:mr-5 xl:mr-10">
+			<!----Logo---->
+			<a href="#"><img src="img/project logo.png" class="w-25 pl-5 md:w-45 md:pl-5 md:-ml-5 xl:pl-15 xl:w-50  rounded-xl -mt-5 md:mt-5 z-10"></a>
+			<!---desktop navigation--->
+			<div class="hidden md:flex md:space-x-10 xl:space-x-20 md:mr-10 text-white font-bold">
+			<ul class="hidden md:block">
+				<li>
+				<input type="checkbox" id="home" class="hidden peer">
+				<label for="home"><a href="index.html">Home</a></label>
+				</li>
+			</ul>
+			<ul class="hidden md:block ">
+				<li>
+				<input type="checkbox" id="Genres" class="hidden peer">
+				<label for="Genres">Genres</label>
+				<div class="hidden peer-checked:block text-black bg-stone-100">
+					<ul>
+						<li><a href="genres page.html">View All Genres</a></li>
+						<li><a href="thriller page.html">Thriller</a></li>
+						<li><a href="Fantasy.html">Fantasy</a></li>
+						<li><a href="romance page.html">Romance</a></li>
+						<li><a href="humor page.html">Humor</a></li>
+						<li><a href="anime page.html">Anime</a></li>
+					</ul>
+				</div>
+				</li>
+			</ul>
+			<ul class="hidden md:block">
+				<li>
+				<input type="checkbox" id="Popular" class="hidden peer">
+				<label for="Popular"><a href ="popular page.html">Popular</a></label>
+				</li>
+			</ul>
+			<ul class="hidden md:block">
+				<li>
+				<input type="checkbox" id="About" class="hidden peer">
+				<label for="About">Connect</label>
+				<div class="hidden peer-checked:block text-black bg-stone-100">
+				<ul>
+					<li><a href="about page.html">About Us</a></li>
+					<li><a href="Authors page.html">Authors</a></li>
+				</ul>
+				</li>
+			</ul>
+			
+			<!-- Desktop Button -->
+			<button class="xl:w-30 md:w-20 xl:ml-50 items-center bg-red-500 text-white"><a href="login page.html">Login</a></button>
+					
+			
+		</div>
+	
+	<!-- Mobile Menu Button -->
+		<label for="menuToggle" class="md:hidden flex flex-col space-y-1.5 cursor-pointer">
+			<span class="block w-6 h-0.5 bg-white"></span>
+			<span class="block w-6 h-0.5 bg-white"></span>
+			<span class="block w-6 h-0.5 bg-white"></span>
+		</label>
+	</div>
+	<!-- Hidden Checkbox -->
+		<input type="checkbox" id="menuToggle" class="hidden peer">
+
+		<!-- Mobile Menu -->
+		<div class="hidden peer-checked:block md:hidden bg-yellow-100 px-6 pb-4">
+		<ul>
+			<li>
+				<input type="checkbox" id="home" class="hidden peer">
+				<label for="home"><a href="index.html">Home</a></label>
+				</li>
+		</ul>
+		<ul>
+			<li>
+				<input type="checkbox" id="Genre" class="hidden peer">
+				<label for="Genre">Genres</label>
+				<div class="hidden peer-checked:block text-black bg-stone-100">
+					<ul>
+						<li><a href="genres page.html">View All Genres</a></li>
+						<li><a href="thriller page.html">Thriller</a></li>
+						<li><a href="Fantasy.html">Fantasy</a></li>
+						<li><a href="romance page.html">Romance</a></li>
+						<li><a href="humor page.html">Humor</a></li>
+						<li><a href="anime page.html">Anime</a></li>
+					</ul>
+			</li>
+		</ul>
+		<ul>
+			<li>
+				<input type="checkbox" id="Popular" class="hidden peer bg-stone-100">
+				<label for="Popular"><a href ="popular page.html">Popular</a></label>
+			</li>
+		</ul>
+
+		<ul>
+			<li>
+				<input type="checkbox" id="About Us" class="hidden peer bg-stone-100">
+				<label for="About Us">Connect</label>
+				<div class="hidden peer-checked:block text-black bg-stone-100">
+				<ul>
+					<li><a href="about page.html">About Us</a></li>
+					<li><a href="Authors page.html">Authors</a></li>
+				</ul>
+			</li>
+		</ul>
+			<button class="xl:w-30 md:w-20 xl:ml-50 items-center bg-red-500 text-white"><a href="login page.html">Login</a></button>
+		
+		</div>
+	</div>
+	</nav>
+  <!-- Hero -->
+  	<section class="relative overflow-hidden bg-yellow-100 py-20 px-6">
+  <div class="relative z-10 mx-auto max-w-5xl text-center mb-16 pt-10">
+    <p class="text-rose-500 font-serif italic text-2xl">The</p>
+
+    <h2 class="text-5xl md:text-6xl font-serif font-bold text-rose-900">
+      Humor😁
+    </h2>
+
+    <p class="mt-5 text-lg font-serif text-rose-700 italic font-bold">
+     Let the Laughing Begin
+    </p>
+	<marquee>
+	<p class="mt-5 text-xl font-serif text-rose-900 font-bold text-center ">Because sometimes the best escape is a story that makes you laugh until you forget everything else.</p>
+    </marquee>
+	<button class="text-center p-2 rounded-xl mt-5 text-white border-2 bg-red-500"><a href="#">📖 Find Your Next Laugh →</a></button>
+  </div>
+  <p class="mt-25 text-4xl ml-1 md:mt-25 md:text-6xl md:ml-5 xl:mt-20 xl:text-6xl xl:ml-30">🙃</p>
+  <p class="-mt-22 text-4xl ml-15 md:-mt-30 md:text-6xl md:ml-30 xl:-mt-30 xl:text-6xl xl:ml-70">😂</p>
+  <p class="-mt-23 text-4xl ml-30 md:-mt-25 md:text-6xl md:ml-55 xl:-mt-25 xl:text-6xl xl:ml-105">🥰</p>
+  <p class="-mt-11 text-4xl ml-50 md:-mt-15 md:text-6xl md:ml-103 xl:-mt-16 xl:text-6xl xl:ml-240">🙂</p>
+  <p class="mt-3 text-4xl ml-63 md:-mt-1 md:text-6xl md:ml-125 xl:-mt-1 xl:text-6xl xl:ml-265">😛</p>
+  <p class="mt-4 text-4xl ml-75 md:-mt-1 md:text-6xl md:ml-145 xl:-mt-1 xl:text-6xl xl:ml-295">😜</p>
+  </section>
+  <!---about---->
+  <section class="bg-gradient-to-b from-purple-300 to-white">
+  <div class="grid-cols-1 md:grid grid-cols-2 xl:grid grid-cols-2">
+	  <img src="img/humor/about.jpg" class="w-100 h-70 mt-5 xl:w-200 md:w-170 md:mt-10  xl:h-150 xl:mt-5 md:h-100 xl:ml-10 md:ml-5 ">
+	   <div>
+		   <p class="font-bold text-xl xl:text-3xl md:text-3xl text-center  pt-10  " style="font-family:lucida Handwritting,cursive;">😂 A LITTLE LAUGHTER <br><span class="text-blue-400 text-xl xl:text-2xl md:text-2xl"> GOES A LONG WAY</span></p>
+		   <p class="text-9xl text-center"></p>
+		   <p class="font-bold text-lg w-70 ml-15 md:ml-20 md:w-60 xl:text-xl xl:w-70 xl:ml-65 md:text-xl text-center mt-10 italic">Sometimes one story is all it takes <br> to <span class="text-purple-600">change your mood.</span></p> 
+		   <p class=" xl:text-xl font-bold pt-10 xl:mt-10 md:mt-10 text-center border [border-style:dashed_solid_dashed_solid] rounded-full p-5 h-33 xl:h-33 md:h-25 xl:w-80 md:ml-10 xl:ml-60">Because Every Reader deserves a <br>story that <span class="text-rose-500"><u>makes them smile</u></span>😂</p>
+       </div>
+  </div>
+  </section>
+  <!--Featured Romance Stories--->
+	<section class="bg-gradient-to-t from-white to-blue-950 mt-5 pb-10" id="Stories">
+		<p class="font-bold text-2xl text-white text-center pt-5 font-serif">📖 Featured Humor Stories</p>
+		<p class="font-black text-lg text-yellow-600 text-center pt-5" style="font-family:papyrus,Fantasy">Stories That Make you Laugh loud😂</p>
+		<div class="flex flex-col space-y-3 md:flex-row md:space-y-0 xl:flex-row  md:mx-10 xl:mx-20 mt-10">	
+			<div class=" border border-gray-100 rounded-xl bg-white md:w-100 xl:w-100 shadow-inner mx-5 text-center overflow-hidden">
+				<a href="Bet with devils.html"><img src="img/humor/bet with devils.jpg" class=" px-10 py-5 w-70 mx-7 md:ml-1 xl:ml-15">
+				<p class="font-bold">A Bet With the Devils <br>Humor • Romance • Chaos<br>Three devils. One girl.<br>One bet. Let the chaos begin. 😈🔥<br>⭐ 4.8/5 📖 13.7K Reads</p></a>
+			</div>
+			<div class=" border border-gray-100 rounded-xl bg-white md:w-100 xl:w-100shadow-inner mx-5 text-center overflow-hidden">
+				<a href="#"><img src="img/humor/streetlight.jpg" class=" px-10 py-5 w-70 mx-7 md:ml-1 xl:ml-15">
+				<p class="font-bold">🌸 Streelight <br>Humor • Romance • Slice of Life<br>Love, laughter, and a little everyday chaos—because<br> life is never as simple as it looks. 😄💗<br>⭐ 4.7/5 📖 11.8K Reads</p></a>
+			</div>
+			<div class=" border border-gray-100 rounded-xl bg-white md:w-100 xl:w-100 shadow-inner mx-5 text-center overflow-hidden">
+				<a href="#"><img src="img/humor/young wild married.jpg" class=" px-10 py-5 w-70 mx-7 md:ml-1 xl:ml-15">
+				<p class="font-bold">💕 Young, Wild and Married<br>Humor • Romance • Slice of Life<br>Young, married, and absolutely clueless<br> about what comes next. Let the chaos begin! 😂💍<br>⭐ 4.8/5 📖 12.9K Reads</p></a>
+			</div>
+		</div>
+	</section>
+	<!----laugh meter--->
+	<section class="bg-gradient-to-tr from-white to-yellow-700 pb-5">
+		<p class="font-bold text-2xl text-center pt-5 font-serif">🤣THE COMEDY METER</p>
+		<p class="font-black text-xl text-blue-950 text-center pt-5" style="font-family:papyrus,Fantasy">How Much Chaos Can You Handle?</p>
+		<p class="font-black text-lg text-blue-950 text-center pt-5">Every humor story has its own level of madness. From a tiny chuckle to complete reading chaos, find the kind of humor that matches your mood.</p>
+		<p class="font-black text-xl mt-10 text-center">😂 The 4 Levels:</p>
+		<div class="grid grid-cols-2 xl:mx-70 md:mx-5 mt-10">	
+			<div class=" border border-gray-100 rounded-xl bg-white md:w-80 xl:w-100 shadow-inner mx-5 text-center overflow-hidden">
+				<p class="font-black text-lg">🙂<br> Little Giggle</p>
+				<p class=" w-40 p-2 mb-5 xl:w-80 md:w-80 md:pl-5 md:pb-2 xl:pl-25 pt-5">Light jokes, cute moments, and a smile here and there.<p>
+			</div>
+			
+			<div class=" border border-gray-100 rounded-xl bg-white md:w-80 xl:w-100 shadow-inner mx-5 text-center overflow-hidden">
+				<p class="font-black text-lg">😆<br> Good Laugh</p>
+				<p class="w-40 p-2 mb-5 xl:w-80 md:w-80 md:pl-5 md:pb-2 xl:pl-25 pt-5">Funny characters, awkward situations, and plenty of unexpected moments.<p>
+			</div>
+			<div class=" mt-10 border border-gray-100 rounded-xl bg-white md:w-80 xl:w-100 shadow-inner mx-5 text-center overflow-hidden">
+				<p class="font-black text-lg">😂<br> Can't Stop Laughing</p>
+				<p class="w-40 p-2 mb-5 xl:w-80 md:w-80 md:pl-5 md:pb-2 xl:pl-25 pt-5">One chapter turns into another because the chaos never ends.<p>
+			</div>
+			
+			<div class=" mt-10 border border-gray-100 rounded-xl bg-white md:w-80 xl:w-100 shadow-inner mx-5 text-center overflow-hidden">
+				<p class="font-black text-lg">🤣<br> Total Chaos</p>
+				<p class="w-40 p-2 mb-5 xl:w-80 md:w-80 md:pl-5 md:pb-2 xl:pl-25 pt-5">Absolutely ridiculous. Completely unpredictable. Read at your own risk.<p>
+			</div>
+		  </div>
+	</section>
+	<!----When Things Go Wrong--->
+	<section class="pb-5">
+		<p class="font-bold text-2xl text-center pt-5 font-serif">When Things Go Wrong</p>
+		<p class="font-black text-xl text-red-600 text-center pt-5" style="font-family:papyrus,Fantasy">Because the funniest stories rarely go according to plan.</p>
+		<p class="font-black text-lg text-blue-950 text-center pt-5">Sometimes a bad decision becomes a great story. Sometimes one tiny mistake creates complete chaos. And sometimes the characters simply make everything worse. 😅.</p>
+		<div>
+		   <div class="overflow-y-scroll h-40 pt-40 w-70 ml-13 xl:ml-155 md:ml-62 bg-yellow-100">
+			   <p class=" text-2xl font-bold text-center">😬 The Awkward Moment</p>
+				<p class="w-60 text-center font-semibold  pt-5 pl-5">That moment when you wish the ground would open up and swallow you.</p>
+		   </div>
+		   <p class="text-6xl text-center my-5">↓</p>
+		    <div class="overflow-y-scroll h-40 pt-40 w-70 ml-13 xl:ml-155 md:ml-62 bg-red-300">
+			   <p class=" text-2xl font-bold text-center">🤦 The Bad Decision</p>
+				<p class="w-60 text-center font-semibold  p-5 pl-11">It seemed like a brilliant idea... for about five seconds.</p>
+		   </div>
+		   <p class="text-6xl text-center my-5">↓</p>
+		    <div class="overflow-y-scroll h-40 pt-40 w-70 ml-13 xl:ml-155 md:ml-62 bg-blue-300">
+			   <p class=" text-2xl font-bold text-center">💥 The Unexpected Chaos</p>
+				<p class="w-60 text-center font-semibold  p-3 pl-8">One small problem turns into an unforgettable disaster.</p>
+		   </div>
+		    <p class="text-6xl text-center my-5">↓</p>
+		    <div class="overflow-y-scroll h-40 pt-40 w-70 ml-13 xl:ml-155 md:ml-62 bg-green-300">
+			   <p class=" text-2xl font-bold text-center">😂 The Happy Ending</p>
+				<p class="w-60 text-center font-semibold  p-3 pl-5">Everything goes wrong—but somehow, it becomes the best part of the story.</p>
+		   </div>
+		  </div>
+	</section>
+	<!----Editors pick--->
+	<section class="bg-black pt-5 pb-5">
+		<div class="xl:grid grid-cols-2 md:grid grid-cols-2 mt-20">
+		  <img src="img/humor/bet with devils.jpg" class=" xl:ml-20 md:ml-5">
+		  <div class="xl:ml-0 md:ml-5 pt-20">
+			 <p class=" text-3xl font-bold ml-10 xl:ml-5 md:ml-5 text-white" >✨ EDITOR'S PICK<br> ───────────────</p>
+			<div class=" ml-10 xl:ml-0 md:ml-0 opacity-50 transition-opacity duration-700 ease-out hover:opacity-100 text-2xl font-bold text-red-600"style="text-shadow:2px 2px 5px red;">
+			😈 A BET WITH THE DEVILS 
+			</div>
+			<p class=" text-xl font-bold py-5 ml-20 xl:ml-10 md:ml-10 text-white">Humor • Romance • Chaos <br>⭐ 4.8/5   📖 13.7K Reads</p>
+			<p class="w-55 text-center font-bold ml-25 md:ml-15 xl:ml-15 text-white">“Three devils. One girl.One ridiculous bet...”</p>
+			<p class=" text-xl font-bold py-5 ml-25 xl:ml-20 md:ml-20 text-white">WHY WE PICKED IT:-</p>
+			<p class=" text-lg font-bold text-white text-center xl:-ml-100 md:text-center">A fun, chaotic story with unexpected moments...</p>
+		 </div>
+		</div>
+	</section>
+	<!---Explore more--->
+	<section>
+		<p class="font-bold text-2xl text-center pt-10 font-serif">Not Done Laughing Yet?</p>
+		<p class="font-black text-xl text-red-600 text-center pt-5" style="font-family:papyrus,Fantasy">There are plenty more stories waiting for you.</p>
+		<p class="font-black text-lg text-yellow-950 text-center pt-5">Discover more humorous adventures, hilarious characters, awkward romances, and unexpected chaos from the Readora Chronicles library.</p>
+		<p class="xl:mt-55 md:mt-20 font-black text-3xl ml-20 xl:-ml-280 md:ml-10  md:text-center" >Browse by Style</p>
+		<button class="border-2 border-red-500 text-center p-2 rounded-xl ml-30 xl:ml-20 md:ml-80 mt-5"><a href="#Stories">THE HUMOR SHELF</a></button>
+		<div class=" mt-40 xl:-mt-30 md:mt-40 -ml-95 xl:ml-20 md:-ml-75">
+			<div class=" border-2 p-2 w-45 h-45 xl:w-55 xl:h-55 md:w-55 md:h-55 rounded-full -mt-25  ml-100 xl:-mt-5 md:-mt-5 xl:ml-100 md:ml-100">
+				<p class="font-black mt-5 pl-8 " >😂 Comedy</p>
+				<p class="text-center font-semibold pt-10">Pure laughs and ridiculous situations.</p>
+			</div>
+			<div class=" border-2 p-2 w-45 h-45 xl:w-55 xl:h-55 md:w-55 md:h-55 rounded-full -mt-5 ml-142 xl:-mt-85 xl:ml-142 md:-mt-85 md:ml-142">
+				<p class="font-black mt-5 pl-5 xl:pl-12 md:pl-12" >💕 Romantic Comedy</p>
+				<p class="text-center font-semibold pt-5">Pure laughs and ridiculous situations.</p>
+			</div>
+			<div class=" border-2 p-2 w-45 h-45 xl:w-55 xl:h-55 md:w-55 md:h-55 rounded-full ml-100 xl:-mt-24 xl:ml-184 md:-mt-24 md:ml-184">
+				<p class="font-black mt-5 pl-12" >🤪 Chaotic Adventures</p>
+				<p class="text-center font-semibold pt-5">When every decision somehow makes things worse.</p>
+			</div>
+			<div class=" border-2 p-2 w-45 h-45 xl:w-55 xl:h-55 md:w-55 md:h-55 rounded-full -mt-5 ml-142 xl:-mt-26 xl:ml-142 md:-mt-26 md:ml-142">
+				<p class="font-black mt-5 pl-5 xl:pl-12 md:pl-12" >🌿 Slice of Life</p>
+				<p class="text-center font-semibold pt-3 xl:pt-10 md:pt-10">Everyday moments with an unexpectedly funny twist.</p>
+			</div>
+		</div>
+	</section>
+	
+	<!---footer---->
+	
+	<section class="mt-10 pb-5 bg-gradient-to-r from-blue-950 to-yellow-600">
+		<p class="text-center font-black text-2xl text-slate-200">READORA CHRONICLES</p>
+		<p class="text-slate-200 text-center pt-2 font-bold">Discover a story. Enter its world. Keep reading.</p>
+		<p class="text-slate-200 text-center pt-2 italic font-serif">A place where stories become worlds, characters become unforgettable, and every page leads to something new.</p>
+		<div  class="grid-cols-1 md:grid grid-cols-2 xl:grid grid-cols-2 mt-5 ml-5 md:ml-10 xl:ml-70">
+			<div class=" text-slate-200 font-bold ml-0 text-center md:ml-0 xl:ml-0">
+			<p>Follow the Stories</p>
+			<p>Instagram · Facebook · X / Twitter</p>
+			<p>Get in Touch:-</p>
+			<p><u>hello@readorachronicles.com</u></p>
+			</div>
+			<div class=" text-slate-200 font-bold mt-5 md:mt-0 xl:mt-0 [line-height:2] mr-0 md:mr-0 xl:mr-50">
+			<p class="text-center">📖 Stories worth discovering. Worlds worth entering.</p>
+			<p class="text-center ml-5">© 2026 Readora Chronicles · All rights reserved.</p>
+			<p class="text-center">Privacy Policy · Terms & Conditions</p>
+			</div>
+		 </div>
+	</section>
+    </body>
+</html>
+		
+
+		
+
+
+	
+  
+  
+  
+  
+
+
