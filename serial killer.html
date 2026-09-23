@@ -1,0 +1,277 @@
+<html>
+	<head>
+			<title>Serial killer </title>
+			<meta charset="utf-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1"><!--responsive class--->
+			<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script><!--tailwind cdn-->
+	</head>
+	<body>
+	<!----navbar--->
+		<nav class="w-full bg-gradient-to-r from-yellow-600 to-blue-900 z-100 fixed ">
+		<div class=" mx-auto flex px-6 py-7 justify-between item-center h-25 md:mr-5 xl:mr-10">
+			<!----Logo---->
+			<a href="#"><img src="img/project logo.png" class="w-25 pl-5 md:w-45 md:pl-5 md:-ml-5 xl:pl-15 xl:w-50  rounded-xl -mt-5 md:mt-5 z-10"></a>
+			<!---desktop navigation--->
+			<div class="hidden md:flex md:space-x-10 xl:space-x-20 md:mr-10 text-white font-bold">
+			<ul class="hidden md:block">
+				<li>
+				<input type="checkbox" id="home" class="hidden peer">
+				<label for="home"><a href="index.html">Home</a></label>
+				</li>
+			</ul>
+			<ul class="hidden md:block ">
+				<li>
+				<input type="checkbox" id="Genres" class="hidden peer">
+				<label for="Genres">Genres</label>
+				<div class="hidden peer-checked:block text-black bg-stone-100">
+					<ul>
+						<li><a href="genres page.html">View All Genres</a></li>
+						<li><a href="thriller page.html">Thriller</a></li>
+						<li><a href="Fantasy.html">Fantasy</a></li>
+						<li><a href="romance page.html">Romance</a></li>
+						<li><a href="humor page.html">Humor</a></li>
+						<li><a href="anime page.html">Anime</a></li>
+					</ul>
+				</div>
+				</li>
+			</ul>
+			<ul class="hidden md:block">
+				<li>
+				<input type="checkbox" id="Popular" class="hidden peer">
+				<label for="Popular"><a href ="popular page.html">Popular</a></label>
+				</li>
+			</ul>
+			<ul class="hidden md:block">
+				<li>
+				<input type="checkbox" id="About" class="hidden peer">
+				<label for="About">Connect</label>
+				<div class="hidden peer-checked:block text-black bg-stone-100">
+				<ul>
+					<li><a href="about page.html">About Us</a></li>
+					<li><a href="Authors page.html">Authors</a></li>
+				</ul>
+				</li>
+			</ul>
+			
+			<!-- Desktop Button -->
+			<button class="xl:w-30 md:w-20 xl:ml-50 items-center bg-red-500 text-white"><a href="login page.html">Login</a></button>
+					
+			
+		</div>
+	
+	<!-- Mobile Menu Button -->
+		<label for="menuToggle" class="md:hidden flex flex-col space-y-1.5 cursor-pointer">
+			<span class="block w-6 h-0.5 bg-white"></span>
+			<span class="block w-6 h-0.5 bg-white"></span>
+			<span class="block w-6 h-0.5 bg-white"></span>
+		</label>
+	</div>
+	<!-- Hidden Checkbox -->
+		<input type="checkbox" id="menuToggle" class="hidden peer">
+
+		<!-- Mobile Menu -->
+		<div class="hidden peer-checked:block md:hidden bg-yellow-100 px-6 pb-4">
+		<ul>
+			<li>
+				<input type="checkbox" id="home" class="hidden peer">
+				<label for="home"><a href="index.html">Home</a></label>
+				</li>
+		</ul>
+		<ul>
+			<li>
+				<input type="checkbox" id="Genre" class="hidden peer">
+				<label for="Genre">Genres</label>
+				<div class="hidden peer-checked:block text-black bg-stone-100">
+					<ul>
+						<li><a href="genres page.html">View All Genres</a></li>
+						<li><a href="thriller page.html">Thriller</a></li>
+						<li><a href="Fantasy.html">Fantasy</a></li>
+						<li><a href="romance page.html">Romance</a></li>
+						<li><a href="humor page.html">Humor</a></li>
+						<li><a href="anime page.html">Anime</a></li>
+					</ul>
+			</li>
+		</ul>
+		<ul>
+			<li>
+				<input type="checkbox" id="Popular" class="hidden peer bg-stone-100">
+				<label for="Popular"><a href ="popular page.html">Popular</a></label>
+			</li>
+		</ul>
+
+		<ul>
+			<li>
+				<input type="checkbox" id="About Us" class="hidden peer bg-stone-100">
+				<label for="About Us">Connect</label>
+				<div class="hidden peer-checked:block text-black bg-stone-100">
+				<ul>
+					<li><a href="about page.html">About Us</a></li>
+					<li><a href="Authors page.html">Authors</a></li>
+				</ul>
+			</li>
+		</ul>
+			<button class="xl:w-30 md:w-20 xl:ml-50 items-center bg-red-500 text-white"><a href="login page.html">Login</a></button>
+		
+		</div>
+	</div>
+	</nav>
+		<!----hero--->
+		
+		<section class="bg-black pt-10 h-240 md:h-195 xl:h-195 pb-10 md:pb-10 xl:pb-10">
+		<img src="img/thriller/serial killer in me.jpg" class="w-100 h-140 md:w-70 md:h-140 xl:w-120 xl:h-140 ml-0 md:ml-5 xl:ml-50 mt-20 md:mt-30  xl:mt-40 object-fit  hover:border-4 border-double border-white ">
+		<div class="mt-3 md:-mt-120 ml-20 pt-0  md:ml-80 md:pt-10 xl:-mt-130 xl:ml-200 xl:pt-10">
+			<p class="text-white font-bold text-lg md:text-4xl xl:text-5xl pl-10 texr-center">YOU ARE READING</p>
+			<p class="text-white font-bold text-lg md:text-4xl pl-7 xl:text-5xl md:pl-1 xl:pl-1 pt-5 [text-shadow:2px_2px_8px_red]"> The Serial Killer in me</p>
+			<p class="text-white font-bold -ml-3 md:text-xl xl:text-xl md:ml-10 xl:ml-20 mt-5 hover:[text-shadow:2px_2px_8px_red]">Thriller • Mystery • Psychological</p>
+			<p class="text-white font-bold md:text-xl md:text-center ml-2 md:ml-15 xl:ml-30 xl:text-xl mt-3 w-60 xl:w-70 md:w-70">⭐ 4.8/5 · 📖 12.6K Reads</p>
+			<p class="text-white font-bold text-lg md:text-xl md:text-center ml-3 md:ml-15 xl:ml-30 xl:text-xl mt-3 w-60 xl:w-70 md:w-70">Ongoing · 21 Chapters</p>
+			<button class="text-xl md:text-2xl xl:text-2xl text-white ml-10 md:ml-30 xl:ml-45 mt-5 md:mt-10 xl:mt-10 border shadow-inner p-1 rounded-xl"style="text-shadow:2px 2px 8px red"><a href="#Stories">Start Reading</a></Button>
+		</div>
+	</section>
+	
+	<!----the Story--->
+	
+	<section>
+		<p class="text-center text-base md:text-3xl xl:text-3xl mt-10  text-red-500">𓆩𓆪𓆪𓆩𓆩𓆪𓆪𓆩𓆩𓆪𓆪𓆩𓆩𓆪𓆪𓆩𓆩𓆪𓆪𓆩𓆩𓆪𓆪𓆩𓆩𓆪𓆪𓆩𓆩𓆪𓆪𓆩𓆩𓆪𓆪𓆩𓆩𓆪𓆪𓆩𓆩𓆪</p>
+		<img src="img/thriller/letter.jpg" class="mt-10 md:w-150 md:h-150 xl:w-150 xl:h-150 md:ml-20 xl:ml-110 ">
+		<div class="pt-145 mt-265 xl:mt-225 xl:pt-150 md:pt-150 md:mt-225 absolute inset-0 mt-20 bg-black/70 h-130 xl:h-150   w-98 h-147  xl:w-150 md:w-150 md:h-150 pl-0 xl:ml-110 xl:pl-1 md:ml-20 md:pl-2 text-2xl opacity-100 text-white font-bold ">
+			<p class="text-xl md:text-2xl xl:text-2xl opacity-100 font-black -mt-140 text-center">The Story <br>What If the Killer Isn't a Stranger?</p>
+			<p class="text-center font-bold text-base md:text-lg xl:text-lg w-80 md:w-100 xl:w-100 [line-height:1.7] ml-7 md:ml-25 xl:ml-25 pt-5">Everyone believes a killer should be easy to recognize.
+			  A monster hiding in the shadows. A stranger with a dangerous secret. Someone completely different from everyone else.
+			  But what if the person you're searching for has been beside you all along?
+			  When disturbing memories begin surfacing and strange gaps appear in the past, the line between suspicion and reality starts to disappear. The deeper the investigation goes, the more unsettling the truth becomes.<br>
+			  <span class="text-red-500"><b>Because sometimes the person you're afraid of isn't the one watching you. It's the one looking back from the mirror.</b></span></p>
+		</div>
+		<p class="ml-5 md:ml-18 xl:ml-105 inline-block rotate-180  text-base md:text-3xl xl:text-3xl mt-10  text-red-500">𓆩𓆪𓆪𓆩𓆩𓆪𓆪𓆩𓆩𓆪𓆪𓆩𓆩𓆪𓆪𓆩𓆩𓆪𓆪𓆩𓆩𓆪𓆪𓆩𓆩𓆪𓆪𓆩𓆩𓆪𓆪𓆩𓆩𓆪𓆪𓆩𓆩𓆪𓆪𓆩𓆩𓆪</p>
+	</section>
+	
+	<!---images--->
+	
+	<section>
+		<div class=" mt-20 bg-red-700  pb-1 w-full xl:mt-0 xl:pt-5 xl:w-full md:mt-20 md:pb-5 md:w-full h-440 md:h-385 xl:h-225">
+			<div>
+				<p class="text-xl md:text-2xl xl:text-2xl text-white opacity-100 font-black md:pt-10 xl:mt-5 text-center">Story Atmosphere — Shadows of the Investigation</p>
+				<p class="text-xl md:text-2xl xl:text-xl text-yellow-400 pb-10 opacity-100 font-bold mt-5 text-center italic">Every shadow hides a possibility. Every detail could change the case.</p>
+			</div>
+			<div>
+			<img src="img/thriller/SK1.png" class="w-85 ml-7 mt-5 h-80 md:w-90 md:ml-10 md:mt-10 md:h-80 xl:ml-25 xl:w-100 xl:h-100 rounded-2xl xl:-rotate-[7deg] md:rotate-[0deg] border-6 border-white ">
+			<img src="img/thriller/SK2.png" class="w-70 ml-15 mt-5 h-60 md:w-80 md:ml-105 md:-mt-75 md:h-70 xl:ml-70 z-10 xl:w-80 xl:h-70 xl:-mt-50 xl:-rotate-[7deg] md:rotate-[0deg] rounded-2xl border-9 border-black ">
+			<img src="img/thriller/SK3.png" class="w-60 ml-20 mt-5 h-min md:w-110 md:ml-40 md:mt-10 md:w-90 xl:ml-20 xl:w-70 xl:h-60 xl:-mt-30 xl:-rotate-[7deg] md:rotate-[0deg] rounded-2xl border-6 border-white ">
+			</div>
+			<div class="md:ml-10 md:mt-10 xl:-mt-160 xl:pl-180">
+			<img src="img/thriller/SK4.png" class="w-85 ml-7 mt-5 h-80 md:w-90 md:ml-5 md:mt-10 md:h-80 xl:w-100 xl:h-100 rounded-2xl xl:rotate-[7deg] md:rotate-[0deg] border-6 border-black ">
+			<img src="img/thriller/SK5.png" class="w-70 ml-15 mt-5 h-60 md:w-80 md:ml-100 md:-mt-75 md:h-70 md:h-max xl:ml-80 z-10 xl:w-80 xl:h-70 xl:-mt-50 xl:rotate-[7deg] md:rotate-[0deg] rounded-2xl border-9 border-black ">
+			<img src="img/thriller/SK6.png" class="w-60 ml-20 mt-5 h-min md:w-110 md:ml-40 md:mt-30 md:w-90 md:h-max xl:ml-30 xl:w-70 xl:h-60 xl:-mt-40 xl:rotate-[7deg] md:rotate-[0deg] rounded-2xl border-6 border-white ">
+			</div>
+		</div>
+	</section>
+	
+	
+	<!----🧠 The Mind Behind the Crime--->
+	<section class="bg-stone-300 w-full h-455 xl:h-210 md:h-210">
+	<div class="grid-rows-3 md:grid grid-cols-3 xl:grid grid-cols-3">
+		<img src="img/thriller/SK7.png" class="w-full h-180">
+		<div>
+			<p class="text-xl md:text-2xl xl:text-2xl  opacity-100 font-black md:pt-10 xl:mt-20 text-center font-serif text-red-700">🧠 The Mind Behind the Crime</p>
+			<p class="text-xl md:text-2xl xl:text-xl  pb-5 md:pb-10 xl:pb-10 opacity-100 font-bold mt-5 text-center italic font-serif text-gray-700">When You Can't Trust Your Own Mind</p>
+			<p class="text-center text-lg font-semibold px-3 md:px-5 xl:px-10">Fear becomes different when the danger isn't outside you.
+			   Memories begin contradicting each other. Familiar places feel unfamiliar. Moments that should be forgotten return with unsettling clarity.
+			   The story explores the fragile boundary between identity, memory, obsession, and reality.
+			   The question isn't only “Who is the killer?”
+			   It's “How well can you really know yourself?”</p>
+		</div>
+		<img src="img/thriller/SK8.png" class="w-full h-180">
+	</div>
+	</section>
+	<!----🕵️ Inside the Investigation--->
+	<SECTION class="mt-5">
+		
+		<p class="text-xl md:text-2xl xl:text-2xl font-black md:pt-10 xl:mt-20 text-center font-serif text-red-700">🕵️ Inside the Investigation</p>
+	    <p class="text-xl md:text-2xl xl:text-xl  pb-5 md:pb-10 xl:pb-10 opacity-100 font-bold mt-5 text-center italic font-serif text-gray-700">The Case Keeps Changing</p>
+		<div class="grid-rows-3 md:grid-rows-3 xl:grid grid-cols-3 gap-x-5 mx-20 -mt-10">
+			<div class="md:w-150 xl:w-110 mt-10 md:mt-10 xl:mt-25 text-center text-xl font-bold [line-height:1.7]">
+				<p>•Every discovery changes the picture.<br>
+					•A new witness.<br>
+					•A missing detail.<br>
+					•A memory that doesn't fit.<br>
+					•The investigation moves forward, but certainty keeps moving further away.<br>
+					•The closer the truth gets, the harder it becomes to know who to believe.</p>
+			</div>
+			<p class="text-4xl xl:text-6xl md:text-6xl text-center font-black ml-5 md:ml-10 xl:ml-20 mt-5 md:mt-10 xl:mt-40  text-red-500 font-serif">THE UNKNOWN</p>
+			<div class=" ">
+				<p class="xl:text-center mt-5 pl-20 md:pl-70 xl:pl-10 font-bold text-orange-500 text-xl">WITNESS</p>
+				<p class="ml-28 md:ml-78 xl:ml-55 text-5xl xl:text-7xl md:text-7xl">↓</p>
+				<p class="xl:text-center mt-1 pl-20 md:pl-70 xl:pl-10 font-bold text-orange-500 text-xl">MEMORY</p>
+				<p class="ml-28 md:ml-78 xl:ml-55 text-5xl xl:text-7xl md:text-7xl">↓</p> 
+				<p class="xl:text-center mt-1 pl-20 md:pl-70 xl:pl-10 font-bold text-orange-500 text-xl">EVIDENCE</p>
+				<p class="ml-28 md:ml-78 xl:ml-55 text-5xl xl:text-7xl md:text-7xl">↓</p> 
+				<p class="xl:text-center mt-1 pl-20 md:pl-70 xl:pl-10 font-bold text-orange-500 text-xl">SUSPECT</p>
+			</div>
+		</div>
+	</SECTION>
+	<!---🩸 The Pattern---->
+	<section>
+		<p class="text-2xl md:text-2xl xl:text-2xl font-black mt-20 md:pt-10 xl:-mt-170 text-center font-serif text-red-700">🩸 The Pattern</p>
+	    <p class="text-xl md:text-2xl xl:text-xl  pb-5 md:pb-10 xl:pb-10 opacity-100 font-bold mt-5 text-center italic font-serif text-gray-700">Every Crime Leaves Something Behind</p>
+		<div class="flex md:space-x-5 xl:space-x-10 md:ml-5 xl:ml-50">
+			<div class="border-2 rounded-2xl bg-lime-200 md:w-130 md:h-54 xl:w-130 xl:h-50 pt-10">
+				<p class="text-center font-bold text-lg">One incident can be dismissed.<br>
+				Two can be a coincidence.<br>
+				But when the same details begin appearing again and again, coincidence stops being an explanation.</p>
+			</div>
+			<div class="border-2 rounded-2xl bg-lime-200 md:w-130 md:h-54 xl:w-130 xl:h-50 pt-5">
+				<p class="text-center font-bold text-lg">A familiar symbol.<br>
+				The same unexplained detail.<br>
+				A pattern no one noticed until it was almost too late.<br>
+				Somewhere between the evidence and the memories is a connection waiting to be uncovered.</p>
+				</div>
+		</div>
+			<div>
+				<p class="text-center font-black text-2xl mt-5">THE PATTERN</p>
+				<p class="text-center font-black text-2xl mt-5">	●──────────────●</p>
+				<p class="text-center font-black text-2xl  ml-1 [word-spacing:235px]">	│   │</p>
+				 <p class="text-center font-bold text-xl  ml-4 [word-spacing:155px]">SYMBOL         MEMORY</p>
+				<p class="text-center font-black text-2xl  ml-1 [word-spacing:235px]">│              │</p>
+				<p class="text-center font-black text-2xl">	●──────●───────●</p>
+				<p class="text-center font-black text-2xl mr-4">		 │</p>
+					<p class="text-center font-bold text-2xl">	  DETAIL</p>
+						<p class="text-center font-black text-2xl mr-4">	 │</p>
+						 <p class="text-center font-black text-2xl mr-4">●</p>
+					   <p class="text-center font-black text-2xl ">	??????</p>
+			</div>
+	</section>
+	<!---🌘 The Door Is Still Open-->
+		<section class="pb-10">
+		   <p class="font-black text-2xl text-yellow-600 text-center pt-10 md:pt-30 xl:pt-30" style="font-family:papyrus,Fantasy">🚪 The Case Is Waiting</p>
+		   <p class="font-black text-lg text-yellow-600 text-center pt-5" style="font-family:papyrus,Fantasy">Would You Follow the Evidence?</p>
+		   <div class="-mt-30">
+			   <p class=" text-center font-semibold text-2xl text-pink-500 [line-height:2] mt-40 md:mt-40 xl:mt-50 md:ml-100 xl:ml-170">The investigation has begun.<br>The memories are surfacing.
+				<br>And someone is hiding behind the story.</p>
+			   <p class=" text-center font-bold text-2xl text-red-500 [line-height:2] md:mt-5 xl:mt-5 md:ml-100 xl:ml-170">But the truth isn't going to reveal itself.<br>
+				  Start reading and uncover the case.</p>
+				<img src="img/thriller/SK9.png" class="w-150 h-100 md:w-80 md:h-100 xl:w-150 xl:h-100 md:-mt-100 ml-0 xl:-mt-70 md:ml-10 xl:ml-40">
+		    </div>
+		</section>
+		<!---footer---->
+	<section class="-mt-10 bg-gradient-to-r from-blue-950 to-yellow-600">
+		<p class="text-center font-black text-2xl text-slate-200">READORA CHRONICLES</p>
+		<p class="text-slate-200 text-center pt-2 font-bold">Discover a story. Enter its world. Keep reading.</p>
+		<p class="text-slate-200 text-center pt-2 italic font-serif">A place where stories become worlds, characters become unforgettable, and every page leads to something new.</p>
+		<div  class="grid-cols-1 md:grid grid-cols-2 xl:grid grid-cols-2 mt-5 ml-5 md:ml-10 xl:ml-70">
+			<div class=" text-slate-200 font-bold ml-0 text-center md:ml-0 xl:ml-0">
+			<p>Follow the Stories</p>
+			<p>Instagram · Facebook · X / Twitter</p>
+			<p>Get in Touch:-</p>
+			<p><u>hello@readorachronicles.com</u></p>
+			</div>
+			<div class=" text-slate-200 font-bold mt-5 md:mt-0 xl:mt-0 [line-height:2] mr-0 md:mr-0 xl:mr-50">
+			<p class="text-center">📖 Stories worth discovering. Worlds worth entering.</p>
+			<p class="text-center ml-5">© 2026 Readora Chronicles · All rights reserved.</p>
+			<p class="text-center">Privacy Policy · Terms & Conditions</p>
+			</div>
+		 </div>
+	</section>
+	</body>
+</html>
+		
+
