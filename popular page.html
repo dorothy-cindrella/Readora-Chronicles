@@ -1,0 +1,317 @@
+<html>
+	<head>
+			<title>Popular Page </title>
+			<meta charset="utf-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1"><!--responsive class--->
+			<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script><!--tailwind cdn-->
+	</head>
+	<body>
+	<!----navbar--->
+		<nav class="w-full bg-gradient-to-r from-yellow-600 to-blue-900 z-100 fixed ">
+		<div class=" mx-auto flex px-6 py-7 justify-between item-center h-25 md:mr-5 xl:mr-10">
+			<!----Logo---->
+			<a href="#"><img src="img/project logo.png" class="w-25 pl-5 md:w-45 md:pl-5 md:-ml-5 xl:pl-15 xl:w-50  rounded-xl -mt-5 md:mt-5 z-10"></a>
+			<!---desktop navigation--->
+			<div class="hidden md:flex md:space-x-10 xl:space-x-20 md:mr-10 text-white font-bold">
+			<ul class="hidden md:block">
+				<li>
+				<input type="checkbox" id="home" class="hidden peer">
+				<label for="home"><a href="index.html">Home</a></label>
+				</li>
+			</ul>
+			<ul class="hidden md:block ">
+				<li>
+				<input type="checkbox" id="Genres" class="hidden peer">
+				<label for="Genres">Genres</label>
+				<div class="hidden peer-checked:block text-black bg-stone-100">
+					<ul>
+						<li><a href="genres page.html">View All Genres</a></li>
+						<li><a href="thriller page.html">Thriller</a></li>
+						<li><a href="Fantasy.html">Fantasy</a></li>
+						<li><a href="romance page.html">Romance</a></li>
+						<li><a href="humor page.html">Humor</a></li>
+						<li><a href="anime page.html">Anime</a></li>
+					</ul>
+				</div>
+				</li>
+			</ul>
+			<ul class="hidden md:block">
+				<li>
+				<input type="checkbox" id="Popular" class="hidden peer">
+				<label for="Popular"><a href ="popular page.html">Popular</a></label>
+				</li>
+			</ul>
+			<ul class="hidden md:block">
+				<li>
+				<input type="checkbox" id="About" class="hidden peer">
+				<label for="About">Connect</label>
+				<div class="hidden peer-checked:block text-black bg-stone-100">
+				<ul>
+					<li><a href="about page.html">About Us</a></li>
+					<li><a href="Authors page.html">Authors</a></li>
+				</ul>
+				</li>
+			</ul>
+			
+			<!-- Desktop Button -->
+			<button class="xl:w-30 md:w-20 xl:ml-50 items-center bg-red-500 text-white"><a href="login page.html">Login</a></button>
+					
+			
+		</div>
+	
+	<!-- Mobile Menu Button -->
+		<label for="menuToggle" class="md:hidden flex flex-col space-y-1.5 cursor-pointer">
+			<span class="block w-6 h-0.5 bg-white"></span>
+			<span class="block w-6 h-0.5 bg-white"></span>
+			<span class="block w-6 h-0.5 bg-white"></span>
+		</label>
+	</div>
+	<!-- Hidden Checkbox -->
+		<input type="checkbox" id="menuToggle" class="hidden peer">
+
+		<!-- Mobile Menu -->
+		<div class="hidden peer-checked:block md:hidden bg-yellow-100 px-6 pb-4">
+		<ul>
+			<li>
+				<input type="checkbox" id="home" class="hidden peer">
+				<label for="home"><a href="index.html">Home</a></label>
+				</li>
+		</ul>
+		<ul>
+			<li>
+				<input type="checkbox" id="Genre" class="hidden peer">
+				<label for="Genre">Genres</label>
+				<div class="hidden peer-checked:block text-black bg-stone-100">
+					<ul>
+						<li><a href="genres page.html">View All Genres</a></li>
+						<li><a href="thriller page.html">Thriller</a></li>
+						<li><a href="Fantasy.html">Fantasy</a></li>
+						<li><a href="romance page.html">Romance</a></li>
+						<li><a href="humor page.html">Humor</a></li>
+						<li><a href="anime page.html">Anime</a></li>
+					</ul>
+			</li>
+		</ul>
+		<ul>
+			<li>
+				<input type="checkbox" id="Popular" class="hidden peer bg-stone-100">
+				<label for="Popular"><a href ="popular page.html">Popular</a></label>
+			</li>
+		</ul>
+
+		<ul>
+			<li>
+				<input type="checkbox" id="About Us" class="hidden peer bg-stone-100">
+				<label for="About Us">Connect</label>
+				<div class="hidden peer-checked:block text-black bg-stone-100">
+				<ul>
+					<li><a href="about page.html">About Us</a></li>
+					<li><a href="Authors page.html">Authors</a></li>
+				</ul>
+			</li>
+		</ul>
+			<button class="xl:w-30 md:w-20 xl:ml-50 items-center bg-red-500 text-white"><a href="login page.html">Login</a></button>
+		
+		</div>
+	</div>
+	</nav>
+	
+	<!---hero--->
+		<section class="bg-pink-100 pb-10">
+			<div class="grid-rows-1 xl:grid grid-cols-2 md:grid grid-cols-2 gap-x-5 ">
+				<div class="xl:mt-20 md:mt-20 pt-30 xl:pl-25 md:pl-10">
+					<div class="xl:ml-40 md:ml-10">
+						<p class="text-rose-500 font-bold font-serif italic text-2xl xl:pt-5 md:pt-10">WHAT'S</p>
+
+						<h2 class="text-5xl md:text-4xl pl-10 font-serif font-bold text-rose-900">
+						  POPULAR😁
+						</h2>
+					</div>
+
+					<p class="xl:mt-15 md:mt-5 text-lg text-center font-serif text-rose-700 italic font-bold">
+					 Stories Everyone Is Talking About
+					</p>
+					<p class="font-semibold text-center pt-5">Discover the stories capturing readers' attention right now.</p>
+					<p class="font-semibold text-center pt-5 text-orange-700">Every story has a moment when readers can't stop turning the pages. Here, you'll find the titles creating that moment—stories being read, shared, saved, and recommended across the Readora community.</p>
+					<p class="font-semibold text-center pt-5 text-teal-700">Whether you're searching for your next long read or simply curious about what everyone else is enjoying, explore the collection and see which story catches your attention. Your next favorite might already be waiting here.</p>
+					<button class="text-center p-2 rounded-xl border-4 border-double mt-10 bg-blue-500 hover:bg-blue-700 text-white ml-30 xl:ml-70 md:ml-80"><a href="genres page.html"> Start Exploring</a></button>
+				</div>
+				<img src="img/popular.png" class=" h-180 xl:h-175 md:h-175 w-150 object-fit pt-5 xl:pt-30 md:pt-30">
+			</div>
+        </section>
+		
+	<!---popular this week--->
+		<section class="bg-orange-200 h-410 xl:h-245 md:h-400">
+			 <p class="font-black text-2xl xl:text-4xl md:text-4xl text-center pt-10 xl:pt-30 md:pt-20" style="font-family:papyrus,Fantasy">The Stories at the Top</p>
+			 <p class="font-black text-2xl text-pink-600 text-center pt-5" style="font-family:papyrus,Fantasy">These are the stories readers are opening, reading, and coming back to right now.</p>
+			 <p class="font-semibold text-lg  text-center pt-5">From unforgettable characters to stories that keep you saying “just one more chapter,” these titles are currently leading the Readora Chronicles popularity list.</p>
+			
+			<div class="border-4 border-dotted rounded-4xl max-w-xs xl:max-w-sm md:max-w-sm shadow-[8px_8px_0px_black] ml-7 xl:ml-140 md:ml-50 mt-10">
+				<a href="#">
+					<img src="img/anime/apricity.jpg" class="w-70 h-80 ml-5 xl:ml-15 md:ml-15 rounded-4xl p-5">
+					<p class="text-center font-bold">Anime • Fantasy • Action</p>
+					<p class="text-center font-bold">⭐ 4.9/5 · 📖 15.2K Reads</p>
+				</a>
+			</div>
+			<div class="border-4 border-double rounded-full w-15 h-15 bg-yellow-300 xl:ml-140 md:ml-50 -mt-100 xl:-mt-100 md:-mt-100 ">
+				<p class="pt-3 pl-4 font-black text-xl text-red-500">#1</p>
+			</div>
+			<div class="border-4 border-double rounded-4xl w-80 xl:w-80 md:w-80 shadow-[8px_8px_0px_black] ml-7 xl:ml-40  md:ml-60 mt-100 xl:mt-50 md:mt-100">
+				<a href="#">
+					<img src="img/humor/bet with devils.jpg" class="w-55 h-80 ml-10 rounded-4xl p-5">
+					<p class="text-center font-bold">Humor • Romance • Chaos</p>
+					<p class="text-center font-bold">⭐ 4.8/5 📖 13.7K Reads</p>
+				</a>
+			</div>
+			<div class="border-4 border-double rounded-full w-15 h-15 bg-yellow-300 xl:ml-40 md:ml-60 -mt-100 ">
+				<p class="pt-3 pl-4 font-black text-xl">#2</p>
+			</div>
+			<div class="border-4 border-double rounded-4xl w-80 shadow-[8px_8px_0px_black] ml-7 xl:ml-255 md:ml-60 mt-100 xl:-mt-9 md:mt-95">
+				<a href="#">
+					<img src="img/humor/young wild married.jpg" class="w-55 h-80 ml-10 rounded-4xl p-5">
+					<p class="text-center font-bold">Humor • Romance • Slice of Life</p>
+					<p class="text-center font-bold">⭐ 4.8/5 📖 12.9K Reads</p>
+				</a>
+			</div>
+			<div class="border-4 border-double rounded-full w-15 h-15 bg-yellow-300 xl:ml-255 ml-10 xl:ml-60 md:ml-60 -mt-99 ">
+				<p class="pt-3 pl-4 font-black text-xl">#3</p>
+			</div>
+			
+		</section>
+		<hr>
+		
+		<!---stories raise---->
+		<section class="bg-blue-100 pb-10">
+			<div class="mt-10 xl:mt-10 md:mt-10 pb-10">
+				
+				 <p class="font-black text-4xl text-center pt-10 text-red-500" style="font-family:papyrus,Fantasy">📈 Rising Through the Ranks</p>
+				 <p class="font-black text-2xl text-pink-600 text-center pt-5" style="font-family:papyrus,Fantasy">These stories are quickly gaining readers and climbing the popularity list.</p>
+				<p class="text-center mx-2 xl:mx-40 md:mx-40 pt-5">Some stories become popular overnight, while others slowly build a loyal audience chapter by chapter. These rising titles are attracting more attention every day—and they could be the next big favorites on Readora Chronicles.</p>
+				<div>
+				<div class="mt-25 -ml-40 xl:ml-100 md:ml-15">
+					<p class="font-black text-2xl text-white -mb-25 ml-55">🦋 Butterfly</p><p class="ml-55 text-lg pt-3 font-bold">+32% readers this week ↗</p>
+					<span class="block w-80 h-20 bg-red-500 ml-50"></span>
+					<p class="font-black text-xl text-white -mb-20  xl:-mb-22 md:-mb-22 ml-51 mt-25  ">💕 Better Than Revenge</p><p class="ml-55 text-lg -mb-15 font-bold">+24% readers this week ↗</p><br>
+					<span class="block w-65 h-20 bg-blue-500 ml-50 mt-10"></span>
+					<p class="font-black text-xl text-white ml-53 w-40 -mb-26 xl:-mb-27 md:-mb-27 mt-23  ">😈 A Bet with the Devils</p><p class="ml-55 text-lg -mb-15 font-bold">+18% readers this week ↗</p><br>
+					<span class="block w-53 h-20 bg-green-500 ml-50 mt-10"></span>
+				</div>
+			</div>
+		</section>
+		
+		<!-----popular by gener---->
+		<hr>
+		<section>
+			 <p class="font-black text-4xl text-center pt-10 text-red-500" style="font-family:papyrus,Fantasy">📊 What's Popular Across Readora?</p>
+			 <p class="font-black text-2xl text-pink-600 text-center pt-5" style="font-family:papyrus,Fantasy">Every reader has a different favorite. See which genres are attracting the most attention.</p>
+			 <div class="grid grid-cols-4 gap-x-5 gap-y-5 xl:mx-80 md:mx-5 mt-20 xl:pl-20 md:pl-10">
+				 <div class="w-40 h-40 xl:w-50 xl:h-50 md:w-50 md:h-50 rounded-full border-2  bg-blue-500">
+				 <p class="text-2xl font-bold xl:ml-70 md:ml-53 mt-15 xl:mt-20 md:mt-20">Fantasy 32%</p>
+				  </div>`
+				  <div class="w-40 h-40 xl:w-50 xl:h-50 md:w-50 md:h-50 rounded-full border-2 border-black   bg-gradient-to-r from-pink-400 from-80% to-white to-50%">
+				 <p class="text-2xl font-bold ml-10 xl:ml-70 md:ml-53 mt-15 xl:mt-20 md:mt-20">Romance 27%</p>
+				  </div>`
+				  <div class="w-40 h-40 xl:w-50 xl:h-50 md:w-50 md:h-50 rounded-full border-2 border-black   bg-gradient-to-r from-red-600 from-60% to-white to-50%">
+				 <p class="text-2xl font-bold xl:ml-70 md:ml-53 mt-15 xl:mt-20 md:mt-20">Thriller 21%</p>
+				  </div>`
+				   <div class="w-40 h-40 xl:w-50 xl:h-50 md:w-50 md:h-50 rounded-full border-2 border-black  bg-gradient-to-r from-yellow-400 from-30% to-white to-50%">
+				 <p class="text-2xl font-bold ml-5 xl:ml-70 md:ml-53 mt-15 xl:mt-20 md:mt-20">Humor 14%</p>
+				  </div>
+			  </div>
+				  <div class="w-40 h-40 xl:w-50 xl:h-50 md:w-50 md:h-50 ml-25 xl:ml-150 md:ml-63 rounded-full border-2 border-black  bg-gradient-to-r from-green-400 from-15% to-white to-50%">
+				 <p class="text-2xl font-bold xl:ml-70 md:ml-53 mt-15 xl:mt-20 md:mt-20">Anime 6%</p>
+				  </div>
+		</section><br>
+		<hr>
+		
+		<!----Popular this week---->
+		<section class="bg-yellow-200 pb-10">
+			<p class="font-black text-4xl text-center pt-20 text-red-500">📚 Popular Collections</p>
+			<p class="font-black text-2xl text-pink-600 text-center pt-5" style="font-family:papyrus,Fantasy">Sometimes you know the kind of experience you want, even when you don't know which story to choose.</p>
+			<div class=" border-2 w-80 md:w-150 md:h-50 xl:w-180 xl:h-50 ml-10 md:ml-20 xl:ml-20 ">
+				<p class="font-bold text-xl text-center mt-10 ml-10">🔥 Can't Stop Reading</p>
+				<p class="font-bold  mt-10 ml-40 text-center">Stories that keep readers coming back for another chapter.</p>
+				 <div class="opacity-0 transition-opacity duration-700 ease-in hover:opacity-100">
+				  <img src="img/humor/young wild married.jpg" class="w-40 h-45 -mt-30 ml-5">
+				</div>
+			</div>
+			
+			<div class=" border-2 w-80 h-50 md:w-150 md:h-50 xl:w-180 xl:h-50 ml-10 md:ml-20 xl:ml-160 mt-5 ">
+				<p class="font-bold text-xl text-center mt-10 ml-30">💕 Reader-Favorite Romance</p>
+				<p class="font-bold  mt-5 xl:mt-10 md:mt-10 ml-30 xl:ml-70 md:ml-70 text-center  w-50 md:w-80 xl:w-100">Stories readers are getting lost in long after the day is over.</p>
+				 <div class="opacity-0 transition-opacity duration-700 ease-in hover:opacity-100">
+				  <img src="img/romance/wedded by fate.jpg" class="w-40 h-45 -mt-37 ml-5">
+				</div>
+			</div>
+			
+			<div class=" border-2 w-80 md:w-150 md:h-50 xl:w-180 xl:h-50  ml-10 md:ml-20 xl:ml-20 mt-5 ">
+				<p class="font-bold text-xl text-center mt-10 ml-10">🌙 Late-Night Reads</p>
+				<p class="font-bold  mt-10 ml-40 text-center">Stories that keep readers coming back for another chapter.</p>
+				 <div class="opacity-0 transition-opacity duration-700 ease-in hover:opacity-100">
+				  <img src="img/fantasy/whispers of etheral.jpg" class="w-40 h-45 -mt-30  ml-5">
+				</div>
+			</div>
+			
+			<div class=" border-2 w-80 md:w-150 md:h-50 xl:w-180 xl:h-50 ml-10 md:ml-20 xl:ml-160 mt-5 ">
+				<p class="font-bold text-xl text-center mt-10 ml-30">✨ Hidden Favorites</p>
+				<p class="font-bold  mt-10 text-center ml-30 xl:ml-70 md:ml-70 w-50 md:w-80 xl:w-100">Less obvious titles that have quietly built a loyal readership.</p>
+				 <div class="opacity-0 transition-opacity duration-700 ease-in hover:opacity-100">
+				  <img src="img/thriller/thrones of regrets.jpg" class="w-40 h-45 -mt-37 ml-5">
+				</div>
+			</div><br>
+			
+		</section>
+		<hr>
+		
+		<!----popular authers--->
+		<section class="bg-gray-100 h-200 pt-10">	
+			<div class="md:w-40 md:h-40 xl:w-60 xl:h-60 border-2 rounded-full md:ml-70 xl:ml-150 mt-20 xl:mt-10 md:mt-10">
+				<p class="font-black xl:text-xl md:text-xl text-purple-600 text-center xl:pt-18 md:pt-10" style="font-family:papyrus,Fantasy">Myriam Dallarie<br>20 Stories <br>4.7K Reads</p>
+			</div>
+			<div class="xl:w-80 xl:h-80 md:w-65 md:h-65 border-2 rounded-full xl:ml-140 md:ml-55 -mt-40 xl:mt-10 md:mt-10">
+				<p class="font-black xl:text-2xl md:text-xl text-center xl:pt-30 md:pt-17 text-red-500">✍️ POPULAR AUTHORS </p>                      
+				<p class="font-black text-xl text-pink-600 text-center pt-5" style="font-family:papyrus,Fantasy">The writers readers are following</p>
+			</div>
+			<div class="md:w-40 md:h-40 xl:w-60 xl:h-60 border-2 rounded-full md:ml-5 xl:ml-70 mt-25 xl:-mt-95 md:-mt-95">
+				<p class="font-black text-xl text-purple-600 text-center xl:pt-18 md:pt-10" style="font-family:papyrus,Fantasy">Liam Brooks <br>15 Stories <br>5.0K Reads</p>
+			</div>
+			<div class="md:w-40 md:h-40 xl:w-60 xl:h-60 border-2 rounded-full xl:ml-230 md:ml-130  mt-5 xl:-mt-57 md:-mt-40">
+				<p class="font-black text-xl text-purple-600 text-center xl:pt-18 md:pt-10" style="font-family:papyrus,Fantasy">Alexandria Michelle <br>18 Stories <br>4.9 K Reads</p>
+			</div>
+		</section>
+		
+		<!----next story awaits--->
+		<section class="bg-gradient-to-r from-black to-red-500">
+			<p class="font-black xl:text-2xl md:text-xl text-center -mt-80 xl:-mt-20 md:-mt-20 xl:pt-20 md:pt-17 text-yellow-500">📖 Your Next Story Awaits</p> 
+			<p class="font-black text-xl text-white text-center pt-5" style="font-family:halvetica,san-serif">You've seen what readers are loving. Now it's your turn to find a story worth getting lost in.</p>
+			<img src="img/popular book.png" class="w-100 h-100 xl:ml-140 md:ml-50 mt-10 rounded-full border-4 border-white border-groove">
+			<button class="mt-5 border p-2 text-center text-white rounded-xl ml-25 xl:ml-170 md:ml-75"><a href="genres page.html">EXPLORE ALL STORIES</a></button>
+		</section>
+		
+		<!---footer---->
+	<section class="mt-10 pb-5 bg-gradient-to-r from-blue-950 to-yellow-600">
+		<p class="text-center font-black text-2xl text-slate-200">READORA CHRONICLES</p>
+		<p class="text-slate-200 text-center pt-2 font-bold">Discover a story. Enter its world. Keep reading.</p>
+		<p class="text-slate-200 text-center pt-2 italic font-serif">A place where stories become worlds, characters become unforgettable, and every page leads to something new.</p>
+		<div  class="grid-cols-1 md:grid grid-cols-2 xl:grid grid-cols-2 mt-5 ml-5 md:ml-10 xl:ml-70">
+			<div class=" text-slate-200 font-bold ml-0 text-center md:ml-0 xl:ml-0">
+			<p>Follow the Stories</p>
+			<p>Instagram · Facebook · X / Twitter</p>
+			<p>Get in Touch:-</p>
+			<p><u>hello@readorachronicles.com</u></p>
+			</div>
+			<div class=" text-slate-200 font-bold mt-5 md:mt-0 xl:mt-0 [line-height:2] mr-0 md:mr-0 xl:mr-50">
+			<p class="text-center">📖 Stories worth discovering. Worlds worth entering.</p>
+			<p class="text-center ml-5">© 2026 Readora Chronicles · All rights reserved.</p>
+			<p class="text-center">Privacy Policy · Terms & Conditions</p>
+			</div>
+		 </div>
+	</section>
+	</body>
+</html>
+
+			 
+
+
+
+			

@@ -1,0 +1,273 @@
+<html>
+	<head>
+			<title>About Page </title>
+			<meta charset="utf-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1"><!--responsive class--->
+			<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script><!--tailwind cdn-->
+	</head>
+	<body>
+	<!----navbar--->
+		<nav class="w-full bg-gradient-to-r from-yellow-600 to-blue-900 z-100 fixed ">
+		<div class=" mx-auto flex px-6 py-7 justify-between item-center h-25 md:mr-5 xl:mr-10">
+			<!----Logo---->
+			<a href="#"><img src="img/project logo.png" class="w-25 pl-5 md:w-45 md:pl-5 md:-ml-5 xl:pl-15 xl:w-50  rounded-xl -mt-5 md:mt-5 z-10"></a>
+			<!---desktop navigation--->
+			<div class="hidden md:flex md:space-x-10 xl:space-x-20 md:mr-10 text-white font-bold">
+			<ul class="hidden md:block">
+				<li>
+				<input type="checkbox" id="home" class="hidden peer">
+				<label for="home"><a href="index.html">Home</a></label>
+				</li>
+			</ul>
+			<ul class="hidden md:block ">
+				<li>
+				<input type="checkbox" id="Genres" class="hidden peer">
+				<label for="Genres">Genres</label>
+				<div class="hidden peer-checked:block text-black bg-stone-100">
+					<ul>
+						<li><a href="genres page.html">View All Genres</a></li>
+						<li><a href="thriller page.html">Thriller</a></li>
+						<li><a href="Fantasy.html">Fantasy</a></li>
+						<li><a href="romance page.html">Romance</a></li>
+						<li><a href="humor page.html">Humor</a></li>
+						<li><a href="anime page.html">Anime</a></li>
+					</ul>
+				</div>
+				</li>
+			</ul>
+			<ul class="hidden md:block">
+				<li>
+				<input type="checkbox" id="Popular" class="hidden peer">
+				<label for="Popular"><a href ="popular page.html">Popular</a></label>
+				</li>
+			</ul>
+			<ul class="hidden md:block">
+				<li>
+				<input type="checkbox" id="About" class="hidden peer">
+				<label for="About">Connect</label>
+				<div class="hidden peer-checked:block text-black bg-stone-100">
+				<ul>
+					<li><a href="about page.html">About Us</a></li>
+					<li><a href="Authors page.html">Authors</a></li>
+				</ul>
+				</li>
+			</ul>
+			
+			<!-- Desktop Button -->
+			<button class="xl:w-30 md:w-20 xl:ml-50 items-center bg-red-500 text-white"><a href="login page.html">Login</a></button>
+					
+			
+		</div>
+	
+	<!-- Mobile Menu Button -->
+		<label for="menuToggle" class="md:hidden flex flex-col space-y-1.5 cursor-pointer">
+			<span class="block w-6 h-0.5 bg-white"></span>
+			<span class="block w-6 h-0.5 bg-white"></span>
+			<span class="block w-6 h-0.5 bg-white"></span>
+		</label>
+	</div>
+	<!-- Hidden Checkbox -->
+		<input type="checkbox" id="menuToggle" class="hidden peer">
+
+		<!-- Mobile Menu -->
+		<div class="hidden peer-checked:block md:hidden bg-yellow-100 px-6 pb-4">
+		<ul>
+			<li>
+				<input type="checkbox" id="home" class="hidden peer">
+				<label for="home"><a href="index.html">Home</a></label>
+				</li>
+		</ul>
+		<ul>
+			<li>
+				<input type="checkbox" id="Genre" class="hidden peer">
+				<label for="Genre">Genres</label>
+				<div class="hidden peer-checked:block text-black bg-stone-100">
+					<ul>
+						<li><a href="genres page.html">View All Genres</a></li>
+						<li><a href="thriller page.html">Thriller</a></li>
+						<li><a href="Fantasy.html">Fantasy</a></li>
+						<li><a href="romance page.html">Romance</a></li>
+						<li><a href="humor page.html">Humor</a></li>
+						<li><a href="anime page.html">Anime</a></li>
+					</ul>
+			</li>
+		</ul>
+		<ul>
+			<li>
+				<input type="checkbox" id="Popular" class="hidden peer bg-stone-100">
+				<label for="Popular"><a href ="popular page.html">Popular</a></label>
+			</li>
+		</ul>
+
+		<ul>
+			<li>
+				<input type="checkbox" id="About Us" class="hidden peer bg-stone-100">
+				<label for="About Us">Connect</label>
+				<div class="hidden peer-checked:block text-black bg-stone-100">
+				<ul>
+					<li><a href="about page.html">About Us</a></li>
+					<li><a href="Authors page.html">Authors</a></li>
+				</ul>
+			</li>
+		</ul>
+			<button class="xl:w-30 md:w-20 xl:ml-50 items-center bg-red-500 text-white"><a href="login page.html">Login</a></button>
+		
+		</div>
+	</div>
+	</nav>
+	<!----hero---->
+	<section class="bg-gradient-to-r from-blue-600 to-white h-230 xl:h-180 md:h-180">
+		<p class="font-black text-4xl text-center  pt-30" style="font-family:copperplate,Fantasy">READORA CHRONICLES</p>
+		<div class="grid-cols-1 xl:grid grid-cols-2 md:grid grid-cols-2">
+			<div class=" ml-5 xl:-ml-0 md:-ml-5 mt-120  xl:mt-0 md:mt-0  ">
+				<img src="img/whychoose.png"  class=" w-50 h-50 xl:w-80 xl:h-70 md:w-50 md:h-60 -mb-20  xl:mt-1 md:mt-5 border-white border-6 ml-1 xl:ml-50 md:ml-30 rotate-[0deg] xl:rotate-[-7deg] md:rotate-[-7deg]">
+				<img src="img/banner.png" class=" -mt-70 xl:mt-3 md:mt-5 w-40 h-50 xl:w-70 xl:h-50 md:w-50 md:h-60 border-white border-6 ml-50 xl:ml-20 md:ml-20 rotate-[0deg] xl:rotate-[-5deg] md:rotate-[-5deg]">
+				<img src="img/humor/book.jpg"  class=" hidden xl:block md:block w-50 h-40 xl:w-60 xl:h-60 md:w-50 md:h-45 border-white border-6 -mt-5 xl:-mt-60 md:-mt-70  xl:ml-100 md:ml-55 rotate-[0deg] xl:rotate-[-5deg] md:rotate-[-5deg]">
+			</div>
+			<div class="-mt-150 xl:mt-0 md:mt-0">
+				<p class="font-black text-2xl text-pink-600 text-center pt-10" style="font-family:papyrus,Fantasy">More Than Just Stories</p>
+				<p class="font-semibold text-xl text-center pt-10">A place where stories are discovered, imagined, and remembered.</p>
+				<p class=" font-semibold text-red-700 text-center mx-10 pt-10">Readora Chronicles brings together stories from different worlds, genres, and perspectives giving every reader a place to find something worth getting lost in.</p>
+				<p class="font-black text-2xl text-yellow-700 text-center pt-5">DISCOVER · IMAGINE · READ</p>
+			</div>
+		</div>
+	</section>
+	<!----our story--->
+	<section class="bg-gradient-to-l from-indigo-400 to-white pb-10">
+		<p class="font-black text-4xl text-center font-serif pt-10">READORA CHRONICLES</p>
+		<p class="font-black text-2xl text-orange-600 font-monospace text-center pt-10">Where Readora Chronicles Began</p>
+		<div class=" opacity-50 transition-opacity  duration-700 hover:opacity-100">
+			<p class="text-center text-xl font-bold mt-10"><span class="text-yellow-600">💡THE IDEA </span><span class="xl:text-2xl md:text-xl">—●—</span><span class="text-green-600">📚 THE COLLECTION</span> <span class="xl:text-2xl md:text-xl"> —●—</span><span class="text-blue-700">🌍 MANY WORLDS</span> <span class="xl:text-2xl md:text-xl">—●—</span><span class="text-red-800">📖 READORA CHRONICLES</span></p>
+		</div>	
+		<p class="text-center font-semibold mt-10 xl:ml-0 md:ml-40 xl:w-full md:w-120">Readora Chronicles began with a simple idea: stories should be easy to discover and enjoyable to explore.</p>
+		<p class="text-center font-semibold mt-5 ml-5 xl:ml-120 md:ml-20 w-90 xl:w-150 md:w-150 text-red-500">We wanted to create a reading space where different genres could exist side by side, giving readers the freedom to move from a thrilling mystery to a heartfelt romance, a magical adventure, or a story that simply makes them laugh.</p>
+		<p class="text-center font-semibold mt-5 ml-5 xl:ml-110 md:ml-10 w-90 xl:w-170 md:w-170 ">What started as a love for storytelling became a place where readers can discover new worlds, follow memorable characters, and find stories that stay with them long after the final page.</p>
+    </section>
+	<!--✨ What Makes Readora Different-->
+		<section>
+			<p class="font-black text-4xl text-center font-serif pt-10">✨ What Makes Readora Different</p>
+			<p class="font-bold text-xl text-teal-400 text-center font-san-serif pt-10">A Reading Space Built Around Discovery</p>
+			<div class="grid-rows-3 xl:grid grid-cols-3 md:grid grid-cols-3 xl:h-100 md:h-100 xl:h-100 mt-0 xl:mt-20 md:mt-20 items-center  md:mx-10 xl:ml-50 xl:mr-100"> 
+				<div class="overflow-x-scroll w-20 xl:w-40 md:w-40 h-70 ml-25 xl:ml-40 md:ml-5 mt-10 pl-50 bg-lime-300 border-2 shadow-[8px_8px_0px_black]">
+					<p class="w-50 text-center text-xl font-bold pt-15">📖 STORIES FIRST</p>
+					<p class="w-50 text-center font-semibold pt-5 text-red-500">Every feature begins with the stories and the people who read them.</p>
+				</div>
+			    <div class="overflow-x-scroll w-20 xl:w-40 md:w-40 h-70 ml-25 xl:ml-40 md:ml-5 mt-10 pl-50 bg-lime-300 border-2 shadow-[8px_8px_0px_black]">
+					<p class="w-50 text-center text-xl font-bold pt-15">🌍 MANY WORLDS</p>
+					<p class="w-50 text-center font-semibold pt-5 text-red-500">Explore different genres, voices, characters, and imagined worlds in one place.</p>
+				</div>
+		        <div class="overflow-x-scroll w-20 xl:w-40 md:w-40 h-70 ml-25 xl:ml-40 md:ml-5 mt-10 pl-50 bg-lime-300 border-2 shadow-[8px_8px_0px_black]">
+					<p class="w-50 text-center text-xl font-bold pt-15">🔎 EASY DISCOVERY</p>
+					<p class="w-50 text-center font-semibold pt-5 text-red-500">Find something new whether you know exactly what you want or simply want to browse.</p>
+				</div>
+			</div>
+			<p class="text-center font-semibold pt-10  md:-mt-50 text-pink-600 md:ml-25 xl:ml-0 md:w-150 xl:w-full ">Readora Chronicles isn't just a place to collect stories. It's designed to make the journey between finding a story and falling into it more enjoyable.</p>
+			<p class="text-center font-semibold pt-5 text-red-700 md:ml-30 xl:ml-0 md:w-130 xl:w-full">From carefully organized genres to popular reads, trending stories, and different ways to explore the library, every part of Readora is created with the reader in mind.</p>
+		</section>
+		
+		<!--✍️ The People Behind the Pages-->
+		<section class="bg-black pb-10">
+		   <p class="font-black text-4xl text-center font-serif pt-20 text-white">✍️ The People Behind the Pages</p>
+		   <p class="font-bold  text-center mt-10 w-90 xl:w-160 md:w-160 ml-3 xl:ml-110 md:ml-20 text-cyan-300">Every story on Readora Chronicles begins with imagination. Behind every character, world, and unexpected twist is a storyteller with something they want to share.</p>
+		   <p class="font-bold  text-center mt-5 w-90 xl:w-140 md:w-140 ml-3 xl:ml-110 md:ml-20 text-green-400">Readora brings those stories together and gives readers a place to discover the voices behind them.</p>
+		   <p class="text-center font-black text-xl mt-10 text-red-500">What We Value</p>
+			<div class="xl:flex md:flex-row space-x-20 ml-2 xl:ml-50 md:ml-20 mt-5">
+			   <div class="ml-2 xl:ml-0 md:ml-0">
+				   <p class="text-4xl text-center pt-10 text-white" >𓂃˖˳˖ ִֶָ ⋆🌷͙⋆ ִֶָ˖·˳˖𓂃 ִֶָ</p>
+				   <p class="text-xl font-bold text-center pt-5 text-yellow-600">🖋️ Creativity</p>
+					<p class="font-semibold text-center text-lg pt-5 text-pink-500">Original ideas deserve space to grow.</p>
+				   <p class="text-4xl text-center pb-10 text-white rotate-180" >𓂃˖˳˖ ִֶָ ⋆🌷͙⋆ ִֶָ˖·˳˖𓂃 ִֶָ</p>
+				</div>
+				<div class="ml-2 xl:ml-0 md:ml-0">
+				   <p class="text-4xl text-center pt-10 text-white" >𓂃˖˳˖ ִֶָ ⋆🌷͙⋆ ִֶָ˖·˳˖𓂃 ִֶָ</p>
+				   <p class="text-xl font-bold text-center pt-5 text-yellow-600">🌱 New Voices</p>
+					<p class="font-semibold text-center text-lg pt-5 text-pink-500">Every storyteller has a first chapter.</p>
+				   <p class="text-4xl text-center pb-10 text-white rotate-180" >𓂃˖˳˖ ִֶָ ⋆🌷͙⋆ ִֶָ˖·˳˖𓂃 ִֶָ</p>
+				</div>
+				<div class="-ml-13 xl:ml-0 md:-ml-20">
+				   <p class="text-4xl text-center pt-10 text-white" >𓂃˖˳˖ ִֶָ ⋆🌷͙⋆ ִֶָ˖·˳˖𓂃 ִֶָ</p>
+				   <p class="text-xl font-bold text-center pt-5 text-yellow-600">🤝 Connection</p>
+					<p class="font-semibold text-center text-lg pt-5 pl-5 text-pink-500">Stories bring writers and readers together.</p>
+				   <p class="text-4xl text-center pb-10 text-white rotate-180" >𓂃˖˳˖ ִֶָ ⋆🌷͙⋆ ִֶָ˖·˳˖𓂃 ִֶָ</p>
+				</div>
+			</div>
+		</section>
+		<!--- Our Philosophy — Stories First---->
+		<section class="bg-green-200 pb-20" >
+			<p  class="font-black text-4xl text-center font-serif pt-10 text-orange-600">✨ Our Philosophy — Stories First</p>
+			<div class="flex-row xl:flex  md:flex mx-13 xl:ml-40 md:mx-10 space-x-1 xl:space-x-10 md:space-x-10">
+				<div class="border w-70 h-60 rounded-xl mt-10 bg-pink-400">
+				  <p class="text-center font-bold pt-20 xl:pt-20 md:pt-5 text-white">A story doesn't need to be the biggest or most popular to matter. Sometimes the right story simply needs to reach the right reader.</p>
+				</div>
+				<p class="text-2xl font-bold text-center mt-10 xl:mt-35 md:mt-35 text-purple-700">“Every story deserves a chance to be discovered.”</p>
+				<div class="border w-70 h-60 rounded-xl mt-10 bg-pink-400">
+				  <p class="text-center  font-bold pt-20 xl:pt-20 md:pt-5 text-white">That's why Readora focuses on making stories easy to discover while giving each one a chance to find its audience.</p>
+				</div>
+			</div>
+		</section>
+		<!----📚 Inside Readora Chronicles---->
+		<section>
+			<p  class="font-black text-4xl text-center font-serif pt-10 text-orange-600">📚 Inside Readora Chronicles</p>
+			<p class="font-bold  text-2xl text-center mt-10 w-90 xl:w-160 md:w-160 ml-3 xl:ml-110 md:ml-20 text-amber-700">A Place to Explore, Discover, and Read</p>
+			<p class="font-bold italic text-xl text-center mt-10 w-90 xl:w-160 md:w-160 ml-3 xl:ml-110 md:ml-20 text-red-700">What You'll Find</p>
+			
+			<div class=" grid-rows-4 xl:grid grid-cols-4 md:grid grid-cols-4 pl-25 xl:pl-2 md:pl-0 xl:mx-100 md:mx-2 gap-x-5 mt-10 h-210 xl:h-65 md:h-65 border border-double border-6 p-5 shadow-[8px_8px_0px_black] bg-stone-500">
+				
+				<div class="border border-3 rounded-4xl  [border-style:solid_dashed_solid_dashed] w-40 h-50 shadow-[8px_5px_0px_white] border-white">
+					 <p class="font-bold  text-2xl text-center pt-10 text-amber-400">📖 Stories</p>
+					 <p class="text-center pt-5 font-semibold text-cyan-400">Explore a growing collection across different genres and styles.</p>
+				 </div>
+				 <div class="border border-3 rounded-4xl -ml-2 [border-style:solid_dashed_solid_dashed] w-40 h-50 shadow-[8px_8px_5px_black] border-white">
+					 <p class="font-bold  text-2xl text-center pt-5 text-amber-400">🔥 Popular Reads</p>
+					 <p class="text-center font-semibold pt-5 text-cyan-400">See what readers are currently enjoying and talking about.</p>
+				 </div>
+				 <div class="border border-3 rounded-4xl  [border-style:solid_dashed_solid_dashed] w-40 h-50 shadow-[8px_8px_0px_white] border-white">
+					 <p class="font-bold  text-2xl text-center pt-10 text-amber-400">✍️ Authors</p>
+					 <p class="text-center font-semibold pt-5 text-cyan-400">Discover the storytellers and voices behind the pages.</p>
+				 </div>
+				<div class="border border-3 rounded-4xl -ml-2 [border-style:solid_dashed_solid_dashed] w-40 h-50 shadow-[8px_8px_5px_black] border-white">
+					 <p class="font-bold  text-2xl text-center pt-10 text-amber-400">🌍 Genres</p>
+					 <p class="text-center font-semibold pt-5 text-cyan-400">Move between different worlds, moods, and kinds of stories.</p>
+				 </div>
+			</div>
+			<p class="text-center font-semibold text-blue-500 mt-10 w-80 xl:w-160 md:w-160 ml-10 xl:ml-110 md:ml-15">Readora Chronicles brings different parts of the reading experience together in one place. Explore stories by genre, see what other readers are enjoying, discover rising favorites, and find new authors and worlds along the way.</p>
+			<p class="text-center font-semibold text-green-500 mt-5  w-80 xl:w-160 md:w-160 ml-10 xl:ml-110 md:ml-15">Whether you arrive knowing exactly what you want to read or simply want to browse until something catches your eye, Readora is designed to make every visit feel like the beginning of a new story.</p>
+        </section>
+		<!----🤝 Readers & Storytellers---->
+		<section class="bg-rose-100 mt-10 pb-10" >
+			<p  class="font-black text-4xl text-center font-serif pt-10 text-orange-600">🤝 Readers & Storytellers</p>
+			<p class="font-bold  text-2xl text-center mt-10 w-90 xl:w-160 md:w-160 ml-3 xl:ml-110 md:ml-20 text-amber-700">Where Stories Bring People Together</p>
+			<p class="font-bold text-center mx-10 xl:ml-110 md:mx-40 mt-10 w-80 xl:w-150 md:w-100">A story doesn't truly come alive until someone reads it. Readora Chronicles is built around that connection between the person who creates a story and the person who chooses to enter its world.</p>
+			<div class="xl:grid grid-cols-3 md:grid grid-cols-3  gap-x-5 mt-10">
+				<div class="-ml-15 xl:ml-30 md:-ml-35 mt-10 pl-20 ">
+					<p class="text-center w-80 font-bold text-2xl text-blue-700">📖 FOR READERS</p>
+					<p class="text-center w-40 ml-25 pt-5 font-semibold text-xl text-yellow-600">Discover stories, follow your favorite worlds, and find new authors to explore.</p>
+				</div>
+				<img src="img/humor/book.jpg" class="w-90 h-80 ml-3 xl:ml-15 md:-ml-10 pt-10">
+				<div class="xl:mx-1 md:-ml-20 mt-10  ">
+					<p class="text-center w-80 font-bold text-2xl text-blue-700">✍️ FOR STORYTELLERS</p>
+					<p class="text-center w-40 ml-25 pt-5 font-semibold text-xl text-yellow-600">Share your ideas, introduce readers to your characters, and give your stories a place to be discovered.</p>
+				</div>
+			</div>
+		</section>
+		<!---footer---->
+	<section class="-mt-10 bg-gradient-to-r from-blue-950 to-yellow-600">
+		<p class="text-center font-black text-2xl text-slate-200">READORA CHRONICLES</p>
+		<p class="text-slate-200 text-center pt-2 font-bold">Discover a story. Enter its world. Keep reading.</p>
+		<p class="text-slate-200 text-center pt-2 italic font-serif">A place where stories become worlds, characters become unforgettable, and every page leads to something new.</p>
+		<div  class="grid-cols-1 md:grid grid-cols-2 xl:grid grid-cols-2 mt-5 ml-5 md:ml-10 xl:ml-70">
+			<div class=" text-slate-200 font-bold ml-0 text-center md:ml-0 xl:ml-0">
+			<p>Follow the Stories</p>
+			<p>Instagram · Facebook · X / Twitter</p>
+			<p>Get in Touch:-</p>
+			<p><u>hello@readorachronicles.com</u></p>
+			</div>
+			<div class=" text-slate-200 font-bold mt-5 md:mt-0 xl:mt-0 [line-height:2] mr-0 md:mr-0 xl:mr-50">
+			<p class="text-center">📖 Stories worth discovering. Worlds worth entering.</p>
+			<p class="text-center ml-5">© 2026 Readora Chronicles · All rights reserved.</p>
+			<p class="text-center">Privacy Policy · Terms & Conditions</p>
+			</div>
+		 </div>
+	</section>
+	</body>
+</html>
