@@ -1,0 +1,297 @@
+<html>
+	<head>
+			<title>Apricity </title>
+			<meta charset="utf-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1"><!--responsive class--->
+			<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script><!--tailwind cdn-->
+	</head>
+	<body>
+	<!----navbar--->
+		<nav class="w-full bg-gradient-to-r from-yellow-600 to-blue-900 z-100 fixed ">
+		<div class=" mx-auto flex px-6 py-7 justify-between item-center h-25 md:mr-5 xl:mr-10">
+			<!----Logo---->
+			<a href="#"><img src="img/project logo.png" class="w-25 pl-5 md:w-45 md:pl-5 md:-ml-5 xl:pl-15 xl:w-50  rounded-xl -mt-5 md:mt-5 z-10"></a>
+			<!---desktop navigation--->
+			<div class="hidden md:flex md:space-x-10 xl:space-x-20 md:mr-10 text-white font-bold">
+			<ul class="hidden md:block">
+				<li>
+				<input type="checkbox" id="home" class="hidden peer">
+				<label for="home"><a href="index.html">Home</a></label>
+				</li>
+			</ul>
+			<ul class="hidden md:block ">
+				<li>
+				<input type="checkbox" id="Genres" class="hidden peer">
+				<label for="Genres">Genres</label>
+				<div class="hidden peer-checked:block text-black bg-stone-100">
+					<ul>
+						<li><a href="genres page.html">View All Genres</a></li>
+						<li><a href="thriller page.html">Thriller</a></li>
+						<li><a href="Fantasy.html">Fantasy</a></li>
+						<li><a href="romance page.html">Romance</a></li>
+						<li><a href="humor page.html">Humor</a></li>
+						<li><a href="anime page.html">Anime</a></li>
+					</ul>
+				</div>
+				</li>
+			</ul>
+			<ul class="hidden md:block">
+				<li>
+				<input type="checkbox" id="Popular" class="hidden peer">
+				<label for="Popular"><a href ="popular page.html">Popular</a></label>
+				</li>
+			</ul>
+			<ul class="hidden md:block">
+				<li>
+				<input type="checkbox" id="About" class="hidden peer">
+				<label for="About">Connect</label>
+				<div class="hidden peer-checked:block text-black bg-stone-100">
+				<ul>
+					<li><a href="about page.html">About Us</a></li>
+					<li><a href="Authors page.html">Authors</a></li>
+				</ul>
+				</li>
+			</ul>
+			
+			<!-- Desktop Button -->
+			<button class="xl:w-30 md:w-20 xl:ml-50 items-center bg-red-500 text-white"><a href="login page.html">Login</a></button>
+					
+			
+		</div>
+	
+	<!-- Mobile Menu Button -->
+		<label for="menuToggle" class="md:hidden flex flex-col space-y-1.5 cursor-pointer">
+			<span class="block w-6 h-0.5 bg-white"></span>
+			<span class="block w-6 h-0.5 bg-white"></span>
+			<span class="block w-6 h-0.5 bg-white"></span>
+		</label>
+	</div>
+	<!-- Hidden Checkbox -->
+		<input type="checkbox" id="menuToggle" class="hidden peer">
+
+		<!-- Mobile Menu -->
+		<div class="hidden peer-checked:block md:hidden bg-yellow-100 px-6 pb-4">
+		<ul>
+			<li>
+				<input type="checkbox" id="home" class="hidden peer">
+				<label for="home"><a href="index.html">Home</a></label>
+				</li>
+		</ul>
+		<ul>
+			<li>
+				<input type="checkbox" id="Genre" class="hidden peer">
+				<label for="Genre">Genres</label>
+				<div class="hidden peer-checked:block text-black bg-stone-100">
+					<ul>
+						<li><a href="genres page.html">View All Genres</a></li>
+						<li><a href="thriller page.html">Thriller</a></li>
+						<li><a href="Fantasy.html">Fantasy</a></li>
+						<li><a href="romance page.html">Romance</a></li>
+						<li><a href="humor page.html">Humor</a></li>
+						<li><a href="anime page.html">Anime</a></li>
+					</ul>
+			</li>
+		</ul>
+		<ul>
+			<li>
+				<input type="checkbox" id="Popular" class="hidden peer bg-stone-100">
+				<label for="Popular"><a href ="popular page.html">Popular</a></label>
+			</li>
+		</ul>
+
+		<ul>
+			<li>
+				<input type="checkbox" id="About Us" class="hidden peer bg-stone-100">
+				<label for="About Us">Connect</label>
+				<div class="hidden peer-checked:block text-black bg-stone-100">
+				<ul>
+					<li><a href="about page.html">About Us</a></li>
+					<li><a href="Authors page.html">Authors</a></li>
+				</ul>
+			</li>
+		</ul>
+			<button class="xl:w-30 md:w-20 xl:ml-50 items-center bg-red-500 text-white"><a href="login page.html">Login</a></button>
+		
+		</div>
+	</div>
+	</nav>
+		<!-----hero---->
+		<section>
+			<div class="bg-blue-950 grid-cols-1 md:grid grid-cols-2 xl:grid grid-cols-2 pb-10">
+				<img src="img/anime/apricity.jpg"class="w-90 w-50 ml-4 md:ml-10 xl:ml-50  pt-30 xl:pt-0 mt-0 md:mt-30 xl:mt-30 border-4 border-white">
+				<div class="pt-10 md:pt-40 xl:pt-40 text-white text-xl font-bold md:ml-10 xl:-ml-50">
+					<p class="text-4xl text-center">🔥❄️ Apricity</p>
+					<p class="mt-5 text-center">Anime • Fantasy • Action</p>
+					<p class="mt-5 text-center " style="text-shadow:5px 5px 8px red">Ice in one hand. Fire in the other. One destiny waiting to be discovered.</p>
+					<p class="mt-5 text-center">⭐ 4.9/5 · 📖 15.2K Reads</p>
+					<p class="text-justify w-70 xl:w-100 ml-15 md:ml-10 xl:ml-70 mt-5 [line-height:2]">Born with two powers that should never exist together, one young fighter must learn to control the 
+					forces inside them before those forces destroy everything around them.</p>
+				</div>
+			</div>
+		</section>
+		<!---🔥❄️ Born Between Two Forces--->
+		<section class="bg-blue-950 pb-10">
+			<p class="text-4xl font-bold  text-center text-red-500 mt-20  ml-1 md:ml-0 xl:ml-0 ">🔥❄️ Born Between Two Forces</p>
+			<div class="grid-cols-1 md:grid grid-cols-3 xl:grid grid-cols-3">
+				<p class="text-9xl ml-25 md:ml-5 xl:ml-40 mt-10 md:mt-25 xl:mt-25"style="text-shadow:10px 8px 8px red">🔥</p>
+				<div class="text-center mt-10 font-bold text-lg text-white w-95 md:w-100 xl:w-100 md:-ml-15 xl:ml-10">
+					<p>Fire burns with unstoppable power. Ice moves with quiet strength.</p>
+					<p>For most, they are opposites that could never exist together. But within one young fighter, both forces awaken at the same time.</p>
+					<p>Learning to control one would be difficult enough. Controlling both may be the key to unlocking a power that has been forgotten for generations.</p>
+					<p>Two elements. One body. One destiny waiting to awaken.</p>
+				</div>
+				<p class="text-9xl ml-25 xl:ml-40 md:ml-15 mt-10 md:mt-25 xl:mt-25"style="text-shadow:10px 8px 8px white">❄️</p>
+			</div>
+		</section>
+		<!---⚡ Power in Motion--->
+		<section class="bg-gradient-to-r from-blue-950 from-50% via-yellow-600 to-red-700 group h-1030 md:h-790 xl:h-470">
+			<p class="text-4xl font-bold  text-center text-white mt-20  ml-1 md:ml-0 xl:ml-0 ">⚡ Power in Motion</p>
+			
+			<div class="grid grid-cols-1 md:grid-cols-1 xl:grid-cols-3  opacity-50 group-hover:opacity-100 ">
+			<div class="ml-10 md:ml-110 xl:ml-0 md:-mb-80 md:pt-50 xl:-mt-10">
+				<p class="text-2xl ml-25 text-white font-bold"style="text-shadow:3px 3px 3px white">ICE FORMS</p><BR>
+				<p class="text-white  ml-15 font-bold">The cold answers the call.</p><br>
+				<p class="text-white text-center font-bold w-70">Where flame consumes, frost preserves. A second soul answers from the depths.</p>
+			</div>
+				<img src="img/anime/AP2.jpg" class="w-120 h-150 md:w-97 md:h-150 xl:w-120 xl:h-150 md:ml-0 xl:-ml-57 border-2 border-white">
+				<img src="img/anime/AP.jpg" class="w-110 h-150 md:w-97 md:h-150 xl:w-110 xl:h-150 md:ml-95 xl:-ml-63 border-2 border-white">
+			</div>
+			<div class="md:ml-10 md:-mt-120 xl:ml-300 xl:-mt-110">
+				<p class="text-2xl text-center md:-ml-100 xl:ml-0 text-white font-bold" style="text-shadow:5px 5px 7px white">FIRE AWAKENS</p><BR>
+				<p class="text-white text-center md:-ml-100 xl:ml-0 font-bold">The first spark changes everything.</p><br>
+				<p class="text-white text-center font-bold w-80">A latent heat breaks through the silence. Not a gift— a warning.</p>
+			</div>
+			<img src="img/anime/AP3.jpg" class="w-120 h-150 md:w-97 md:h-150 xl:w-120 xl:h-120 border-2 border-white md:ml-0 xl:ml-130 md:mt-85 xl:mt-90">
+			<div class="md:ml-90 xl:ml-0 md:-mt-120 xl:-mt-100">
+				<p class="text-2xl ml-30 text-white font-bold">THE FIRST BATTLE</p><BR>
+				<p class="text-white ml-15 text-lg font-bold">Power means nothing without control.</p><br>
+				<p class="text-white ml-20 md:ml-20 xl:ml-270 md:mt-5 xl:-mt-20 text-xl text-center font-bold w-70">Fire and ice collide within. The mountain watches. The world holds its breath.</p>
+			</div>
+			<div class="grid grid-cols-1 md:grid-cols-1 xl:grid-cols-3  mt-20 md:mt-80 xl:mt-80 ">
+			<div class="ml-10 md:ml-0 xl:ml-0 mt-20">
+				<p class="text-2xl ml-5 text-white font-bold"style="text-shadow:3px 3px 3px white">THE ENEMY APPROACHES</p><BR>
+				<p class="text-white  ml-15 w-60 text-center font-bold">Someone knows what the power really means.</p><br>
+				<p class="text-white ml-5 text-center font-bold w-70">Shadows move on the cliff edge. An old conflict returns wearing a new face.</p>
+			</div>
+				<img src="img/anime/AP4.jpg" class="w-110 h-150 md:w-97 md:h-150 xl:w-110 xl:h-150 md:ml-95 md:-mt-60 xl:mt-0 xl:-ml-47 border-2 border-white">
+				<img src="img/anime/AP5.jpg" class="w-110 h-150 md:w-97 md:h-150 xl:w-110 xl:h-150 md:ml-0 xl:-ml-63 border-2 border-white">
+			</div>
+			<div class="md:ml-90 md:-mt-90 xl:ml-300 xl:-mt-120">
+				<p class="text-2xl text-center text-white font-bold" style="text-shadow:5px 5px 7px white">THE AWAKENING</p><BR>
+				<p class="text-white text-center font-bold">Two forces. One destiny.</p><br>
+				<p class="text-white text-center md:ml-10 xl:ml-0 font-bold w-80">Not fire versus ice. Fire and ice. The circle closes, and begins again.</p>
+			</div>
+		</section>
+		<!---power within--->
+		<section class="bg-blue-950">
+			<p class="text-4xl font-bold  text-center text-yellow-500 mt-20  ml-1 md:ml-0 xl:ml-0 ">🌀 The Power With</p>
+			<img src="img/anime/AP7.png" class=" md:w-200 xl:w-full ml-0 h-170  ">
+			<div class="-mt-170 xl:-mt-170 md:-mt-170 xl:ml-0 absolute z-10 bg-black/60  w-full xl:w-full md:w-full h-170 text-xl text-white font-bold">
+			
+			<div class="relative w-70 md:w-80 xl:w-120 text-base text-justify font-bold  ml-10 md:ml-5 xl:ml-30 mt-5  md:mt-10  xl:mt-10  z-10">
+				<p>Controlling one element would be difficult enough. Controlling two is something entirely different.</p><br>
+				<p>Fire and ice are opposites by nature. One burns through everything in its path, while the other freezes
+					whatever stands before it. Yet both forces exist within the same fighter, creating a power that no ordinary 
+					warrior was ever meant to possess.</p><br>
+				<p>At first, the abilities appear impossible to control. A surge of fire can erupt from a single movement, while a moment of 
+				fear can send ice spreading across the ground. Every battle becomes a test of balance, forcing the fighter to understand not 
+				only the powers themselves, but the emotions that awaken them.</p><br>
+				<p>But mastering both elements is only the beginning. The true challenge is learning how to make them work together
+				instead of fighting against each other.</p>
+			</div>
+			<div class=" z-10 relative mt-10 md:-mt-150 xl:-mt-90 md:ml-90 xl:ml-220  w-100">
+			<p class="text-xl font-bold text-red-500">🔥Fire</p>
+			<div class="w-100 h-5 bg-gradient-to-r from-red-500 from-70% via-red-500 to-white font-bold">80%</div><br>
+			<p class="text-xl font-bold text-blue-500">❄️Ice</p>
+			<div class="w-100 h-5 bg-gradient-to-r from-blue-500 from-50% via-blue-500 to-white font-bold">75%</div><br>
+			<p class="text-xl font-bold text-purple-500">💜Control</p>
+			<div class="w-100 h-5 bg-gradient-to-r from-purple-500 from-50% via-purple-500 to-white font-bold">65%</div>
+			</div>
+		</div>
+	</section>
+	<!---The ENEMY knows--->
+	<section class="bg-blue-950">
+		<p class="text-4xl font-bold  text-center text-pink-600 mt-80 md:mt-20 xl:mt-20  ml-1 md:ml-0 xl:ml-0 ">🌑 The Enemy Knows</p>
+		<p class="text-xl font-bold  text-center mt-5 border-4 border-orange-700 text-yellow-500 mx-10 md:mx-50 xl:mx-130 pt-5 pb-15">The power was never meant to remain hidden.</p>
+		<p class="text-xl font-bold  text-center -mt-5 text-orange-400 border-2 border-orange-700 xl:mx-120 pb-15 pt-10 ">Someone has been watching the awakening from the shadows.<br>
+			They know where the fire came from.<br>
+			They know why the ice disappeared.<br>
+			And they know what happens when both forces awaken together.</p>
+		<div class="border-4 border-double border-orange-700 w-90 h-70 md:w-120 xl:w-120 md:h-50 xl:h-50 ml-4 md:ml-40 xl:ml-130 -mt-7 ">
+			<p class="text-2xl font-bold text-center text-red-600 mt-10">THE WARNING</p>
+			<p class="text-xl font-bold text-blue-500 text-center mt-5 italic">“You think you're learning to control the power. You're actually waking it up.”<p>
+			<p class="text-xl font-bold text-slate-100 text-center mt-5 text-blue-950 italic">The awakening has already begun.</p>
+		</div>
+	</section>
+	<!----the road--->
+	<section class="bg-blue-950">
+		<p class="text-4xl font-bold  text-center text-pink-600 mt-10 md:mt-20 xl:mt-20  ml-1 md:ml-0 xl:ml-0">The Road To Awakening</p>
+		<p class="text-4xl font-bold text-xl mt-5 text-center text-yellow-500">Every step brings the true power closer.</p>
+		<div class="grid-cols-1 md:grid grid-cols-4 xl:grid grid-cols-4 mt-10 ml-25 md:ml-0 xl:ml-20">
+			<div class="md:ml-0 xl:ml-10 text-white">
+			<div class="w-30 h-30 ml-5 border border-4 rounded-full bg-blue-800 shadow-[5px_5px_6px_blue]">
+				<p class="text-6xl text-center pt-5" style="text-shadow:5px 5px 5px white">🌀</p>
+			</div>
+				<p class="font-bold ml-7 text-xl  pt-5">DISCOVERY</P>
+				<P class=" pt-5">The power reveals itself.</P>
+			</div>
+			
+			<div class="md:ml-0 xl:ml-10 text-white ">
+			<div class="w-40 h-40 ml-5 border border-4 rounded-full bg-blue-800 shadow-[5px_5px_6px_blue]">
+				<p class="text-6xl text-center pt-5" style="text-shadow:5px 5px 5px yellow">❄️🔥</p>
+			</div>
+				<p class="font-bold text-xl  ml-15  pt-5">CONTROL</P>
+				<P class=" pt-5">Two forces must learn to coexist.</P>
+			</div>
+			<div class="md:ml-3 xl:ml-10 text-white">
+			<div class="w-30 h-30 ml-5 border border-4 rounded-full bg-blue-800 shadow-[5px_5px_6px_gray]">
+				<p class="text-6xl text-center pt-5" style="text-shadow:5px 5px 5px white">⚔️</p>
+			</div>
+				<p class="font-bold text-xl  ml-10 text-white  pt-5"> CONFLICT</P>
+				<P class=" -ml-10 md:ml-2 xl:ml-2 text-center w-70 md:w-40 xl:w-40 pt-5">Enemies arrive with answers and new dangers.</P>
+			</div>
+			<div class="md:ml-0 xl:ml-10 text-white">
+			<div class="w-40 h-40 ml-5 border border-4 rounded-full bg-blue-800 shadow-[5px_5px_6px_orange]">
+				<p class="text-6xl text-center pt-10" style="text-shadow:5px 5px 5px yellow">☀️</p>
+			</div>
+				<p class="font-bold text-xl  ml-5  pt-5"> AWAKENING</P>
+				<P class=" -ml-10 md:ml-5 xl:ml-5 text-center w-70 md:w-30 xl:w-30  pt-5">The true power finally begins to emerge.</P>
+			</div>
+		</div>
+		<p class="text-center mt-5 text-xl text-white font-bold">One fighter. Two elements. One final choice.</p>
+	</section>
+		<!---battel begins--->
+		<section class="bg-blue-950 h-310 md:h-180 xl:h-180 mt-20 pt-10 ">
+		<img src="img/anime/AP6.png" class="w-60 md:w-70 xl:w-100 h-150 rounded-4xl mt-10 xl:mt-20 md:mt-20 ml-20 md:ml-10 xl:ml-50 border-2 border-white">
+		<div class="ml-0 mt-10 md:ml-80 md:-mt-130 xl:ml-80 xl:-mt-130">
+			<p class="font-bold text-4xl text-white text-center">🔥❄️ The Battle Begins</p>
+			<p class="font-bold text-xl text-red-500 text-center mt-5">Fire has awakened. Ice has answered.</p>
+			<p class="font-bold text-xl text-slate-200 mt-5 text-center">The enemy is coming.</p>
+			<p class="font-bold text-xl text-white w-70 md:w-100 xl:w-100 ml-15 md:ml-5 xl:ml-100 mt-5 text-center">The power is growing stronger with every battle, but control is slipping away.</p>
+			<p class="font-bold text-xl text-white text-center mt-5">What happens when both forces are finally unleashed?</p>
+			<p class="font-bold text-xl text-blue-300 mt-5 text-center">⚔️ READY TO FIND OUT?</p>
+		</div>
+		</section>
+		
+		<!---footer---->
+		<section class="mt-10 pb-5 bg-gradient-to-r from-blue-950 to-yellow-600">
+			<p class="text-center font-black text-2xl text-slate-200">READORA CHRONICLES</p>
+			<p class="text-slate-200 text-center pt-2 font-bold">Discover a story. Enter its world. Keep reading.</p>
+			<p class="text-slate-200 text-center pt-2 italic font-serif">A place where stories become worlds, characters become unforgettable, and every page leads to something new.</p>
+			<div  class="grid-cols-1 md:grid grid-cols-2 xl:grid grid-cols-2 mt-5 ml-5 md:ml-10 xl:ml-70">
+				<div class=" text-slate-200 font-bold ml-0 text-center md:ml-0 xl:ml-0">
+				<p>Follow the Stories</p>
+				<p>Instagram · Facebook · X / Twitter</p>
+				<p>Get in Touch:-</p>
+				<p><u>hello@readorachronicles.com</u></p>
+				</div>
+				<div class=" text-slate-200 font-bold mt-5 md:mt-0 xl:mt-0 [line-height:2] mr-0 md:mr-0 xl:mr-50">
+				<p class="text-center">📖 Stories worth discovering. Worlds worth entering.</p>
+				<p class="text-center ml-5">© 2026 Readora Chronicles · All rights reserved.</p>
+				<p class="text-center">Privacy Policy · Terms & Conditions</p>
+				</div>
+			 </div>
+		</section>
+	</body>
+</html>
+	
